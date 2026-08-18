@@ -133,3 +133,12 @@ Feed this list into the Threat Intel pipeline (Lab 10) and the containment scrip
 - Build an incident timeline that maps cleanly to the kill chain.
 - Use `journalctl` to do the same on a live systemd host.
 - Produce a structured IoC list ready for containment and reporting.
+
+---
+
+## Browser-Based Tools (Tertiary Infotech)
+
+These free browser tools complement this lab — no install required:
+
+- **[Regex Generator](https://alfredang.github.io/regexgenerator/)** — a browser tool that builds and tests regular expressions for log parsing.
+  - *In this lab:* Use the Regex Generator to craft the log-parsing expressions you apply during incident-response log analysis.

@@ -103,3 +103,12 @@ ip netns del zone-b
 - How `iptables` enforces a segmentation boundary.
 - How a deny-by-default + per-flow allow list maps to Zero Trust.
 - The CySA+ vocabulary (segmentation, SASE, SDN, ZTNA) in concrete commands.
+
+---
+
+## Browser-Based Tools (Tertiary Infotech)
+
+These free browser tools complement this lab — no install required:
+
+- **[IP Subnet Calculator](https://alfredang.github.io/ipcalculator/)** — a browser IP/subnet calculator for network and CIDR planning.
+  - *In this lab:* Use the IP Subnet Calculator to plan the CIDR ranges for each isolated network zone before you create the namespaces, and to verify that the two zones do not overlap.

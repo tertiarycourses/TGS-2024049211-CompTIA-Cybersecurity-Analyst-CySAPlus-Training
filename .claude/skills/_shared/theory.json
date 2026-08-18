@@ -1,0 +1,11922 @@
+{
+"1": [
+{
+"v5": 25,
+"title": "Network Architecture",
+"kicker": "Network Architecture and Asset Management",
+"bullets": [
+[
+"Physical",
+0
+],
+[
+"Star",
+1
+],
+[
+"Bus",
+1
+],
+[
+"Mesh",
+1
+],
+[
+"Software-defined",
+1
+],
+[
+"Control layer (routing)",
+1
+],
+[
+"Data layer (moving packets)",
+1
+]
+],
+"images": []
+},
+{
+"v5": 26,
+"title": "Network Architecture",
+"kicker": "Network Architecture and Asset Management",
+"bullets": [
+[
+"Virtual private cloud (VPC)",
+0
+],
+[
+"Private resources in a public cloud environment",
+1
+],
+[
+"Uses encryption for security",
+1
+],
+[
+"Virtual Private Network (VPN)",
+0
+],
+[
+"Secure tunnel between two endpoints",
+1
+],
+[
+"Almost always encrypted",
+1
+]
+],
+"images": []
+},
+{
+"v5": 27,
+"title": "Network Architecture",
+"kicker": "Network Architecture and Asset Management",
+"bullets": [
+[
+"Serverless",
+0
+],
+[
+"Deploy software network components without a server",
+1
+],
+[
+"FaaS",
+0
+],
+[
+"Use other people's services instead of hosting your own",
+1
+]
+],
+"images": []
+},
+{
+"v5": 28,
+"title": "Asset Management",
+"kicker": "Network Architecture and Asset Management",
+"bullets": [
+[
+"IT Asset Management (ITAM)",
+0
+],
+[
+"Asset lifecycle",
+0
+],
+[
+"Acquisition",
+1
+],
+[
+"Deployment",
+1
+],
+[
+"Maintenance",
+1
+],
+[
+"Retirement",
+1
+],
+[
+"Disposal",
+1
+],
+[
+"Maintaining inventory and configuration",
+0
+],
+[
+"Asset tagging",
+1
+]
+],
+"images": []
+},
+{
+"v5": 30,
+"title": "Network Segmentation",
+"kicker": "Protecting Your Territory",
+"bullets": [
+[
+"What is network segmentation?",
+0
+],
+[
+"The process of breaking down large networks into smaller networks/zones",
+1
+],
+[
+"What does it do?",
+0
+],
+[
+"Improves management of network",
+1
+],
+[
+"Improves traffic across network",
+1
+],
+[
+"Prevents attacker from moving across networks",
+1
+]
+],
+"images": []
+},
+{
+"v5": 31,
+"title": "Network Segmentation",
+"kicker": "Protecting Your Territory",
+"bullets": [
+[
+"Achievable across all OSI & TCP/IP layers",
+0
+],
+[
+"Physical layer segmentation",
+0
+],
+[
+"Separate networks & devices connected to separate interconnecting devices",
+1
+],
+[
+"Link layer segmentation",
+0
+],
+[
+"VLANs allows multiple devices across multiple networks to be connected to the same physical device",
+1
+],
+[
+"Manage traffic",
+2
+],
+[
+"Ensure segmentation",
+2
+],
+[
+"Verify hard isolation across networks",
+2
+]
+],
+"images": []
+},
+{
+"v5": 32,
+"title": "Jump Box/Server",
+"kicker": "Protecting Your Territory",
+"bullets": [
+[
+"Channelizing",
+0
+],
+[
+"Monitoring",
+0
+]
+],
+"images": [
+"img_7c675dab12.png"
+]
+},
+{
+"v5": 34,
+"title": "Identity and Access Management (IAM)",
+"kicker": "Identity and Access Management",
+"bullets": [
+[
+"Determining a user\u2019s identity",
+0
+],
+[
+"Identification",
+1
+],
+[
+"Authentication",
+1
+]
+],
+"images": []
+},
+{
+"v5": 35,
+"title": "Identity and Access Management (IAM)",
+"kicker": "Identity and Access Management",
+"bullets": [
+[
+"Managing identities",
+0
+],
+[
+"Process",
+0
+],
+[
+"Register as new user",
+0
+],
+[
+"Provide credentials",
+0
+],
+[
+"Authentication",
+0
+],
+[
+"Password, PIN, token, biometrics, etc.",
+0
+]
+],
+"images": []
+},
+{
+"v5": 36,
+"title": "Identity and Access Management (IAM)",
+"kicker": "Identity and Access Management",
+"bullets": [
+[
+"Privilege management",
+0
+],
+[
+"Authorization",
+1
+],
+[
+"Providing resource access",
+2
+],
+[
+"The key is authentication",
+1
+],
+[
+"Multi Factor authentication (MFA)",
+2
+]
+],
+"images": []
+},
+{
+"v5": 37,
+"title": "Identity and Access Management (IAM)",
+"kicker": "Identity and Access Management",
+"bullets": [
+[
+"Single sign-on (SSO)",
+0
+],
+[
+"Using a single identity across several applications or organizations",
+0
+],
+[
+"Security Assertion Markup Language (SAML)",
+0
+],
+[
+"Manages and transports SSO credentials",
+0
+]
+],
+"images": []
+},
+{
+"v5": 38,
+"title": "Identity and Access Management (IAM)",
+"kicker": "Identity and Access Management",
+"bullets": [
+[
+"Federated identification",
+0
+],
+[
+"Using a single identity across several organizations",
+1
+],
+[
+"User identifies/ authenticates with a central identity manager",
+1
+],
+[
+"Example: OpenID",
+1
+]
+],
+"images": []
+},
+{
+"v5": 39,
+"title": "IAM Methods",
+"kicker": "Identity and Access Management",
+"bullets": [
+[
+"Role-based access control (RBAC)",
+0
+],
+[
+"Users (subjects) belong to one or more roles (groups)",
+1
+],
+[
+"Object permissions are granted based on role",
+1
+],
+[
+"Attribute-based access control (ABAC)",
+0
+],
+[
+"Users (subjects) possess descriptive attributes",
+1
+],
+[
+"Object permissions are granted based on attributes",
+1
+]
+],
+"images": []
+},
+{
+"v5": 40,
+"title": "IAM Methods",
+"kicker": "Identity and Access Management",
+"bullets": [
+[
+"Mandatory access control (MAC)",
+0
+],
+[
+"Subjects have clearances",
+1
+],
+[
+"Objects have classifications",
+1
+]
+],
+"images": []
+},
+{
+"v5": 41,
+"title": "IAM Auditing",
+"kicker": "Identity and Access Management",
+"bullets": [
+[
+"Manual review",
+0
+],
+[
+"Necessary to identify malicious behavior",
+1
+]
+],
+"images": []
+},
+{
+"v5": 42,
+"title": "Cloud Access Security Broker (CASB)",
+"kicker": "Identity and Access Management",
+"bullets": [
+[
+"CASB runs between users and cloud services",
+0
+],
+[
+"Four CASB pillars",
+0
+],
+[
+"Visibility \u2013 subject/object access transparency",
+1
+],
+[
+"Threat protection \u2013 detects and blocks malicious activity",
+1
+],
+[
+"Compliance \u2013 controls to adhere to regulatory requirements",
+1
+],
+[
+"Data security \u2013 controls to protect sensitive data",
+1
+]
+],
+"images": []
+},
+{
+"v5": 44,
+"title": "Encryption",
+"kicker": "Encryption and Active Defense",
+"bullets": [
+[
+"Mathematical technique to scramble text",
+0
+],
+[
+"Converts plaintext into ciphertext",
+1
+],
+[
+"Reversible (converts ciphertext into plaintext)",
+1
+],
+[
+"Types of encryption",
+0
+],
+[
+"Symmetric (private key)",
+1
+],
+[
+"Asymmetric (public key)",
+1
+],
+[
+"Public-key cryptography (asymmetric encryption)",
+0
+],
+[
+"Uses two keys",
+1
+],
+[
+"Public and private key pair",
+1
+],
+[
+"If you encrypt with one key, you can decrypt with the other",
+1
+]
+],
+"images": []
+},
+{
+"v5": 45,
+"title": "Digital Signature",
+"kicker": "Encryption and Active Defense",
+"bullets": [
+[
+"Uses encryption",
+0
+],
+[
+"Uses hashing",
+0
+],
+[
+"Mathematical function that take input and creates a unique fixed-length output",
+0
+],
+[
+"Verifies the message sender",
+0
+]
+],
+"images": []
+},
+{
+"v5": 46,
+"title": "Certificate Management",
+"kicker": "Encryption and Active Defense",
+"bullets": [
+[
+"Digital certificate",
+0
+],
+[
+"Public key of a known identity",
+1
+],
+[
+"Stored by a trusted entity",
+1
+],
+[
+"Certificate authority",
+0
+],
+[
+"Trusted entity that stores public keys of known identities",
+1
+],
+[
+"Trust is the foundation",
+0
+]
+],
+"images": []
+},
+{
+"v5": 47,
+"title": "Certificate Management",
+"kicker": "Encryption and Active Defense",
+"bullets": [
+[
+"X.509",
+0
+],
+[
+"IEEE certificate standard",
+1
+],
+[
+"Defines certificate contents",
+1
+],
+[
+"Certificate management includes",
+0
+],
+[
+"Creation",
+1
+],
+[
+"Authenticating",
+1
+],
+[
+"Storage (trusted)",
+1
+],
+[
+"Distribution",
+1
+],
+[
+"Revocation",
+1
+]
+],
+"images": []
+},
+{
+"v5": 48,
+"title": "Active Defense",
+"kicker": "Encryption and Active Defense",
+"bullets": [
+[
+"Avoid being a sitting target",
+0
+],
+[
+"Moving Target Defense (MTD)",
+0
+],
+[
+"Change attack surface frequently to confuse attackers",
+1
+],
+[
+"Honeypots and honeynets",
+1
+],
+[
+"Use obfuscation and agility",
+0
+],
+[
+"Reduces value of reconnaissance",
+1
+]
+],
+"images": []
+},
+{
+"v5": 51,
+"title": "Overview",
+"kicker": "Data Analytics",
+"bullets": [],
+"images": [
+"img_02e4327d4d.png"
+]
+},
+{
+"v5": 52,
+"title": "Aggregation",
+"kicker": "Data Analytics",
+"bullets": [
+[
+"Sources",
+0
+],
+[
+"Log managers",
+0
+]
+],
+"images": []
+},
+{
+"v5": 53,
+"title": "Kibana Demo",
+"kicker": "Data Analytics",
+"bullets": [],
+"images": [
+"img_d2ec6d669c.png"
+]
+},
+{
+"v5": 54,
+"title": "Analytics",
+"kicker": "Data Analytics",
+"bullets": [
+[
+"Trend analysis",
+0
+],
+[
+"Baseline required",
+1
+],
+[
+"Looking for deviations from baselines",
+1
+],
+[
+"Historical analysis",
+0
+],
+[
+"Past behavior used to gain perspective",
+1
+],
+[
+"Make informed decisions for defense",
+1
+]
+],
+"images": []
+},
+{
+"v5": 55,
+"title": "Manual Review",
+"kicker": "Data Analytics",
+"bullets": [
+[
+"Firewall logs",
+0
+],
+[
+"Authentication logs",
+0
+],
+[
+"Event logs",
+0
+],
+[
+"Syslogs",
+0
+]
+],
+"images": []
+},
+{
+"v5": 56,
+"title": "Syslog",
+"kicker": "Data Analytics",
+"bullets": [],
+"images": [
+"img_48ab3be242.png"
+]
+},
+{
+"v5": 57,
+"title": "Syslogd",
+"kicker": "Data Analytics",
+"bullets": [
+[
+"Daemon (service) in Linux",
+0
+],
+[
+"Collects & records messages from the machine",
+0
+],
+[
+"Also found in embedded systems",
+0
+],
+[
+"Routers, switches, access points, firewalls",
+1
+],
+[
+"Windows has other options",
+0
+],
+[
+"Collect logs in one place, can also point to central server for aggregation & analysis",
+1
+]
+],
+"images": []
+},
+{
+"v5": 58,
+"title": "Syslog",
+"kicker": "Data Analytics",
+"bullets": [],
+"images": [
+"img_d519a95f11.png"
+]
+},
+{
+"v5": 60,
+"title": "Endpoint Security",
+"kicker": "Endpoint Security",
+"bullets": [
+[
+"Malware",
+0
+],
+[
+"Fingerprinting/hashing",
+1
+],
+[
+"Decompose (reverse engineering)",
+1
+],
+[
+"Protect against it by detecting and blocking",
+1
+],
+[
+"Fileless (in-memory) malware",
+1
+],
+[
+"Loads into memory but not stored in the file system",
+2
+],
+[
+"Example: rootkits (in part)",
+2
+],
+[
+"Test via sandbox",
+0
+]
+],
+"images": []
+},
+{
+"v5": 61,
+"title": "Endpoint Security",
+"kicker": "Endpoint Security",
+"bullets": [
+[
+"User and entity behavior analytics (UEBA)",
+0
+],
+[
+"Create baseline of normal behavior",
+1
+],
+[
+"Known-good behavior",
+1
+],
+[
+"Makes anomalous/ abnormal behavior easier to detect",
+1
+]
+],
+"images": []
+},
+{
+"v5": 63,
+"title": "Sources of Data",
+"kicker": "Recon Results: Part 1",
+"bullets": [
+[
+"No shortage of sources",
+0
+],
+[
+"IDS (Intrusion detection system) logs",
+1
+],
+[
+"IPS (Intrusion prevention system) logs",
+1
+],
+[
+"Router & switch logs",
+1
+],
+[
+"Firewall logs",
+1
+],
+[
+"Packet captures",
+1
+],
+[
+"Endpoint logs",
+1
+]
+],
+"images": []
+},
+{
+"v5": 64,
+"title": "Sources of Data",
+"kicker": "Recon Results: Part 1",
+"bullets": [
+[
+"Best for single events",
+0
+],
+[
+"Tools",
+0
+],
+[
+"Packet capture",
+1
+],
+[
+"Protocol analysis",
+1
+],
+[
+"Network analysis",
+1
+],
+[
+"Wireless analysis",
+1
+]
+],
+"images": []
+},
+{
+"v5": 65,
+"title": "Correlation Analysis",
+"kicker": "Recon Results: Part 1",
+"bullets": [
+[
+"Larger volumes of data",
+0
+],
+[
+"Looks at trends across a network",
+0
+]
+],
+"images": []
+},
+{
+"v5": 66,
+"title": "Wireshark",
+"kicker": "Recon Results: Part 1",
+"bullets": [
+[
+"Point-in-time analysis",
+0
+],
+[
+"Packet & protocol analysis tool",
+0
+],
+[
+"Connection-oriented",
+0
+],
+[
+"Cross-platform",
+0
+],
+[
+"TCP/IP packet sniffer",
+0
+],
+[
+"Captures & analyzes packets",
+0
+],
+[
+"Reconstructs network traffic",
+0
+],
+[
+"Reports statistics",
+0
+]
+],
+"images": []
+},
+{
+"v5": 67,
+"title": "Protocol Analysis",
+"kicker": "Recon Results: Part 1",
+"bullets": [
+[
+"Know what to expect",
+0
+],
+[
+"Know what looks \u2018off\u2019",
+0
+]
+],
+"images": []
+},
+{
+"v5": 68,
+"title": "Traffic Analysis",
+"kicker": "Recon Results: Part 1",
+"bullets": [
+[
+"Netflow",
+0
+],
+[
+"Cisco developed system",
+1
+],
+[
+"Track source & destination events",
+1
+],
+[
+"Groups packets into \u201cflows\u201d",
+1
+],
+[
+"ntop",
+0
+],
+[
+"Utility to view the flows",
+1
+]
+],
+"images": []
+},
+{
+"v5": 69,
+"title": "ntop Demo",
+"kicker": "Recon Results: Part 1",
+"bullets": [
+[
+"Walkthrough",
+0
+],
+[
+"Dashboard",
+1
+],
+[
+"Packets",
+1
+],
+[
+"Protocols",
+1
+]
+],
+"images": [
+"img_4a19396fac.png"
+]
+},
+{
+"v5": 70,
+"title": "Traffic Analysis",
+"kicker": "Recon Results: Part 1",
+"bullets": [
+[
+"The challenge with \u2018real-time\u2019",
+0
+],
+[
+"Metadata",
+1
+],
+[
+"Computation & storage",
+1
+],
+[
+"Sensing",
+1
+],
+[
+"False positives",
+0
+],
+[
+"Not always user-friendly interface",
+0
+],
+[
+"The solution: SIEMs (security information and event management)",
+0
+]
+],
+"images": []
+},
+{
+"v5": 71,
+"title": "Meraki Demo",
+"kicker": "Recon Results: Part 1",
+"bullets": [
+[
+"Meraki is a SIEM",
+0
+],
+[
+"Walkthrough",
+0
+],
+[
+"Dashboard",
+0
+],
+[
+"Spikes correlate with traffic",
+1
+],
+[
+"Traffic analytics",
+0
+],
+[
+"Event logs",
+0
+]
+],
+"images": [
+"img_eee7c0b06e.png"
+]
+},
+{
+"v5": 72,
+"title": "Wireless Analysis",
+"kicker": "Recon Results: Part 1",
+"bullets": [
+[
+"Wireless modes",
+0
+],
+[
+"Managed",
+1
+],
+[
+"Ad-hoc",
+1
+],
+[
+"Promiscuous",
+1
+],
+[
+"Monitor",
+1
+],
+[
+"Airmon-ng & Airodump demos",
+0
+]
+],
+"images": []
+},
+{
+"v5": 74,
+"title": "Heuristic Analysis",
+"kicker": "Recon Results: Part 2",
+"bullets": [
+[
+"Uses experience over fixed models",
+0
+],
+[
+"Imperfect craft",
+0
+],
+[
+"Constantly evolving field",
+0
+],
+[
+"Best for malware detection",
+0
+],
+[
+"Detects suspicious traffic",
+1
+],
+[
+"Detects suspicious file changes",
+1
+]
+],
+"images": []
+},
+{
+"v5": 75,
+"title": "Analyzing the Data",
+"kicker": "Recon Results: Part 2",
+"bullets": [
+[
+"Security Information and Event Management (SIEM)",
+0
+],
+[
+"ELK",
+1
+],
+[
+"Splunk",
+1
+],
+[
+"Analyses",
+0
+],
+[
+"Anomaly",
+1
+],
+[
+"Behavioral",
+1
+],
+[
+"Trend",
+1
+],
+[
+"Availability",
+1
+],
+[
+"Heuristic",
+1
+]
+],
+"images": []
+},
+{
+"v5": 76,
+"title": "Anomalies",
+"kicker": "Recon Results: Part 2",
+"bullets": [
+[
+"Visual indicators for traffic",
+0
+],
+[
+"Baselines",
+0
+],
+[
+"Spikes and valleys",
+0
+]
+],
+"images": [
+"img_3b25b50ce7.png"
+]
+},
+{
+"v5": 78,
+"title": "Impact Analysis",
+"kicker": "Impact Analysis",
+"bullets": [
+[
+"Pre-emptive",
+0
+],
+[
+"Estimates possible impact of any future successful attack",
+1
+],
+[
+"Post-mortem",
+0
+],
+[
+"Determines immediate and ongoing impact of a threat that has already been realized",
+1
+]
+],
+"images": []
+},
+{
+"v5": 79,
+"title": "Impact Analysis",
+"kicker": "Impact Analysis",
+"bullets": [
+[
+"Immediate (localized) impact",
+0
+],
+[
+"Long-term impact",
+0
+],
+[
+"What\u2019s the total impact to the organization?",
+0
+]
+],
+"images": []
+},
+{
+"v5": 80,
+"title": "Impact Analysis",
+"kicker": "Impact Analysis",
+"bullets": [
+[
+"Availability",
+0
+],
+[
+"Tends to have immediate impact",
+1
+],
+[
+"Secure systems guarantee confidentiality, integrity, and availability",
+1
+],
+[
+"Use resource monitoring tools to analyze",
+1
+],
+[
+"Early indicator of an attack",
+1
+]
+],
+"images": []
+},
+{
+"v5": 82,
+"title": "SIEMs",
+"kicker": "Collective Tools",
+"bullets": [
+[
+"Security information & event management systems",
+0
+],
+[
+"Collect, store, analyze, & report data",
+0
+],
+[
+"Normalize data from various logs & compare",
+0
+],
+[
+"Examples:",
+0
+],
+[
+"ArcSight",
+1
+],
+[
+"QRadar",
+1
+],
+[
+"Splunk",
+1
+],
+[
+"Alienvault",
+1
+],
+[
+"OSSIMKiwi Syslog",
+1
+],
+[
+"ELK",
+1
+]
+],
+"images": []
+},
+{
+"v5": 84,
+"title": "Query Writing",
+"kicker": "Query Writing",
+"bullets": [
+[
+"SQL (Structured Query Language)",
+0
+],
+[
+"Most common",
+1
+],
+[
+"Splunk Search Processing Language (SPL)",
+1
+],
+[
+"Kibana Query Language (KQL)",
+1
+],
+[
+"Apache Lucene",
+1
+]
+],
+"images": []
+},
+{
+"v5": 85,
+"title": "Query Writing",
+"kicker": "Query Writing",
+"bullets": [
+[
+"Simple queries",
+0
+],
+[
+"grep",
+0
+],
+[
+"Stands for get regular expression",
+1
+],
+[
+"Search text files (string search), fetch data, pipe out data however you want",
+1
+],
+[
+"Write scripts",
+0
+],
+[
+"Useful for avoiding excessive typing",
+1
+]
+],
+"images": []
+},
+{
+"v5": 87,
+"title": "E-mail Analysis",
+"kicker": "Email Analysis, Part 1",
+"bullets": [
+[
+"Malicious payload",
+0
+],
+[
+"DomainKeys Identified Mail (DKIM)",
+0
+],
+[
+"Sender Policy Framework (SPF)",
+0
+],
+[
+"Domain-Based Message Authentication, Reporting, and Conformance (DMARC)",
+0
+],
+[
+"Header",
+0
+],
+[
+"Phishing",
+0
+],
+[
+"Forwarding",
+0
+],
+[
+"Digital signatures and encryption",
+0
+]
+],
+"images": []
+},
+{
+"v5": 88,
+"title": "E-mail Analysis",
+"kicker": "Email Analysis, Part 1",
+"bullets": [
+[
+"Embedded links",
+0
+],
+[
+"Impersonation",
+0
+],
+[
+"E-mail signature block",
+0
+],
+[
+"It\u2019s critical for your users to understand that a digital signature is not the same as the signature block routinely used in outgoing messages.",
+0
+],
+[
+"Signature block content is simply additional text that is automatically or manually inserted with messages to enable users to share contact information.",
+0
+]
+],
+"images": []
+},
+{
+"v5": 89,
+"title": "E-mail Analysis",
+"kicker": "Email Analysis, Part 1",
+"bullets": [
+[
+"It offers no security advantage, whereas a digital signature provides verification of the sender\u2019s authenticity and message integrity.",
+0
+]
+],
+"images": []
+},
+{
+"v5": 91,
+"title": "E-mail Analysis",
+"kicker": "Email Analysis, Part 2",
+"bullets": [
+[
+"Malicious payload",
+0
+],
+[
+"DomainKeys Identified Mail (DKIM)",
+0
+],
+[
+"Sender Policy Framework (SPF)",
+0
+],
+[
+"Domain-Based Message Authentication, Reporting, and Conformance (DMARC)",
+0
+],
+[
+"Header",
+0
+],
+[
+"Phishing",
+0
+],
+[
+"Forwarding",
+0
+],
+[
+"Digital signatures and encryption",
+0
+]
+],
+"images": []
+},
+{
+"v5": 92,
+"title": "E-mail Analysis",
+"kicker": "Email Analysis, Part 2",
+"bullets": [
+[
+"Embedded links",
+0
+],
+[
+"Impersonation",
+0
+],
+[
+"E-mail signature block",
+0
+],
+[
+"It\u2019s critical for your users to understand that a digital signature is not the same as the signature block routinely used in outgoing messages.",
+0
+],
+[
+"Signature block content is simply additional text that is automatically or manually inserted with messages to enable users to share contact information.",
+0
+]
+],
+"images": []
+},
+{
+"v5": 93,
+"title": "E-mail Analysis",
+"kicker": "Email Analysis, Part 2",
+"bullets": [
+[
+"It offers no security advantage, whereas a digital signature provides verification of the sender\u2019s authenticity and message integrity.",
+0
+]
+],
+"images": []
+},
+{
+"v5": 96,
+"title": "Permissions",
+"kicker": "Permissions",
+"bullets": [
+[
+"Identify:",
+0
+],
+[
+"Users",
+1
+],
+[
+"Groups",
+1
+],
+[
+"Set permissions for:",
+0
+],
+[
+"Files",
+1
+],
+[
+"Resources",
+1
+]
+],
+"images": []
+},
+{
+"v5": 97,
+"title": "Permissions Demo",
+"kicker": "Permissions",
+"bullets": [
+[
+"Windows",
+0
+],
+[
+"Users/Groups",
+1
+],
+[
+"Local Group Policy Editor",
+1
+],
+[
+"Linux",
+0
+],
+[
+"Users/Groups",
+1
+],
+[
+"Permissions",
+1
+]
+],
+"images": []
+},
+{
+"v5": 98,
+"title": "Permissions",
+"kicker": "Permissions",
+"bullets": [
+[
+"Blacklist",
+0
+],
+[
+"Deny specific traffic or applications",
+1
+],
+[
+"Whitelist",
+0
+],
+[
+"Can use Windows Group Policy Editor",
+1
+],
+[
+"Disable everything except those explicitly listed",
+1
+]
+],
+"images": []
+},
+{
+"v5": 100,
+"title": "Firewalls",
+"kicker": "Firewalls",
+"bullets": [
+[
+"Operating systems come with firewall built in",
+0
+],
+[
+"Includes default rules",
+1
+],
+[
+"Simple firewalls",
+0
+],
+[
+"Look at protocol, port, source, destination",
+1
+],
+[
+"Decide if a rule is allowed",
+1
+]
+],
+"images": []
+},
+{
+"v5": 101,
+"title": "Firewall Rules",
+"kicker": "Firewalls",
+"bullets": [
+[
+"Define higher level rules",
+0
+],
+[
+"Then exception comes after",
+1
+],
+[
+"Defines:",
+0
+],
+[
+"Source, destination, port, protocol, action (accept/reject)",
+1
+]
+],
+"images": []
+},
+{
+"v5": 102,
+"title": "Firewalls",
+"kicker": "Firewalls",
+"bullets": [
+[
+"Web proxies",
+0
+],
+[
+"Sit between Web servers and Web clients",
+1
+],
+[
+"Web application firewalls",
+0
+],
+[
+"Used for Web traffic",
+1
+],
+[
+"Operating system firewalls",
+0
+],
+[
+"OS level, runs on individual machine",
+1
+],
+[
+"Device-oriented firewall",
+0
+],
+[
+"Example: Cisco firewall",
+1
+]
+],
+"images": []
+},
+{
+"v5": 104,
+"title": "IDS/IPS",
+"kicker": "Intrusion Prevention Rules",
+"bullets": [
+[
+"Intrusion detection system (IDS)",
+0
+],
+[
+"Intrusion prevention system (IPS)",
+0
+],
+[
+"Like firewalls that take an action against threats",
+1
+],
+[
+"Filters traffic, compares to rules, then acts",
+1
+],
+[
+"Example: Snort",
+1
+]
+],
+"images": []
+},
+{
+"v5": 105,
+"title": "Snort Rule Building",
+"kicker": "Intrusion Prevention Rules",
+"bullets": [
+[
+"Syntax",
+0
+],
+[
+"Snort action",
+1
+],
+[
+"Protocol",
+1
+],
+[
+"Source IP address",
+1
+],
+[
+"Source port",
+1
+],
+[
+"Direction",
+1
+],
+[
+"Example 1",
+0
+],
+[
+"alert tcp any any-> any 80 (msg:\"A web connection was made!\";flow: stateless; rev:1;)",
+1
+]
+],
+"images": []
+},
+{
+"v5": 106,
+"title": "Snort Rule Building",
+"kicker": "Intrusion Prevention Rules",
+"bullets": [
+[
+"Example 2",
+0
+],
+[
+"alert udp $HOME_NET any -> any 53 (msg:\"Suspicious DNS requests for a .buzz domain\"; flow:to_server; byte_test:1,!&,0xF8,2; content:\"|02|buzz|00|\"; reference:url,www.spamhaus.org/statistics/tlds; sid:12345; rev:1;)",
+0
+]
+],
+"images": []
+},
+{
+"v5": 107,
+"title": "IPS Rules",
+"kicker": "Intrusion Prevention Rules",
+"bullets": [
+[
+"Zeek logs",
+0
+],
+[
+"Logs events based on rules",
+1
+],
+[
+"Runs scripts to analyze events",
+1
+],
+[
+"Looks for anomalies and correlates data",
+1
+],
+[
+"Suricata",
+0
+],
+[
+"Free, open-source threat detection engine",
+1
+],
+[
+"IDS, IPS, and network monitoring tool",
+1
+]
+],
+"images": []
+},
+{
+"v5": 109,
+"title": "Data Loss Prevention",
+"kicker": "DLP and Endpoint Detection",
+"bullets": [
+[
+"Similar to IDS",
+0
+],
+[
+"Inspects traffic of data movement",
+0
+],
+[
+"Goal is to limit data leakage",
+0
+],
+[
+"Some SaaS solutions provide DLP options",
+0
+],
+[
+"Microsoft 365",
+1
+],
+[
+"Google G Suite",
+1
+]
+],
+"images": []
+},
+{
+"v5": 110,
+"title": "Endpoint Detection and Response (EDR)",
+"kicker": "DLP and Endpoint Detection",
+"bullets": [
+[
+"Part of full-scale security solution",
+0
+],
+[
+"Endpoints can be laptops, workstations, smart phones, etc. that connect to your network",
+0
+],
+[
+"If endpoints get compromised, it can lead to internal compromise",
+0
+],
+[
+"Structured extension to traditional malware detection",
+0
+]
+],
+"images": []
+},
+{
+"v5": 111,
+"title": "Endpoint Detection and Response (EDR)",
+"kicker": "DLP and Endpoint Detection",
+"bullets": [
+[
+"Primary capabilities",
+0
+],
+[
+"Monitor",
+1
+],
+[
+"Detect",
+1
+],
+[
+"Respond",
+1
+],
+[
+"Main difference from standard antimalware approach",
+0
+]
+],
+"images": []
+},
+{
+"v5": 114,
+"title": "Workflow Orchestration",
+"kicker": "Workflow and Scripting",
+"bullets": [
+[
+"Security orchestration, automation, and response (SOAR) platforms",
+0
+],
+[
+"Automate common tasks",
+1
+],
+[
+"Standardize incident response",
+1
+],
+[
+"Organize flow to help catch mistakes and repeat processes easily",
+1
+],
+[
+"Example: Splunk Phantom (formerly Phantom Cyber)",
+1
+]
+],
+"images": []
+},
+{
+"v5": 115,
+"title": "Workflow Orchestration",
+"kicker": "Workflow and Scripting",
+"bullets": [
+[
+"Playbooks",
+0
+],
+[
+"Visualization",
+1
+]
+],
+"images": [
+"img_8351838e99.png"
+]
+},
+{
+"v5": 116,
+"title": "Data Enrichment",
+"kicker": "Workflow and Scripting",
+"bullets": [
+[
+"Transform raw data into actionable information",
+0
+],
+[
+"Enrichments lead to additional insights",
+0
+],
+[
+"Process is to correlate known data with additional details",
+0
+]
+],
+"images": []
+},
+{
+"v5": 117,
+"title": "Data Enrichment",
+"kicker": "Workflow and Scripting",
+"bullets": [
+[
+"Example",
+0
+],
+[
+"Detected newly opened RDP ports on monitored computers",
+1
+],
+[
+"Vulnerability feed queries of RDP ports being opened result in hits for Sarwent malware",
+1
+],
+[
+"Alert created for potential Sarwent malware infection",
+1
+]
+],
+"images": []
+},
+{
+"v5": 118,
+"title": "Scripting",
+"kicker": "Workflow and Scripting",
+"bullets": [
+[
+"Automate the repetitive stuff",
+0
+],
+[
+"Administrators have known about the power of scripting for decades",
+0
+],
+[
+"Great for standardizing any mundane tasks",
+0
+],
+[
+"Common scripting environments:",
+0
+],
+[
+"Python",
+1
+],
+[
+"Check out Violent Python book",
+1
+],
+[
+"PowerShell (not just for Microsoft Windows)",
+1
+]
+],
+"images": []
+},
+{
+"v5": 120,
+"title": "Application Programming Interface (API)",
+"kicker": "API and Malware Signature Creation",
+"bullets": [
+[
+"Gives the ability to reach out and consume services created by others",
+0
+],
+[
+"Link your code and scripts to someone else\u2019s software with minimal overhead",
+1
+]
+],
+"images": []
+},
+{
+"v5": 121,
+"title": "Application Programming Interface (API) Integration",
+"kicker": "API and Malware Signature Creation",
+"bullets": [
+[
+"Representational State Transfer (REST) method",
+0
+],
+[
+"Quick and easy way to consume remote services",
+1
+],
+[
+"Create HTTP request, send to Web server; Web server translates request into a function call",
+1
+]
+],
+"images": []
+},
+{
+"v5": 122,
+"title": "Application Programming Interface (API) Integration",
+"kicker": "API and Malware Signature Creation",
+"bullets": [
+[
+"Representational State Transfer (REST) method",
+0
+],
+[
+"Entire architecture is client/server",
+1
+],
+[
+"Stateless",
+1
+],
+[
+"Cacheable",
+1
+],
+[
+"Uniform interface",
+1
+],
+[
+"Manipulation of resources through representations",
+2
+],
+[
+"Self-descriptive messages",
+2
+],
+[
+"Hypermedia as the engine of application state",
+2
+]
+],
+"images": []
+},
+{
+"v5": 123,
+"title": "Application Programming Interface (API) Integration",
+"kicker": "API and Malware Signature Creation",
+"bullets": [
+[
+"Layered system",
+0
+],
+[
+"Code on demand (optional)",
+0
+],
+[
+"Representational State Transfer (REST) method",
+0
+],
+[
+"Embed in any language",
+1
+],
+[
+"Call from command line",
+1
+],
+[
+"curl (character-based URL)",
+2
+],
+[
+"curl --request GET \\--url https://www.virustotal.com/api/v3/domains/{domain} \\-header 'x-apikey: <your API key>'",
+2
+]
+],
+"images": []
+},
+{
+"v5": 124,
+"title": "Error Codes",
+"kicker": "API and Malware Signature Creation",
+"bullets": [],
+"images": [
+"img_5ddf91845d.png"
+]
+},
+{
+"v5": 125,
+"title": "Automated Malware Signature Creation",
+"kicker": "API and Malware Signature Creation",
+"bullets": [
+[
+"Useful to keep up with rapidly changing malware threat",
+0
+],
+[
+"YARA",
+0
+],
+[
+"Identify and classify malware samples",
+1
+],
+[
+"virustotal.github.io/yara/",
+1
+]
+],
+"images": []
+},
+{
+"v5": 127,
+"title": "Threat Feed Combination",
+"kicker": "Threat Feeds and Machine Learning",
+"bullets": [
+[
+"Aggregating disparate data streams is always difficult",
+0
+],
+[
+"Threat feeds may provide data in different formats",
+0
+],
+[
+"Scripting can help automate transforming data into a single format",
+0
+],
+[
+"Easier to read, understand, and respond",
+1
+]
+],
+"images": []
+},
+{
+"v5": 128,
+"title": "Machine Learning",
+"kicker": "Threat Feeds and Machine Learning",
+"bullets": [
+[
+"Field of computer science",
+0
+],
+[
+"Algorithms examine datasets to reveal trends and indicators that can predict future behavior",
+0
+],
+[
+"An algorithm \u201clearns\u201d by using historical data to make predictions",
+0
+]
+],
+"images": []
+},
+{
+"v5": 129,
+"title": "Machine Learning",
+"kicker": "Threat Feeds and Machine Learning",
+"bullets": [
+[
+"Similar fields",
+0
+],
+[
+"Machine learning",
+1
+],
+[
+"Data mining",
+1
+],
+[
+"Data science",
+1
+],
+[
+"Involves process, business side, machine learning, analysis",
+2
+]
+],
+"images": []
+},
+{
+"v5": 130,
+"title": "Machine Learning",
+"kicker": "Threat Feeds and Machine Learning",
+"bullets": [
+[
+"Data mining",
+0
+],
+[
+"Looking at large data sets to extract previously unidentified valuable data",
+1
+],
+[
+"Machine learning",
+0
+],
+[
+"Looking for trends",
+1
+]
+],
+"images": []
+},
+{
+"v5": 131,
+"title": "Machine Learning",
+"kicker": "Threat Feeds and Machine Learning",
+"bullets": [
+[
+"Useful in security analysis",
+0
+],
+[
+"Past attack behavior can predict what\u2019s next",
+1
+],
+[
+"Based on the natural tendency to stabilize",
+0
+],
+[
+"Supervised vs. unsupervised learning",
+0
+],
+[
+"Examples: neural networks, decision trees, SVM, regression, etc.",
+0
+]
+],
+"images": []
+},
+{
+"v5": 133,
+"title": "Automation Protocols and Standards",
+"kicker": "Protocols, Standards, and Software Engineering",
+"bullets": [
+[
+"Security Content Automation Protocol (SCAP)",
+0
+],
+[
+"Great place to start to automate cybersecurity analysis tasks",
+1
+],
+[
+"Languages",
+1
+],
+[
+"Reporting formats",
+1
+],
+[
+"Identification schemes",
+1
+],
+[
+"Measurement and scoring systems",
+1
+],
+[
+"Integrity",
+1
+],
+[
+"Example: OpenSCAP",
+1
+]
+],
+"images": []
+},
+{
+"v5": 134,
+"title": "Software Engineering",
+"kicker": "Protocols, Standards, and Software Engineering",
+"bullets": [
+[
+"Continuous integration",
+0
+],
+[
+"Continuous delivery",
+0
+],
+[
+"Continuous deployment",
+0
+]
+],
+"images": []
+},
+{
+"v5": 137,
+"title": "Diagnose Symptoms",
+"kicker": "Network Symptoms",
+"bullets": [],
+"images": [
+"img_5a10ba09c7.png"
+]
+},
+{
+"v5": 138,
+"title": "Network-Related Symptoms",
+"kicker": "Network Symptoms",
+"bullets": [],
+"images": [
+"img_d8fbcd15fa.png"
+]
+},
+{
+"v5": 139,
+"title": "Network-Related Symptoms",
+"kicker": "Network Symptoms",
+"bullets": [
+[
+"Bandwidth consumption",
+0
+],
+[
+"Traffic spikes",
+0
+],
+[
+"Traffic irregularities",
+0
+]
+],
+"images": []
+},
+{
+"v5": 140,
+"title": "Bandwidth Consumption",
+"kicker": "Network Symptoms",
+"bullets": [],
+"images": [
+"img_384721ed4a.png"
+]
+},
+{
+"v5": 141,
+"title": "Network-Related Symptoms",
+"kicker": "Network Symptoms",
+"bullets": [
+[
+"Beaconing",
+0
+],
+[
+"Peer-to-peer communications",
+0
+],
+[
+"Rogue devices",
+0
+],
+[
+"Scan sweeps",
+0
+]
+],
+"images": []
+},
+{
+"v5": 142,
+"title": "Scan Sweep",
+"kicker": "Network Symptoms",
+"bullets": [],
+"images": [
+"img_09f874a379.png"
+]
+},
+{
+"v5": 144,
+"title": "Diagnose Symptoms",
+"kicker": "Host Symptoms",
+"bullets": [],
+"images": [
+"img_9c03ad695f.png"
+]
+},
+{
+"v5": 145,
+"title": "Host-Related Symptoms",
+"kicker": "Host Symptoms",
+"bullets": [
+[
+"Memory consumption",
+0
+],
+[
+"Disk consumption",
+0
+],
+[
+"Processor consumption",
+0
+],
+[
+"Unauthorized applications or processes",
+0
+],
+[
+"Unauthorized privileges",
+0
+],
+[
+"Data exfiltration",
+0
+]
+],
+"images": []
+},
+{
+"v5": 146,
+"title": "Windows Task Manager",
+"kicker": "Host Symptoms",
+"bullets": [],
+"images": [
+"img_da96cdaf77.png"
+]
+},
+{
+"v5": 147,
+"title": "macOS Activity Monitor",
+"kicker": "Host Symptoms",
+"bullets": [],
+"images": [
+"img_5f2c3ce24a.png"
+]
+},
+{
+"v5": 149,
+"title": "Application-Related Symptoms",
+"kicker": "Application Symptoms",
+"bullets": [],
+"images": [
+"img_ec727e1c5a.png"
+]
+},
+{
+"v5": 150,
+"title": "Application-Related Symptoms",
+"kicker": "Application Symptoms",
+"bullets": [
+[
+"Anomalous activity",
+0
+],
+[
+"Unexpected error messages",
+0
+],
+[
+"Out of memory alerts",
+0
+],
+[
+"Unexpected outbound transmissions",
+0
+]
+],
+"images": []
+},
+{
+"v5": 151,
+"title": "Little Snitch",
+"kicker": "Application Symptoms",
+"bullets": [],
+"images": [
+"img_dbebe47da6.png"
+]
+},
+{
+"v5": 152,
+"title": "Windows Firewall",
+"kicker": "Application Symptoms",
+"bullets": [],
+"images": [
+"img_14be08e654.png"
+]
+},
+{
+"v5": 240,
+"title": "Intelligence Sources",
+"kicker": "Intelligence Sources and Confidence Levels",
+"bullets": [
+[
+"Open-source intelligence (OSINT)",
+0
+],
+[
+"Closed-source/ proprietary intelligence",
+0
+]
+],
+"images": []
+},
+{
+"v5": 241,
+"title": "OSINT",
+"kicker": "Intelligence Sources and Confidence Levels",
+"bullets": [
+[
+"Intelligence anyone can find",
+0
+],
+[
+"Source examples",
+0
+],
+[
+"Google",
+1
+],
+[
+"Job sites",
+1
+],
+[
+"Internet registries",
+1
+],
+[
+"Social media",
+1
+]
+],
+"images": []
+},
+{
+"v5": 242,
+"title": "Closed-Source Intelligence",
+"kicker": "Intelligence Sources and Confidence Levels",
+"bullets": [
+[
+"Privileged access",
+0
+],
+[
+"Covertly collected",
+0
+]
+],
+"images": []
+},
+{
+"v5": 243,
+"title": "Gathering Important Information",
+"kicker": "Intelligence Sources and Confidence Levels",
+"bullets": [
+[
+"Timeliness",
+0
+],
+[
+"Recent or current data",
+1
+],
+[
+"Relevancy",
+0
+],
+[
+"Does it pertain to your objective?",
+1
+],
+[
+"Accuracy",
+0
+],
+[
+"Is intelligence correct?",
+1
+]
+],
+"images": []
+},
+{
+"v5": 244,
+"title": "Confidence Levels",
+"kicker": "Intelligence Sources and Confidence Levels",
+"bullets": [
+[
+"Evaluation metric determined by timeliness, relevancy, and accuracy",
+0
+],
+[
+"Assessment of information from sources",
+0
+],
+[
+"Trust of information\u2019s quality",
+0
+],
+[
+"High",
+1
+],
+[
+"Medium",
+1
+],
+[
+"Low",
+1
+],
+[
+"Impact likelihood of resulting action",
+0
+]
+],
+"images": []
+},
+{
+"v5": 246,
+"title": "Indicator",
+"kicker": "Threat Indicators and Actors",
+"bullets": [
+[
+"Result of an observable event in a network",
+0
+],
+[
+"Any event used to gain understanding",
+0
+],
+[
+"Organizations needed to create standards for threat documentation and communication",
+0
+]
+],
+"images": []
+},
+{
+"v5": 247,
+"title": "Indicator Management",
+"kicker": "Threat Indicators and Actors",
+"bullets": [
+[
+"Structured Threat Information eXpression (STIX)",
+0
+],
+[
+"MITRE Corporation",
+1
+],
+[
+"Effort to standardize threat data communication and documentation",
+1
+]
+],
+"images": []
+},
+{
+"v5": 249,
+"title": "12 STIX domain objects (SDOs)",
+"kicker": "Structured Threat Information eXpression (STIX)",
+"bullets": [
+[
+"Attack pattern",
+0
+],
+[
+"Campaign",
+0
+],
+[
+"Course of action",
+0
+],
+[
+"Grouping",
+0
+],
+[
+"Identity",
+0
+],
+[
+"Indicator",
+0
+],
+[
+"Intrusion set",
+0
+],
+[
+"Malware",
+0
+],
+[
+"Observed data",
+0
+],
+[
+"Report",
+0
+]
+],
+"images": []
+},
+{
+"v5": 250,
+"title": "12 STIX domain objects (SDOs)",
+"kicker": "Structured Threat Information eXpression (STIX)",
+"bullets": [
+[
+"Threat actor",
+0
+],
+[
+"Tool",
+0
+]
+],
+"images": []
+},
+{
+"v5": 251,
+"title": "2 STIX relationship objects (SROs)",
+"kicker": "Structured Threat Information eXpression (STIX)",
+"bullets": [
+[
+"Sighting \u2013 something has occurred",
+0
+],
+[
+"Relationship \u2013 connection between two SDOs",
+0
+]
+],
+"images": []
+},
+{
+"v5": 253,
+"title": "Exchanging Threat Data",
+"kicker": "Structured Threat Information eXpression (STIX)",
+"bullets": [
+[
+"Trusted Automated eXchange of Indicator Information (TAXII)",
+0
+],
+[
+"Defines how STIX data is transferred via API",
+0
+],
+[
+"Makes STIX data available to other entities",
+0
+]
+],
+"images": []
+},
+{
+"v5": 254,
+"title": "Exchanging Threat Data",
+"kicker": "Structured Threat Information eXpression (STIX)",
+"bullets": [
+[
+"OpenIOC",
+0
+],
+[
+"Open-source",
+1
+],
+[
+"Created by Mandiant (now part of FireEye)",
+1
+],
+[
+"Framework for collecting and exchanging indicators of compromise data",
+1
+]
+],
+"images": []
+},
+{
+"v5": 255,
+"title": "Threat Actors",
+"kicker": "Structured Threat Information eXpression (STIX)",
+"bullets": [
+[
+"Nation-state",
+0
+],
+[
+"Sophisticated and well-funded",
+1
+],
+[
+"On behalf of government or government agency",
+1
+],
+[
+"Hacktivist",
+0
+],
+[
+"Individual or groups that pursue social goal through hacking",
+1
+]
+],
+"images": []
+},
+{
+"v5": 256,
+"title": "Threat Actors",
+"kicker": "Structured Threat Information eXpression (STIX)",
+"bullets": [
+[
+"Organized crime",
+0
+],
+[
+"In it for the money",
+1
+],
+[
+"Often uses ransomware",
+1
+],
+[
+"Insider threat",
+0
+],
+[
+"Intentional",
+1
+],
+[
+"Ex: disgruntled employee",
+2
+],
+[
+"Unintentional",
+1
+],
+[
+"Ex: victim of social engineering",
+2
+]
+],
+"images": []
+},
+{
+"v5": 258,
+"title": "Threat Classification",
+"kicker": "Threat Trends",
+"bullets": [
+[
+"Known vs. unknown threats",
+0
+],
+[
+"Absence of evidence isn\u2019t evidence of absence",
+0
+],
+[
+"Zero-day",
+0
+],
+[
+"Exploits an undiscovered vulnerability",
+1
+]
+],
+"images": []
+},
+{
+"v5": 259,
+"title": "Advanced Persistent Threat (APT)",
+"kicker": "Threat Trends",
+"bullets": [
+[
+"Advanced",
+0
+],
+[
+"Well-funded",
+1
+],
+[
+"Often from a nation state",
+1
+],
+[
+"Coordinated",
+1
+],
+[
+"Persistent",
+0
+],
+[
+"24/7",
+1
+],
+[
+"Security professional may work non-standard hours",
+1
+]
+],
+"images": []
+},
+{
+"v5": 260,
+"title": "Advanced Persistent Threat (APT)",
+"kicker": "Threat Trends",
+"bullets": [
+[
+"Threat",
+0
+],
+[
+"Threat actors are very focused",
+1
+],
+[
+"Geopolitical motivation",
+1
+],
+[
+"Technical methods",
+1
+]
+],
+"images": []
+},
+{
+"v5": 261,
+"title": "Hacktivism",
+"kicker": "Threat Trends",
+"bullets": [
+[
+"Politically or socially motivated",
+0
+],
+[
+"Nuisance",
+0
+],
+[
+"Decentralized",
+0
+],
+[
+"Ad-hoc",
+0
+],
+[
+"Easy to participate",
+0
+]
+],
+"images": [
+"img_dc28760e50.png"
+]
+},
+{
+"v5": 262,
+"title": "Cyber Warfare Timeline",
+"kicker": "Threat Trends",
+"bullets": [],
+"images": [
+"img_94771992ec.png"
+]
+},
+{
+"v5": 264,
+"title": "Intelligence Cycle",
+"kicker": "Intelligence Cycle and ISACs",
+"bullets": [
+[
+"Method to translate raw data into actionable information",
+0
+]
+],
+"images": [
+"img_7e5b2de820.png"
+]
+},
+{
+"v5": 265,
+"title": "Intelligence Cycle",
+"kicker": "Intelligence Cycle and ISACs",
+"bullets": [
+[
+"Requirements",
+0
+],
+[
+"What you need",
+1
+],
+[
+"Example: domain registrations, contact names, addresses, etc.",
+1
+]
+],
+"images": [
+"img_4a31335cd8.png"
+]
+},
+{
+"v5": 266,
+"title": "Intelligence Cycle",
+"kicker": "Intelligence Cycle and ISACs",
+"bullets": [
+[
+"Collection",
+0
+],
+[
+"Collect the data",
+1
+],
+[
+"OSINT or proprietary sources",
+1
+]
+],
+"images": [
+"img_a3b6307794.png"
+]
+},
+{
+"v5": 267,
+"title": "Intelligence Cycle",
+"kicker": "Intelligence Cycle and ISACs",
+"bullets": [
+[
+"Analysis",
+0
+],
+[
+"Look at what you have",
+0
+],
+[
+"CompTIA CySA+ exam emphasizes this step",
+0
+],
+[
+"Find importance and meaning",
+0
+]
+],
+"images": [
+"img_62724d9c0f.png"
+]
+},
+{
+"v5": 268,
+"title": "Intelligence Cycle",
+"kicker": "Intelligence Cycle and ISACs",
+"bullets": [
+[
+"Dissemination",
+0
+],
+[
+"Explanation of analysis",
+0
+],
+[
+"Recommendation of action given to customer",
+0
+]
+],
+"images": [
+"img_b009f858a3.png"
+]
+},
+{
+"v5": 269,
+"title": "Intelligence Cycle",
+"kicker": "Intelligence Cycle and ISACs",
+"bullets": [
+[
+"Feedback",
+0
+],
+[
+"Response of the customer",
+1
+],
+[
+"If customer requires more information, start cycle again",
+0
+]
+],
+"images": [
+"img_853a2d7f68.png"
+]
+},
+{
+"v5": 270,
+"title": "Commodity Malware",
+"kicker": "Intelligence Cycle and ISACs",
+"bullets": [
+[
+"Malware for sale",
+0
+],
+[
+"Popular in underground communities",
+1
+],
+[
+"Allows attackers with limited skills to engage",
+1
+],
+[
+"Malware-as-a-service",
+0
+]
+],
+"images": []
+},
+{
+"v5": 271,
+"title": "Information Sharing",
+"kicker": "Intelligence Cycle and ISACs",
+"bullets": [
+[
+"Communities exist to facilitate information sharing",
+0
+],
+[
+"Information Sharing and Analysis Centers (ISACs)",
+0
+]
+],
+"images": []
+},
+{
+"v5": 272,
+"title": "Information Sharing and Analysis Centers (ISACs)",
+"kicker": "Intelligence Cycle and ISACs",
+"bullets": [
+[
+"Example industries:",
+0
+],
+[
+"Automotive",
+1
+],
+[
+"Aviation",
+1
+],
+[
+"Communications",
+1
+],
+[
+"Electricity",
+1
+],
+[
+"Elections",
+1
+],
+[
+"Financial",
+1
+],
+[
+"Healthcare",
+1
+]
+],
+"images": [
+"img_c730b7c3ea.png"
+]
+},
+{
+"v5": 273,
+"title": "Information Sharing and Analysis Centers (ISACs)",
+"kicker": "Intelligence Cycle and ISACs",
+"bullets": [
+[
+"Example industries:",
+0
+],
+[
+"Information technology",
+1
+],
+[
+"MultiState",
+1
+]
+],
+"images": [
+"img_c730b7c3ea.png"
+]
+},
+{
+"v5": 274,
+"title": "Cyber Warfare Timeline",
+"kicker": "Intelligence Cycle and ISACs",
+"bullets": [],
+"images": [
+"img_ccaa604261.png"
+]
+},
+{
+"v5": 288,
+"title": "Threat Research",
+"kicker": "Threat Research",
+"bullets": [
+[
+"Useful to",
+0
+],
+[
+"Add context to alerts",
+1
+],
+[
+"Uncover novel TTPs",
+1
+],
+[
+"Existing controls may miss these",
+2
+]
+],
+"images": []
+},
+{
+"v5": 289,
+"title": "Threat Research",
+"kicker": "Threat Research",
+"bullets": [
+[
+"Reputational",
+0
+],
+[
+"Rating of general perceived risk",
+1
+],
+[
+"Google\u2019s Safe Browsing",
+1
+],
+[
+"Talos Reputation Center",
+1
+],
+[
+"VirusTotal",
+1
+]
+],
+"images": []
+},
+{
+"v5": 290,
+"title": "Threat Research",
+"kicker": "Threat Research",
+"bullets": [
+[
+"Behavioral",
+0
+],
+[
+"Create local environment to test (i.e., sandbox)",
+1
+],
+[
+"Protected",
+2
+],
+[
+"Launch virtual machine",
+2
+],
+[
+"Run malicious software safely",
+2
+]
+],
+"images": []
+},
+{
+"v5": 291,
+"title": "Threat Research",
+"kicker": "Threat Research",
+"bullets": [
+[
+"Indicator of compromise (IOC)",
+0
+],
+[
+"ISACs",
+1
+],
+[
+"Computer Incident Response Center Luxembourg (CIRCL)",
+1
+],
+[
+"FBI\u2019s InfraGard",
+1
+]
+],
+"images": []
+},
+{
+"v5": 292,
+"title": "Threat Research",
+"kicker": "Threat Research",
+"bullets": [
+[
+"CVSS",
+0
+],
+[
+"Common Vulnerability Scoring System (CVSS)",
+1
+]
+],
+"images": []
+},
+{
+"v5": 294,
+"title": "Threat Modeling Methodologies",
+"kicker": "Threat Modeling and Intelligence Sharing",
+"bullets": [
+[
+"Adversary capability",
+0
+],
+[
+"Total attack surface",
+0
+],
+[
+"Attack vector",
+0
+],
+[
+"Impact",
+0
+],
+[
+"Likelihood",
+0
+]
+],
+"images": []
+},
+{
+"v5": 295,
+"title": "Microsoft STRIDE Threat Categories",
+"kicker": "Threat Modeling and Intelligence Sharing",
+"bullets": [],
+"images": [
+"img_cc090f9e62.png"
+]
+},
+{
+"v5": 296,
+"title": "PASTA Stages",
+"kicker": "Threat Modeling and Intelligence Sharing",
+"bullets": [],
+"images": [
+"img_11dffb3529.png"
+]
+},
+{
+"v5": 297,
+"title": "Threat Intelligence Sharing with Supported Functions",
+"kicker": "Threat Modeling and Intelligence Sharing",
+"bullets": [
+[
+"Incident response",
+0
+],
+[
+"Vulnerability management",
+0
+],
+[
+"Risk management",
+0
+],
+[
+"Security engineering",
+0
+],
+[
+"Detection and monitoring",
+0
+]
+],
+"images": []
+},
+{
+"v5": 513,
+"title": "Threat Hunting",
+"kicker": "Threat Hunting and the Hypothesis",
+"bullets": [
+[
+"Proactively searching environment for threats",
+0
+]
+],
+"images": []
+},
+{
+"v5": 514,
+"title": "Threat Hunting Process",
+"kicker": "Threat Hunting and the Hypothesis",
+"bullets": [
+[
+"What is the purpose of the hunt?",
+0
+],
+[
+"Where will it be conducted?",
+0
+],
+[
+"What resources do I need to conduct the hunt?",
+0
+],
+[
+"Who are the key stakeholders?",
+0
+],
+[
+"What is the desired outcome of the hunt?",
+0
+]
+],
+"images": []
+},
+{
+"v5": 515,
+"title": "Threat Hunting Process",
+"kicker": "Threat Hunting and the Hypothesis",
+"bullets": [],
+"images": [
+"img_aa80adb260.png"
+]
+},
+{
+"v5": 516,
+"title": "Threat Hunting",
+"kicker": "Threat Hunting and the Hypothesis",
+"bullets": [
+[
+"Funding and support",
+0
+],
+[
+"Initiation",
+0
+],
+[
+"Creation of the hypothesis",
+1
+]
+],
+"images": []
+},
+{
+"v5": 517,
+"title": "Establishing a Hypothesis",
+"kicker": "Threat Hunting and the Hypothesis",
+"bullets": [
+[
+"Statement of expectation",
+0
+],
+[
+"Based on information",
+1
+],
+[
+"Analytics-driven",
+0
+],
+[
+"Based on data",
+1
+],
+[
+"Situational-driven",
+0
+],
+[
+"Situations change, resulting in vulnerabilities",
+1
+]
+],
+"images": []
+},
+{
+"v5": 518,
+"title": "Establishing a Hypothesis",
+"kicker": "Threat Hunting and the Hypothesis",
+"bullets": [
+[
+"Intelligence-driven",
+0
+],
+[
+"Someone has provided intelligence",
+1
+],
+[
+"Experience-driven",
+0
+],
+[
+"Based on familiarity with your environment",
+1
+]
+],
+"images": []
+},
+{
+"v5": 521,
+"title": "MITRE ATT&CK framework",
+"kicker": "Profiling Threat Actors and Activities",
+"bullets": [
+[
+"Initial access",
+0
+],
+[
+"Execution",
+0
+],
+[
+"Persistence",
+0
+],
+[
+"Privilege escalation",
+0
+],
+[
+"Defense evasion",
+0
+],
+[
+"Credential access",
+0
+],
+[
+"Discovery",
+0
+],
+[
+"Lateral movement",
+0
+],
+[
+"Collection",
+0
+],
+[
+"Command and control",
+0
+],
+[
+"Exfiltration",
+0
+],
+[
+"Impact",
+0
+]
+],
+"images": []
+},
+{
+"v5": 522,
+"title": "Threat Hunting Tactics",
+"kicker": "Profiling Threat Actors and Activities",
+"bullets": [
+[
+"High-impact TTPs",
+0
+],
+[
+"Initial access and discovery",
+1
+],
+[
+"Persistence",
+1
+],
+[
+"Lateral movement and privilege escalation",
+1
+],
+[
+"Command and control",
+1
+],
+[
+"Exfiltration",
+1
+],
+[
+"Searching",
+1
+],
+[
+"Clustering",
+1
+],
+[
+"Grouping",
+1
+],
+[
+"Stacking",
+1
+]
+],
+"images": []
+},
+{
+"v5": 523,
+"title": "Threat Hunting Tactics",
+"kicker": "Profiling Threat Actors and Activities",
+"bullets": [
+[
+"Executable process analysis",
+0
+],
+[
+"Reverse engineering",
+1
+]
+],
+"images": []
+},
+{
+"v5": 525,
+"title": "Delivering Results",
+"kicker": "Results and Benefits",
+"bullets": [
+[
+"Document the process",
+0
+],
+[
+"Reduce the attack surface area",
+0
+],
+[
+"Bundle critical assets",
+0
+],
+[
+"Explore attack vectors",
+0
+],
+[
+"Use integrated intelligence",
+0
+]
+],
+"images": []
+},
+{
+"v5": 526,
+"title": "Improving Detection Capabilities",
+"kicker": "Results and Benefits",
+"bullets": [
+[
+"How do you convince stakeholders and financial department?",
+0
+]
+],
+"images": []
+},
+{
+"v5": 527,
+"title": "Improving Detection Capabilities",
+"kicker": "Results and Benefits",
+"bullets": [
+[
+"Threat-hunting output benefits",
+0
+],
+[
+"Updated firewall and intrusion detection/prevention system (IDS/IPS) rules",
+1
+],
+[
+"Updated alert logic for SIEM platforms",
+1
+],
+[
+"Updated alert logic for endpoint detection and response (EDR) platforms",
+1
+],
+[
+"Improvements to sensor placement across the network",
+1
+],
+[
+"Improvements to asset visibility",
+1
+]
+],
+"images": []
+},
+{
+"v5": 528,
+"title": "Improving Detection Capabilities",
+"kicker": "Results and Benefits",
+"bullets": [
+[
+"Other benefits to detection team",
+0
+],
+[
+"Changes in your organization\u2019s development process",
+1
+],
+[
+"Changes to security training across the organization",
+1
+],
+[
+"Changes to quality assurance and quality control processes",
+1
+]
+],
+"images": []
+}
+],
+"2": [
+{
+"v5": 321,
+"title": "Web Application Scanners",
+"kicker": "Web Application Scanners, Part 1",
+"bullets": [
+[
+"HTTP/HTTPS protocols",
+0
+],
+[
+"Ports 80 and 443",
+0
+]
+],
+"images": []
+},
+{
+"v5": 322,
+"title": "Web Application Scanners",
+"kicker": "Web Application Scanners, Part 1",
+"bullets": [
+[
+"OWASP Zed Attack Proxy (ZAP)",
+0
+],
+[
+"Proxy inserted between client and server",
+1
+],
+[
+"Burp suite",
+0
+],
+[
+"Also a proxy",
+1
+],
+[
+"More manual",
+1
+],
+[
+"More granular control",
+1
+]
+],
+"images": []
+},
+{
+"v5": 324,
+"title": "Web Application Scanners",
+"kicker": "Web Application Scanners, Part 2",
+"bullets": [
+[
+"Nikto",
+0
+],
+[
+"Web server vulnerability scanner",
+1
+],
+[
+"Arachni",
+0
+],
+[
+"Fast, Ruby-based Web application scanner",
+1
+]
+],
+"images": []
+},
+{
+"v5": 326,
+"title": "Vulnerability Scanning Considerations, I",
+"kicker": "Scanning",
+"bullets": [
+[
+"Frequency",
+0
+],
+[
+"Industry regulations help determine frequency",
+1
+],
+[
+"Regulations vary by industry",
+1
+],
+[
+"Resources",
+0
+],
+[
+"People",
+1
+],
+[
+"Computation",
+1
+],
+[
+"Time",
+1
+]
+],
+"images": []
+},
+{
+"v5": 327,
+"title": "Vulnerability Scanning Considerations, II",
+"kicker": "Scanning",
+"bullets": [
+[
+"Constraints",
+0
+],
+[
+"Qualified personnel",
+1
+],
+[
+"Technical capacity",
+1
+],
+[
+"Determining frequency",
+0
+],
+[
+"Effects on workflow",
+1
+],
+[
+"Resources used to execute scans, review results, translate for leadership, and assist in decision making",
+1
+]
+],
+"images": []
+},
+{
+"v5": 328,
+"title": "Vulnerability Scanning Criteria",
+"kicker": "Scanning",
+"bullets": [
+[
+"Feeds",
+0
+],
+[
+"Sensitivity",
+0
+],
+[
+"Scope",
+0
+],
+[
+"Privilege",
+0
+],
+[
+"Credentialed",
+1
+],
+[
+"Non-credentialed",
+1
+],
+[
+"Server-based",
+0
+],
+[
+"Scans executed from central point of contact",
+1
+],
+[
+"Agent-based",
+0
+],
+[
+"Scanning software on all network nodes",
+1
+]
+],
+"images": []
+},
+{
+"v5": 329,
+"title": "Nessus Demo",
+"kicker": "Scanning",
+"bullets": [
+[
+"NASL",
+0
+],
+[
+"SCAP",
+0
+],
+[
+"Compliance checks",
+0
+],
+[
+"Report generation",
+0
+]
+],
+"images": [
+"img_d982d7766c.png"
+]
+},
+{
+"v5": 330,
+"title": "SCAP",
+"kicker": "Scanning",
+"bullets": [
+[
+"Security Content Automation Protocol (SCAP)",
+0
+],
+[
+"Created by NIST",
+1
+],
+[
+"Standardizes assessment & reporting of vulnerabilities",
+1
+]
+],
+"images": []
+},
+{
+"v5": 332,
+"title": "Nessus Demo",
+"kicker": "Configuring and Executing Scans",
+"bullets": [],
+"images": [
+"img_cb2bd9e8c2.png"
+]
+},
+{
+"v5": 334,
+"title": "Preventative Tools",
+"kicker": "Preventive Tools: Part 1",
+"bullets": [
+[
+"Intrusion Detection Systems (IDSs)",
+0
+],
+[
+"Intrusion Protection Systems (IPSs)",
+0
+],
+[
+"Antivirus",
+0
+],
+[
+"Antimalware",
+0
+],
+[
+"Firewall",
+0
+]
+],
+"images": []
+},
+{
+"v5": 335,
+"title": "Sourcefire",
+"kicker": "Preventive Tools: Part 1",
+"bullets": [
+[
+"https://www.cisco.com/c/en/us/services/acquisitions/sourcefire.html",
+0
+]
+],
+"images": [
+"img_3d7fb79d14.png"
+]
+},
+{
+"v5": 336,
+"title": "IDS/IPS",
+"kicker": "Preventive Tools: Part 1",
+"bullets": [
+[
+"Sourcefire",
+0
+],
+[
+"Began as commercial product called Snort",
+1
+],
+[
+"Eventually acquired by Cisco",
+1
+],
+[
+"Bro",
+0
+],
+[
+"Open source",
+1
+],
+[
+"Network analysis framework",
+1
+],
+[
+"Snort",
+0
+],
+[
+"Security Onion",
+0
+],
+[
+"Open source Linux distro",
+1
+],
+[
+"Uses Bro & Snort to give comprehensive view of traffic",
+1
+],
+[
+"http://chrissanders.org/SO-CheatSheet.pdf",
+1
+]
+],
+"images": []
+},
+{
+"v5": 337,
+"title": "Bro",
+"kicker": "Preventive Tools: Part 1",
+"bullets": [
+[
+"https://www.bro.org",
+0
+],
+[
+"Bro logs are stored in /nsm/bro/logs",
+0
+],
+[
+"They are consumed by syslog-ng and stored in ELSA",
+0
+]
+],
+"images": []
+},
+{
+"v5": 338,
+"title": "Bro",
+"kicker": "Preventive Tools: Part 1",
+"bullets": [
+[
+"Bro monitors your network traffic and creates logs, such as:",
+0
+],
+[
+"conn.log",
+0
+],
+[
+"TCP/UDP/ICMP connections",
+1
+],
+[
+"dns.log",
+0
+],
+[
+"DNS activity",
+1
+],
+[
+"ftp.log",
+0
+],
+[
+"FTP activity",
+1
+],
+[
+"http.log",
+0
+],
+[
+"HTTP requests and replies",
+1
+],
+[
+"SSL/TLS handshake info",
+1
+]
+],
+"images": []
+},
+{
+"v5": 339,
+"title": "Snort",
+"kicker": "Preventive Tools: Part 1",
+"bullets": [
+[
+"Sourcefire was based off Snort",
+0
+],
+[
+"https://www.snort.org",
+0
+],
+[
+"Rules located in: /etc/nsm/rules",
+0
+],
+[
+"Local rules stored in: /etc/nsm/rules/local.rules",
+0
+],
+[
+"Snort doesn\u2019t record everything, like Bro, so enable what you want to see",
+0
+]
+],
+"images": []
+},
+{
+"v5": 340,
+"title": "Firewalls",
+"kicker": "Preventive Tools: Part 1",
+"bullets": [
+[
+"Hardware or software",
+0
+],
+[
+"Stops based on set of rules",
+0
+],
+[
+"Rules are part of ACL",
+0
+],
+[
+"Enforce company security policy",
+1
+],
+[
+"Cisco",
+0
+],
+[
+"Palo Alto",
+0
+],
+[
+"Check Point",
+0
+],
+[
+"ufw",
+0
+],
+[
+"pfsense",
+0
+]
+],
+"images": []
+},
+{
+"v5": 341,
+"title": "Cisco",
+"kicker": "Preventive Tools: Part 1",
+"bullets": [
+[
+"Well-known, robust",
+0
+],
+[
+"Acquired many startups",
+0
+],
+[
+"Robust & powerful",
+1
+],
+[
+"Including Sourcefire",
+1
+],
+[
+"Next Generation Firewall (NGFW)",
+0
+],
+[
+"Popular term for smart firewalls",
+1
+],
+[
+"Firewall subcategories",
+0
+],
+[
+"Based on purpose, enterprise, size of business",
+1
+],
+[
+"Small-medium businesses up to service providers & data centers",
+1
+],
+[
+"https://www.cisco.com/c/en/us/products/security/firewalls/index.html",
+0
+]
+],
+"images": []
+},
+{
+"v5": 342,
+"title": "Palo Alto",
+"kicker": "Preventive Tools: Part 1",
+"bullets": [
+[
+"Leader in NGFW, both hardware & software",
+0
+],
+[
+"Offers firewalls across the spectrum",
+0
+],
+[
+"Home, small business, enterprise & data centers",
+1
+],
+[
+"Firewalls as VM containers",
+0
+],
+[
+"Since hypervisors are gaining popularity, these can be run in VM",
+1
+],
+[
+"https://www.paloaltonetworks.com/products/secure-the-network/next-generation-firewall",
+0
+]
+],
+"images": []
+},
+{
+"v5": 343,
+"title": "Check Point",
+"kicker": "Preventive Tools: Part 1",
+"bullets": [
+[
+"Firewalls for small business to enterprise",
+0
+],
+[
+"Highlights NGFW",
+0
+],
+[
+"Well-known for superior ICS & SCADA devices",
+0
+],
+[
+"https://www.checkpoint.com/products-solutions/next-generation-firewalls/",
+0
+]
+],
+"images": []
+},
+{
+"v5": 344,
+"title": "ufw",
+"kicker": "Preventive Tools: Part 1",
+"bullets": [
+[
+"Uncomplicated firewall",
+0
+],
+[
+"Easy interface with IP tables (default allow/deny in Linux)",
+1
+],
+[
+"Free",
+1
+],
+[
+"Great place to learn how to use firewalls",
+1
+],
+[
+"To turn UFW on with the default set of rules: sudo ufw enable",
+0
+],
+[
+"To check the status of UFW: sudo ufw status verbose",
+0
+]
+],
+"images": []
+},
+{
+"v5": 345,
+"title": "ufw",
+"kicker": "Preventive Tools: Part 1",
+"bullets": [
+[
+"Note that by default, deny is being applied to incoming. There are exceptions, which can be found in the output of this command: sudo ufw show raw",
+0
+],
+[
+"You can also read the rules files in /etc/ufw",
+0
+],
+[
+"(the files whose names end with.rules)",
+0
+],
+[
+"To disable ufw use: sudo ufw disable",
+0
+],
+[
+"To see get a list of services: less/etc/services",
+0
+]
+],
+"images": []
+},
+{
+"v5": 346,
+"title": "pfsense",
+"kicker": "Preventive Tools: Part 1",
+"bullets": [
+[
+"Open source",
+0
+],
+[
+"Firewall/router",
+0
+],
+[
+"Based on FreeBSD (Unix-like OS)",
+0
+],
+[
+"https://www.pfsense.org/products/#requirements",
+0
+]
+],
+"images": []
+},
+{
+"v5": 348,
+"title": "Preventative",
+"kicker": "Preventive Tools: Part 2",
+"bullets": [
+[
+"Antimalware",
+0
+],
+[
+"Antivirus",
+0
+],
+[
+"Web Proxy",
+0
+],
+[
+"Tools",
+0
+],
+[
+"EMET",
+1
+],
+[
+"Web Application Firewalls",
+1
+]
+],
+"images": []
+},
+{
+"v5": 349,
+"title": "EMET",
+"kicker": "Preventive Tools: Part 2",
+"bullets": [
+[
+"Enhanced Mitigation Experience Toolkit (EMET)",
+0
+],
+[
+"Free Microsoft product",
+0
+],
+[
+"Enhance Windows system protection again variety of threats (esp. zero day exploits)",
+0
+],
+[
+"EMET will reach end-of-life",
+0
+],
+[
+"Features will be included in future OSes",
+1
+],
+[
+"Data Execution Prevention (DEP)",
+0
+],
+[
+"Address Space Layout Randomization (ASLR)",
+0
+],
+[
+"Control Flow Guard (CFG)",
+0
+]
+],
+"images": []
+},
+{
+"v5": 350,
+"title": "Web Application Firewall",
+"kicker": "Preventive Tools: Part 2",
+"bullets": [
+[
+"Targeted to protect services (i.e. applications on a server)",
+0
+],
+[
+"Higher level of OSI/TCP Model",
+0
+],
+[
+"In addition to IP addresses of source/destination & ports, can also look at URLs, host names, layer 7 features",
+1
+],
+[
+"ModSecurity",
+0
+],
+[
+"NAXSI (Nginx Anti XSS & SQL Injection)",
+0
+],
+[
+"Imperva",
+0
+]
+],
+"images": []
+},
+{
+"v5": 352,
+"title": "Vulnerability Scanning",
+"kicker": "Vulnerability Scanning",
+"bullets": [
+[
+"Qualys",
+0
+],
+[
+"Nexpose",
+0
+],
+[
+"Nessus",
+0
+],
+[
+"OpenVAS",
+0
+],
+[
+"Microsoft Baseline Security Analyzer",
+0
+],
+[
+"Nikto",
+0
+]
+],
+"images": []
+},
+{
+"v5": 354,
+"title": "Hardware",
+"kicker": "Reverse Engineering",
+"bullets": [
+[
+"Lower cost of manufacturing processes making counterfeiting a growing concern",
+0
+],
+[
+"High-end devices have been counterfeited",
+0
+],
+[
+"Trusted foundries have been created",
+0
+],
+[
+"Assure the integrity of products",
+1
+],
+[
+"Supply chain integrity",
+1
+],
+[
+"Analysis of the hardware components",
+1
+]
+],
+"images": []
+},
+{
+"v5": 355,
+"title": "Software",
+"kicker": "Reverse Engineering",
+"bullets": [
+[
+"Detecting suspicious files",
+0
+],
+[
+"Name alone won\u2019t reveal if it\u2019s bad",
+1
+],
+[
+"Hashing function",
+1
+],
+[
+"Lists of known bad files on the Internet",
+2
+],
+[
+"Comparing hashes can uncover these bad files",
+2
+]
+],
+"images": []
+},
+{
+"v5": 356,
+"title": "Software Creation",
+"kicker": "Reverse Engineering",
+"bullets": [
+[
+"Programming language",
+0
+],
+[
+"Represent abstract concepts",
+0
+],
+[
+"Selection, sequence, iteration",
+0
+]
+],
+"images": [
+"img_696f8fde4c.png"
+]
+},
+{
+"v5": 357,
+"title": "Reverse Engineering Software",
+"kicker": "Reverse Engineering",
+"bullets": [
+[
+"Static analysis",
+0
+],
+[
+"Read through binary to figure out program structure",
+1
+],
+[
+"Dynamic analysis",
+0
+],
+[
+"Connect binary to debugger to simulate execution",
+1
+],
+[
+"Probe program to find out what it\u2019s trying to do, resources its calling, output",
+1
+],
+[
+"Static + dynamic analysis",
+0
+]
+],
+"images": []
+},
+{
+"v5": 358,
+"title": "Disassembly, I",
+"kicker": "Reverse Engineering",
+"bullets": [
+[
+"The strings utility displays printable characters",
+0
+],
+[
+"Strings demo",
+0
+]
+],
+"images": [
+"img_fe330f5373.png"
+]
+},
+{
+"v5": 359,
+"title": "Disassembly, II",
+"kicker": "Reverse Engineering",
+"bullets": [
+[
+"Visual representation of code",
+0
+],
+[
+"Binary ninja demo",
+0
+]
+],
+"images": []
+},
+{
+"v5": 361,
+"title": "Enumeration",
+"kicker": "Enumeration",
+"bullets": [
+[
+"Active scanners",
+0
+],
+[
+"Nmap",
+0
+],
+[
+"Very popular tool available for most operating systems",
+1
+],
+[
+"Network mapper",
+1
+],
+[
+"hping",
+0
+],
+[
+"Supercharged ping utility",
+1
+],
+[
+"Craft custom packets",
+1
+],
+[
+"Analyze TCP, UDP, ICMP traffic",
+1
+]
+],
+"images": []
+},
+{
+"v5": 362,
+"title": "Enumeration",
+"kicker": "Enumeration",
+"bullets": [
+[
+"Passive scanners",
+0
+],
+[
+"Responder",
+1
+],
+[
+"Remote access attack tool that poisons name services",
+2
+]
+],
+"images": []
+},
+{
+"v5": 364,
+"title": "Wireless Assessment Tools",
+"kicker": "Wireless Assessment Tools",
+"bullets": [
+[
+"Aircrack-ng",
+0
+],
+[
+"Open-source wireless security suite",
+1
+],
+[
+"Useful to audit WLAN security",
+1
+],
+[
+"Reaver",
+0
+],
+[
+"Utility that exploits WPS weaknesses",
+1
+]
+],
+"images": []
+},
+{
+"v5": 365,
+"title": "Wireless Assessment Tools",
+"kicker": "Wireless Assessment Tools",
+"bullets": [
+[
+"oclHashcat",
+0
+],
+[
+"Password cracker that uses GPU and CPU power",
+1
+]
+],
+"images": []
+},
+{
+"v5": 367,
+"title": "Cloud Infrastructure Assessment Tools",
+"kicker": "Cloud Assessment Tools",
+"bullets": [
+[
+"Scout Suite",
+0
+],
+[
+"Open-source",
+1
+],
+[
+"Uses Python",
+1
+],
+[
+"Supports AWS, MS Azure, Google Cloud, Alibaba, Oracle Cloud Infrastructure (OCI)",
+1
+],
+[
+"Auditing tool for managed services",
+1
+]
+],
+"images": []
+},
+{
+"v5": 368,
+"title": "Cloud Infrastructure Assessment Tools",
+"kicker": "Cloud Assessment Tools",
+"bullets": [
+[
+"Prowler",
+0
+],
+[
+"Open-source",
+1
+],
+[
+"Similar to Scout Suite, but mainly for AWS",
+1
+],
+[
+"Based on Center for Internet Security (CIS) best practices",
+1
+]
+],
+"images": []
+},
+{
+"v5": 369,
+"title": "Cloud Infrastructure Assessment Tools",
+"kicker": "Cloud Assessment Tools",
+"bullets": [
+[
+"Pacu",
+0
+],
+[
+"AWS exploitation framework",
+1
+]
+],
+"images": []
+},
+{
+"v5": 372,
+"title": "Attack Types \u2013 Injection",
+"kicker": "Injection and Overflow Attacks",
+"bullets": [
+[
+"Attacker sends input so software does something unintended by designer",
+0
+],
+[
+"Remote code execution",
+0
+],
+[
+"Tells target system to run some unauthorized function",
+1
+],
+[
+"Very dangerous",
+1
+]
+],
+"images": []
+},
+{
+"v5": 373,
+"title": "Attack Types \u2013 Injection",
+"kicker": "Injection and Overflow Attacks",
+"bullets": [
+[
+"Extensible markup language (XML) attack",
+0
+],
+[
+"Exchange data among different nodes on a network",
+1
+],
+[
+"Send embedded bad data",
+1
+],
+[
+"Send invalid data that causes XML parser to hang or crash",
+1
+]
+],
+"images": []
+},
+{
+"v5": 374,
+"title": "Attack Types \u2013 Injection",
+"kicker": "Injection and Overflow Attacks",
+"bullets": [
+[
+"Structured query language (SQL) attack",
+0
+],
+[
+"Most common language for relational databases",
+1
+],
+[
+"Very flexible language",
+1
+],
+[
+"Hard to secure",
+1
+],
+[
+"Often used along with remote code execution",
+1
+]
+],
+"images": []
+},
+{
+"v5": 375,
+"title": "Attack Types \u2013 Injection",
+"kicker": "Injection and Overflow Attacks",
+"bullets": [
+[
+"Cross-site scripting (XSS)",
+0
+],
+[
+"Leverage trust between a client and a server",
+1
+],
+[
+"Persistent attack",
+1
+],
+[
+"Attacker stores malicious code on server",
+2
+],
+[
+"Non-persistent attack (reflected)",
+1
+],
+[
+"Vulnerability on server that attacker takes advantage of",
+2
+],
+[
+"Document Object Model (DOM) attack",
+1
+],
+[
+"Used in XML data transfer",
+2
+],
+[
+"Inject bad data into XML",
+2
+]
+],
+"images": []
+},
+{
+"v5": 376,
+"title": "Attack Types \u2013 Injection",
+"kicker": "Injection and Overflow Attacks",
+"bullets": [
+[
+"Directory traversal",
+0
+],
+[
+"Enables an attacker to view, modify, or execute files in a system they normally would not be able to access",
+1
+]
+],
+"images": []
+},
+{
+"v5": 377,
+"title": "Attack Types \u2013 Overflow",
+"kicker": "Injection and Overflow Attacks",
+"bullets": [
+[
+"Happens when attacker provides more input than the programmer allowed for",
+0
+],
+[
+"Input may overflow into the next memory space",
+0
+]
+],
+"images": []
+},
+{
+"v5": 378,
+"title": "Attack Types \u2013 Overflow",
+"kicker": "Injection and Overflow Attacks",
+"bullets": [
+[
+"Buffer",
+0
+],
+[
+"Attacker may be able to write to unauthorized areas of memory",
+1
+],
+[
+"Integer",
+0
+],
+[
+"Provide integer values that are too large or too small",
+1
+],
+[
+"Heap",
+0
+],
+[
+"Cause a program to call itself multiple times",
+1
+]
+],
+"images": []
+},
+{
+"v5": 379,
+"title": "Attack Types",
+"kicker": "Injection and Overflow Attacks",
+"bullets": [
+[
+"Best way to stop them is to carefully and aggressively parse input",
+0
+],
+[
+"Validate all input",
+0
+],
+[
+"Only process valid input",
+0
+],
+[
+"If it\u2019s not valid input, reject it",
+0
+],
+[
+"Don\u2019t try to cleanse it",
+1
+]
+],
+"images": []
+},
+{
+"v5": 381,
+"title": "Privilege Escalation",
+"kicker": "Authentication Attacks",
+"bullets": [
+[
+"Attacker tries to do more than they\u2019re authorized to do",
+0
+],
+[
+"Then attempts to gain higher privilege",
+1
+],
+[
+"Ideally, attacker tries to become admin or root user",
+0
+]
+],
+"images": []
+},
+{
+"v5": 382,
+"title": "Privilege Escalation",
+"kicker": "Authentication Attacks",
+"bullets": [
+[
+"Ways to escalate privilege:",
+0
+],
+[
+"Login as someone else",
+1
+],
+[
+"Brute force your way in",
+1
+],
+[
+"Exploit various vulnerabilities to allow you to escape to a higher privilege shell",
+1
+]
+],
+"images": []
+},
+{
+"v5": 383,
+"title": "Authentication Attacks",
+"kicker": "Authentication Attacks",
+"bullets": [
+[
+"Password spraying",
+0
+],
+[
+"Use list of popular passwords across a bunch of machines",
+1
+],
+[
+"Credential stuffing",
+0
+],
+[
+"Attacker obtains list of previously-leaked usernames and passwords and tries to use them on many other sites",
+1
+]
+],
+"images": []
+},
+{
+"v5": 384,
+"title": "Authentication Attacks",
+"kicker": "Authentication Attacks",
+"bullets": [
+[
+"Impersonation",
+0
+],
+[
+"Attacker pretends to be someone else",
+1
+],
+[
+"Stealing someone\u2019s login credentials",
+1
+]
+],
+"images": []
+},
+{
+"v5": 386,
+"title": "Impersonation",
+"kicker": "Exploits",
+"bullets": [],
+"images": [
+"img_5e0b4db8b3.png"
+]
+},
+{
+"v5": 387,
+"title": "Man-in-the-Middle (MITM) Attack",
+"kicker": "Exploits",
+"bullets": [],
+"images": [
+"img_3d34b567d8.png"
+]
+},
+{
+"v5": 388,
+"title": "Session Hijack",
+"kicker": "Exploits",
+"bullets": [],
+"images": [
+"img_89d1b25ce1.png"
+]
+},
+{
+"v5": 389,
+"title": "Cross-site scripting (XSS)",
+"kicker": "Exploits",
+"bullets": [],
+"images": [
+"img_acb9c172ac.png"
+]
+},
+{
+"v5": 390,
+"title": "Privilege Escalation",
+"kicker": "Exploits",
+"bullets": [],
+"images": [
+"img_2b6565e960.png"
+]
+},
+{
+"v5": 391,
+"title": "Rootkit",
+"kicker": "Exploits",
+"bullets": [],
+"images": [
+"img_ac16252bcf.png"
+]
+},
+{
+"v5": 393,
+"title": "Vulnerabilities",
+"kicker": "Application Vulnerabilities, Part 1",
+"bullets": [
+[
+"Improper error handling",
+0
+],
+[
+"Error messages sometimes give away too much information",
+1
+],
+[
+"Error messages should only give enough information to solve the problem",
+1
+],
+[
+"Don\u2019t send error message and then crash the program",
+1
+]
+],
+"images": []
+},
+{
+"v5": 394,
+"title": "Vulnerabilities",
+"kicker": "Application Vulnerabilities, Part 1",
+"bullets": [
+[
+"Dereferencing",
+0
+],
+[
+"Pointer attempts to access some value in the memory that is no longer there",
+1
+],
+[
+"Following the pointer can cause an operational error",
+1
+],
+[
+"Never follow a pointer until you verify it\u2019s valid",
+1
+],
+[
+"Fail gracefully",
+1
+]
+],
+"images": []
+},
+{
+"v5": 395,
+"title": "Vulnerabilities",
+"kicker": "Application Vulnerabilities, Part 1",
+"bullets": [
+[
+"Insecure object referencing",
+0
+],
+[
+"Make sure access controls operate at all levels",
+1
+],
+[
+"Direct record ID used to access unauthorized data",
+1
+],
+[
+"Always authenticate every request",
+1
+]
+],
+"images": []
+},
+{
+"v5": 396,
+"title": "Vulnerabilities",
+"kicker": "Application Vulnerabilities, Part 1",
+"bullets": [
+[
+"Race condition",
+0
+],
+[
+"Time difference between checking the permissions of a subject requesting a resource and allowing accessing to the resource",
+1
+],
+[
+"Called the TOCTOU (time-of-check to time-of-use)",
+1
+],
+[
+"Never allow access after authentication but before use",
+1
+],
+[
+"Never provide access to data without checking identity",
+1
+]
+],
+"images": []
+},
+{
+"v5": 397,
+"title": "Vulnerabilities",
+"kicker": "Application Vulnerabilities, Part 1",
+"bullets": [
+[
+"Broken authentication",
+0
+],
+[
+"Don\u2019t authenticate, assign a session ID, and assume from then on, it\u2019s always the same user if it\u2019s the same session ID",
+1
+]
+],
+"images": []
+},
+{
+"v5": 398,
+"title": "Vulnerabilities",
+"kicker": "Application Vulnerabilities, Part 1",
+"bullets": [
+[
+"Sensitive data exposure",
+0
+],
+[
+"Application\u2019s responsibility to protect data and only allow access to authorized users",
+1
+]
+],
+"images": []
+},
+{
+"v5": 400,
+"title": "Vulnerabilities",
+"kicker": "Application Vulnerabilities, Part 2",
+"bullets": [
+[
+"Insecure components",
+0
+],
+[
+"Insecure parts of applications",
+1
+],
+[
+"All applications are modular",
+1
+],
+[
+"They rely on libraries, external functions, or interactions with other components",
+1
+],
+[
+"Interacting with insecure components causes insecurities",
+1
+]
+],
+"images": []
+},
+{
+"v5": 401,
+"title": "Vulnerabilities",
+"kicker": "Application Vulnerabilities, Part 2",
+"bullets": [
+[
+"Logging and monitoring",
+0
+],
+[
+"Most common logging is to export to log files",
+0
+],
+[
+"Log files are critical to finding out what happened",
+1
+],
+[
+"Make sure applications have logging enabled",
+1
+]
+],
+"images": []
+},
+{
+"v5": 402,
+"title": "Vulnerabilities",
+"kicker": "Application Vulnerabilities, Part 2",
+"bullets": [
+[
+"Default configurations",
+0
+],
+[
+"Vendors try to set them appropriately",
+1
+],
+[
+"Common to have to change the settings",
+1
+],
+[
+"Default user IDs are a vulnerability",
+1
+],
+[
+"Change default configurations to most secure settings",
+1
+],
+[
+"Remove unused user IDs",
+1
+]
+],
+"images": []
+},
+{
+"v5": 403,
+"title": "Vulnerabilities",
+"kicker": "Application Vulnerabilities, Part 2",
+"bullets": [
+[
+"Insecure functions",
+0
+],
+[
+"strcpy",
+1
+],
+[
+"User proper software development standards",
+1
+],
+[
+"Make sure developers understand what not to do",
+1
+],
+[
+"Provide sufficient feedback",
+1
+]
+],
+"images": []
+},
+{
+"v5": 406,
+"title": "Regulatory Environments",
+"kicker": "Vulnerability Identification",
+"bullets": [
+[
+"ISO/IEC 27001",
+0
+],
+[
+"Standard for managing information systems",
+1
+],
+[
+"Payment Card Industry Data Security Standard (PCI-DSS)",
+0
+],
+[
+"Health Insurance Portability and Accountability Act (HIPAA)",
+0
+],
+[
+"General Data Protection Regulation (GDPR)",
+0
+],
+[
+"Corporate policy",
+0
+],
+[
+"Data classification",
+0
+]
+],
+"images": []
+},
+{
+"v5": 407,
+"title": "Vulnerability Identification",
+"kicker": "Vulnerability Identification",
+"bullets": [
+[
+"Asset inventory",
+0
+],
+[
+"All endpoints?",
+1
+],
+[
+"Servers only?",
+1
+],
+[
+"Inventory all assets to determine vulnerability identification considerations",
+1
+],
+[
+"Asset criticality",
+0
+],
+[
+"Necessary to determine mediation priorities",
+1
+]
+],
+"images": []
+},
+{
+"v5": 408,
+"title": "Vulnerability Identification",
+"kicker": "Vulnerability Identification",
+"bullets": [
+[
+"Active vs. passive scanning",
+0
+]
+],
+"images": [
+"img_df975392f0.png"
+]
+},
+{
+"v5": 409,
+"title": "Mapping/ Enumeration",
+"kicker": "Vulnerability Identification",
+"bullets": [
+[
+"Common techniques",
+0
+],
+[
+"ICMP echo request",
+1
+],
+[
+"TCP SYN to port 443",
+1
+],
+[
+"TCP ACK to port 80",
+1
+],
+[
+"ICMP timestamp request",
+1
+],
+[
+"Nmap is a great tool to use here",
+0
+]
+],
+"images": []
+},
+{
+"v5": 410,
+"title": "Vulnerability Identification",
+"kicker": "Vulnerability Identification",
+"bullets": [
+[
+"Vulnerability scanning",
+0
+],
+[
+"Web application",
+1
+]
+],
+"images": []
+},
+{
+"v5": 412,
+"title": "Scanning Parameters and Criteria",
+"kicker": "Scanning Parameters and Criteria",
+"bullets": [
+[
+"Risks associated with scanning activities",
+0
+],
+[
+"May impact availability",
+1
+],
+[
+"Regulatory requirements",
+0
+],
+[
+"Work within regulatory environments",
+1
+],
+[
+"Technical constraints",
+0
+],
+[
+"Workflow",
+0
+],
+[
+"Work with your available resources (personnel and technical)",
+1
+]
+],
+"images": []
+},
+{
+"v5": 413,
+"title": "Scanning Parameters and Criteria",
+"kicker": "Scanning Parameters and Criteria",
+"bullets": [
+[
+"Sensitivity levels",
+0
+],
+[
+"Clearance and classified data",
+1
+],
+[
+"Sensitive data (PHI, PII, payment cards, etc.)",
+1
+],
+[
+"Are you authorized to view data?",
+1
+],
+[
+"Segmentation",
+0
+],
+[
+"VLANs in logical architecture",
+1
+],
+[
+"Understand network architecture for appropriate scans",
+1
+]
+],
+"images": []
+},
+{
+"v5": 414,
+"title": "Scanning Parameters and Criteria",
+"kicker": "Scanning Parameters and Criteria",
+"bullets": [
+[
+"Vulnerability feed",
+0
+],
+[
+"Up-to-date known vulnerability information",
+1
+],
+[
+"Scope",
+0
+],
+[
+"How many devices/ endpoints?",
+1
+]
+],
+"images": []
+},
+{
+"v5": 415,
+"title": "Scanning Parameters and Criteria",
+"kicker": "Scanning Parameters and Criteria",
+"bullets": [
+[
+"Credentialed vs. non-credentialed scan",
+0
+]
+],
+"images": [
+"img_48dc89e0cb.png"
+]
+},
+{
+"v5": 416,
+"title": "Scanning Parameters and Criteria",
+"kicker": "Scanning Parameters and Criteria",
+"bullets": [
+[
+"Server-based vs. agent-based scan",
+0
+]
+],
+"images": [
+"img_cbe899a899.png"
+]
+},
+{
+"v5": 417,
+"title": "Scanning Parameters and Criteria",
+"kicker": "Scanning Parameters and Criteria",
+"bullets": [
+[
+"Internal vs. external scan",
+0
+],
+[
+"Does scan execute from within corporate network?",
+1
+],
+[
+"Or execute from outside the network via external node?",
+1
+],
+[
+"Results vary",
+1
+],
+[
+"Report results based on internal/external scan",
+1
+]
+],
+"images": []
+},
+{
+"v5": 419,
+"title": "Special Scanning Considerations",
+"kicker": "Scanning Special Considerations",
+"bullets": [
+[
+"Types of data",
+0
+],
+[
+"Scan for everything or just certain types of data?",
+1
+],
+[
+"Understand the organization and regulations driving the scans",
+1
+]
+],
+"images": []
+},
+{
+"v5": 420,
+"title": "Special Scanning Considerations",
+"kicker": "Scanning Special Considerations",
+"bullets": [
+[
+"Tools",
+0
+],
+[
+"Updates and plug-ins help automate scans",
+1
+],
+[
+"Nessus",
+1
+],
+[
+"Nessus Attack Scripting Language (NASL)",
+2
+],
+[
+"Automate aspects of scanning process",
+3
+],
+[
+"Consistency in scans",
+3
+],
+[
+"Recreate scans",
+3
+]
+],
+"images": []
+},
+{
+"v5": 421,
+"title": "Special Scanning Considerations",
+"kicker": "Scanning Special Considerations",
+"bullets": [
+[
+"Security Control Automation Protocol (SCAP)",
+0
+],
+[
+"Created by NIST",
+1
+],
+[
+"Defines modules that dictate compliance requirements/settings",
+1
+]
+],
+"images": []
+},
+{
+"v5": 422,
+"title": "Special Scanning Considerations",
+"kicker": "Scanning Special Considerations",
+"bullets": [
+[
+"Intrusion detection system (IDS)/intrusion prevention system (IPS)",
+0
+],
+[
+"Firewall may reject scans",
+1
+]
+],
+"images": []
+},
+{
+"v5": 423,
+"title": "Special Scanning Considerations",
+"kicker": "Scanning Special Considerations",
+"bullets": [
+[
+"Generating reports",
+0
+],
+[
+"Templates/format",
+1
+],
+[
+"Automated vs. manual distribution",
+1
+],
+[
+"Possible executive presentation to client",
+1
+]
+],
+"images": []
+},
+{
+"v5": 425,
+"title": "Validation",
+"kicker": "Validation",
+"bullets": [
+[
+"Determining whether data is true or not",
+0
+],
+[
+"Four response types:",
+0
+],
+[
+"True, false, negative, positive",
+1
+],
+[
+"Four categories:",
+0
+],
+[
+"True positive",
+1
+],
+[
+"False positive",
+1
+],
+[
+"True negative",
+1
+],
+[
+"False negative",
+1
+]
+],
+"images": []
+},
+{
+"v5": 427,
+"title": "Remediation/ Mitigation",
+"kicker": "Remediation and Mitigation",
+"bullets": [
+[
+"Configuration baseline",
+0
+],
+[
+"Collection of all property settings of a device, OS, application, etc.",
+1
+],
+[
+"Compare to current settings and determine changes",
+1
+],
+[
+"Often implemented in audit process",
+1
+],
+[
+"Find baselines from standards organizations",
+1
+]
+],
+"images": []
+},
+{
+"v5": 428,
+"title": "Remediation/ Mitigation",
+"kicker": "Remediation and Mitigation",
+"bullets": [
+[
+"Identify vulnerabilities",
+0
+],
+[
+"Due to configuration or old software",
+1
+],
+[
+"Recommend patching software",
+1
+],
+[
+"Especially security patches",
+1
+]
+],
+"images": []
+},
+{
+"v5": 429,
+"title": "Remediation/ Mitigation",
+"kicker": "Remediation and Mitigation",
+"bullets": [
+[
+"Prioritizing",
+0
+],
+[
+"Most crucial vulnerabilities first",
+1
+],
+[
+"Highest probability of occurring",
+1
+],
+[
+"Highest impact",
+1
+]
+],
+"images": []
+},
+{
+"v5": 430,
+"title": "Remediation/ Mitigation",
+"kicker": "Remediation and Mitigation",
+"bullets": [
+[
+"Hardening",
+0
+],
+[
+"Process of remediating",
+1
+],
+[
+"Make a device less susceptible to attack",
+1
+]
+],
+"images": []
+},
+{
+"v5": 431,
+"title": "Remediation/ Mitigation",
+"kicker": "Remediation and Mitigation",
+"bullets": [
+[
+"Compensating controls",
+0
+],
+[
+"Helps mitigate vulnerability without directly addressing the cause",
+1
+],
+[
+"Example: firewall with closed ports",
+1
+],
+[
+"Ideally implement layers of compensating controls",
+1
+]
+],
+"images": []
+},
+{
+"v5": 432,
+"title": "Remediation/ Mitigation",
+"kicker": "Remediation and Mitigation",
+"bullets": [
+[
+"Risk acceptance",
+0
+],
+[
+"Document",
+1
+],
+[
+"Have long-term solution to mitigate eventually",
+1
+]
+],
+"images": []
+},
+{
+"v5": 433,
+"title": "Remediation/ Mitigation",
+"kicker": "Remediation and Mitigation",
+"bullets": [
+[
+"Verification of mitigation",
+0
+]
+],
+"images": []
+},
+{
+"v5": 435,
+"title": "Inhibitors to Remediation",
+"kicker": "Inhibitors to Remediation",
+"bullets": [
+[
+"Memorandum of understanding (MOU)",
+0
+],
+[
+"Authorizes/limits scanning activities",
+0
+]
+],
+"images": []
+},
+{
+"v5": 436,
+"title": "Inhibitors to Remediation",
+"kicker": "Inhibitors to Remediation",
+"bullets": [
+[
+"Service-level agreement (SLA)",
+0
+],
+[
+"Dictates what each party does",
+1
+],
+[
+"May limit remediation actions",
+1
+],
+[
+"May limit scanning capabilities",
+1
+]
+],
+"images": []
+},
+{
+"v5": 437,
+"title": "Inhibitors to Remediation",
+"kicker": "Inhibitors to Remediation",
+"bullets": [
+[
+"Organizational governance",
+0
+],
+[
+"Potential limits on remediation due to collateral impact",
+1
+]
+],
+"images": []
+},
+{
+"v5": 438,
+"title": "Inhibitors to Remediation",
+"kicker": "Inhibitors to Remediation",
+"bullets": [
+[
+"Business process interruption",
+0
+],
+[
+"Degrading functionality",
+0
+],
+[
+"Legacy systems",
+0
+],
+[
+"Proprietary systems",
+0
+]
+],
+"images": []
+},
+{
+"v5": 441,
+"title": "Mobile",
+"kicker": "Mobile and IoT",
+"bullets": [
+[
+"Access points",
+0
+],
+[
+"Any place where a device connects via Wi-Fi, then into the network infrastructure",
+1
+],
+[
+"Common place for vulnerabilities",
+1
+]
+],
+"images": []
+},
+{
+"v5": 442,
+"title": "Mobile",
+"kicker": "Mobile and IoT",
+"bullets": [
+[
+"VPNs",
+0
+],
+[
+"Virtual private network",
+1
+],
+[
+"Establish secure connection using insecure access point",
+1
+]
+],
+"images": []
+},
+{
+"v5": 443,
+"title": "Mobile",
+"kicker": "Mobile and IoT",
+"bullets": [
+[
+"Network vulnerabilities",
+0
+],
+[
+"Mobile device has to connect to IT infrastructure",
+1
+],
+[
+"Wi-Fi or cellular",
+2
+],
+[
+"Older cellular technologies were very insecure",
+2
+],
+[
+"Newer technologies are more secure and use encryption",
+2
+]
+],
+"images": []
+},
+{
+"v5": 444,
+"title": "Mobile",
+"kicker": "Mobile and IoT",
+"bullets": [
+[
+"Device vulnerabilities",
+0
+],
+[
+"Securing mobile devices is challenging",
+1
+],
+[
+"Provisioned for multi-use",
+1
+],
+[
+"Can\u2019t secure one device for many different uses",
+1
+]
+],
+"images": []
+},
+{
+"v5": 445,
+"title": "Mobile",
+"kicker": "Mobile and IoT",
+"bullets": [
+[
+"Operating system vulnerabilities",
+0
+],
+[
+"Operating systems update frequently",
+1
+],
+[
+"Competition between OS manufacturers",
+1
+],
+[
+"Patch bugs and security vulnerabilities",
+1
+]
+],
+"images": []
+},
+{
+"v5": 446,
+"title": "Mobile",
+"kicker": "Mobile and IoT",
+"bullets": [
+[
+"App vulnerabilities",
+0
+],
+[
+"Improper platform usage",
+1
+],
+[
+"Insecure data storage",
+1
+],
+[
+"Insecure authentication",
+1
+],
+[
+"Insecure authorization",
+1
+],
+[
+"Code quality vulnerabilities",
+1
+]
+],
+"images": []
+},
+{
+"v5": 447,
+"title": "Internet of Things (IoT)",
+"kicker": "Mobile and IoT",
+"bullets": [
+[
+"Smaller devices connecting to the Internet and doing things autonomously",
+0
+],
+[
+"Increased risk of compromise",
+1
+]
+],
+"images": []
+},
+{
+"v5": 448,
+"title": "Internet of Things (IoT)",
+"kicker": "Mobile and IoT",
+"bullets": [
+[
+"Botnet",
+0
+],
+[
+"Collection of compromised devices used to launch a DDoS attack",
+1
+],
+[
+"Mirai botnet",
+0
+],
+[
+"Malware that compromised a lot of insecure IoT devices",
+1
+],
+[
+"Successful DDoS attack",
+1
+]
+],
+"images": []
+},
+{
+"v5": 449,
+"title": "Internet of Things (IoT)",
+"kicker": "Mobile and IoT",
+"bullets": [
+[
+"IoT devices are ubiquitous",
+0
+],
+[
+"Users often not concerned about security",
+0
+],
+[
+"Many devices are not hardened",
+0
+],
+[
+"Default credentials are easy to find",
+0
+]
+],
+"images": []
+},
+{
+"v5": 451,
+"title": "Embedded",
+"kicker": "Embedded and Firmware Systems (RTOS, SoC, and FPGA)",
+"bullets": [
+[
+"Special-purpose software",
+0
+],
+[
+"Low-power processor",
+0
+],
+[
+"Often no external storage",
+0
+],
+[
+"Software can be burned into the firmware",
+0
+],
+[
+"Could just be hardware only",
+0
+],
+[
+"Limited ability to monitor or patch",
+0
+]
+],
+"images": []
+},
+{
+"v5": 452,
+"title": "Real-time Operating System (RTOS)",
+"kicker": "Embedded and Firmware Systems (RTOS, SoC, and FPGA)",
+"bullets": [
+[
+"Devices that require low-latency input processing",
+0
+],
+[
+"Vehicles",
+1
+],
+[
+"Manufacturing",
+1
+],
+[
+"Aviation",
+1
+],
+[
+"Medical",
+1
+],
+[
+"Vulnerabilities allow threats to underlying performance guarantees",
+0
+]
+],
+"images": []
+},
+{
+"v5": 453,
+"title": "System on a Chip (SoC)",
+"kicker": "Embedded and Firmware Systems (RTOS, SoC, and FPGA)",
+"bullets": [
+[
+"Software and hardware integrated on a single chip",
+0
+],
+[
+"Used in special-purpose applications",
+0
+],
+[
+"SoC is efficient and cost effective",
+0
+],
+[
+"Vulnerabilities can affect the entire SoC environment (hardware and software)",
+0
+]
+],
+"images": []
+},
+{
+"v5": 454,
+"title": "Field Programmable Gate Array (FPGA)",
+"kicker": "Embedded and Firmware Systems (RTOS, SoC, and FPGA)",
+"bullets": [
+[
+"Combination of SoC and embedded system",
+0
+],
+[
+"Programmable chip with the ability to be modified and reprogrammed in the field",
+0
+],
+[
+"Must use special device to overwrite the firmware",
+0
+],
+[
+"Upgradable",
+1
+],
+[
+"Cost effective",
+0
+],
+[
+"Simplicity sometimes leads to vulnerabilities",
+0
+]
+],
+"images": []
+},
+{
+"v5": 456,
+"title": "Physical Access Control",
+"kicker": "Access and Vehicles Risk",
+"bullets": [
+[
+"Example: RFID",
+0
+],
+[
+"Radiofrequency identification",
+1
+],
+[
+"Chip that uniquely communicates with receiver",
+1
+],
+[
+"Physical readers make reverse engineering and spoofing possible",
+0
+],
+[
+"Vulnerabilities can allow attackers to bypass access control",
+0
+],
+[
+"Replay and cloning are popular attack methods",
+0
+]
+],
+"images": []
+},
+{
+"v5": 457,
+"title": "Vehicles",
+"kicker": "Access and Vehicles Risk",
+"bullets": [
+[
+"Vehicles of all types are increasingly connected",
+0
+],
+[
+"Internet connectivity",
+0
+],
+[
+"Access to many subsystems",
+1
+],
+[
+"Control of some subsystems",
+1
+],
+[
+"Also opens up vulnerabilities",
+1
+]
+],
+"images": []
+},
+{
+"v5": 458,
+"title": "Typical CAN Bus Configuration",
+"kicker": "Access and Vehicles Risk",
+"bullets": [
+[
+"Controller Area Network (CAN bus)",
+0
+],
+[
+"Defines communication among vehicle component",
+0
+]
+],
+"images": [
+"img_a32d604f30.png"
+]
+},
+{
+"v5": 459,
+"title": "Typical CAN Bus Configuration",
+"kicker": "Access and Vehicles Risk",
+"bullets": [
+[
+"Controller Area Network (CAN bus)",
+0
+],
+[
+"Defines communication among vehicle component",
+0
+]
+],
+"images": [
+"img_10e53c9dc2.png"
+]
+},
+{
+"v5": 460,
+"title": "Vehicles",
+"kicker": "Access and Vehicles Risk",
+"bullets": [
+[
+"Controller Area Network (CAN bus)",
+0
+],
+[
+"CAN exploits (to alter vehicle operation) have been demonstrated",
+1
+]
+],
+"images": []
+},
+{
+"v5": 461,
+"title": "Drones",
+"kicker": "Access and Vehicles Risk",
+"bullets": [
+[
+"Can be malicious",
+0
+],
+[
+"Controlled by an attacker",
+1
+],
+[
+"Can be innocent",
+0
+],
+[
+"Drone operators may have their drones hijacked and used for malicious purposes",
+1
+],
+[
+"Many options for attacks",
+0
+]
+],
+"images": []
+},
+{
+"v5": 463,
+"title": "Building Automation Systems",
+"kicker": "Automation and Control Risk",
+"bullets": [
+[
+"Network of connected cyber-physical devices",
+0
+],
+[
+"Combination of computing device that has impact on physical world",
+1
+],
+[
+"Examples:",
+1
+],
+[
+"Robots",
+2
+],
+[
+"Lighting",
+2
+],
+[
+"Environmental control",
+2
+],
+[
+"Physical access",
+2
+],
+[
+"Smoke detection",
+2
+],
+[
+"Fire suppression",
+2
+],
+[
+"Vulnerabilities can impact a building\u2019s usability, inhabitability, and safety",
+0
+]
+],
+"images": []
+},
+{
+"v5": 464,
+"title": "Workflow and Process Automation Systems",
+"kicker": "Automation and Control Risk",
+"bullets": [
+[
+"Systems that direct and/or control workflow",
+0
+],
+[
+"Project management",
+1
+],
+[
+"Document management",
+1
+],
+[
+"Software Configuration Management (SCM)",
+1
+],
+[
+"Value is in autonomy",
+0
+],
+[
+"Vulnerabilities can include malicious workflow alterations",
+1
+],
+[
+"Important to externally audit desired workflow",
+0
+]
+],
+"images": []
+},
+{
+"v5": 465,
+"title": "Industrial Control System (ICS)",
+"kicker": "Automation and Control Risk",
+"bullets": [
+[
+"Cyber-physical systems",
+0
+],
+[
+"Software to control physical behavior",
+1
+],
+[
+"Common in manufacturing and warehousing/distribution",
+0
+],
+[
+"Other applications include elevators and HVAC systems",
+0
+],
+[
+"Remote Terminal Units (RTU) or Programmable Logic Controllers (PLC)",
+0
+],
+[
+"Connect physical world to computers",
+1
+],
+[
+"PLCs commonly use firmware",
+0
+],
+[
+"Difficult to monitor or upgrade",
+1
+]
+],
+"images": []
+},
+{
+"v5": 466,
+"title": "Supervisory Control and Data Acquisition (SCADA)",
+"kicker": "Automation and Control Risk",
+"bullets": [
+[
+"Special class of ICS",
+0
+],
+[
+"Controls cyber-physical systems",
+0
+],
+[
+"SCADA vulnerabilities",
+0
+],
+[
+"Communications with remote facilities",
+1
+],
+[
+"Autonomous operation of remote facilities",
+1
+],
+[
+"SCADA is not modular",
+1
+],
+[
+"Modbus",
+0
+],
+[
+"SCADA (PLC) communication standard",
+1
+],
+[
+"Security not part of its design",
+1
+]
+],
+"images": []
+},
+{
+"v5": 469,
+"title": "Software as a Service (SaaS)",
+"kicker": "Cloud Models",
+"bullets": [],
+"images": [
+"img_1dc864a70d.png"
+]
+},
+{
+"v5": 470,
+"title": "Platform as a Service (PaaS)",
+"kicker": "Cloud Models",
+"bullets": [],
+"images": [
+"img_0b76ee5878.png"
+]
+},
+{
+"v5": 471,
+"title": "Infrastructure as a Service (IaaS)",
+"kicker": "Cloud Models",
+"bullets": [],
+"images": [
+"img_c54a6d0061.png"
+]
+},
+{
+"v5": 472,
+"title": "Cloud Deployment Models",
+"kicker": "Cloud Models",
+"bullets": [
+[
+"Public",
+0
+],
+[
+"Most popular",
+1
+],
+[
+"Lease connectivity and functionality from service provider",
+1
+],
+[
+"Private",
+0
+],
+[
+"Create collection of servers in your own data center",
+1
+],
+[
+"Only for internal network users",
+1
+]
+],
+"images": []
+},
+{
+"v5": 473,
+"title": "Cloud Deployment Models",
+"kicker": "Cloud Models",
+"bullets": [
+[
+"Community",
+0
+],
+[
+"Private cloud owned by a consortium",
+1
+],
+[
+"Shared among many entities",
+1
+],
+[
+"Hybrid",
+0
+],
+[
+"Looks like single cloud but made up of both public and private (and maybe community)",
+1
+]
+],
+"images": []
+},
+{
+"v5": 474,
+"title": "Cloud Deployment Models",
+"kicker": "Cloud Models",
+"bullets": [
+[
+"Each model opens up vulnerabilities",
+0
+],
+[
+"Authorization concerns",
+1
+],
+[
+"Authentication concerns",
+1
+]
+],
+"images": []
+},
+{
+"v5": 476,
+"title": "Function as a Service (FaaS)",
+"kicker": "Remote Service Invocation (FaaS, IaC, API)",
+"bullets": [
+[
+"Serverless architecture",
+0
+],
+[
+"No servers need to be set up",
+1
+],
+[
+"Focus is on responding to functionality requests",
+1
+],
+[
+"Example: Amazon Lambda",
+0
+]
+],
+"images": []
+},
+{
+"v5": 477,
+"title": "Infrastructure as Code (IaC)",
+"kicker": "Remote Service Invocation (FaaS, IaC, API)",
+"bullets": [
+[
+"Developers tend to develop based on personal preferences",
+0
+],
+[
+"Development environments diverge",
+1
+],
+[
+"Can introduce vulnerabilities",
+1
+]
+],
+"images": []
+},
+{
+"v5": 478,
+"title": "Infrastructure as Code (IaC)",
+"kicker": "Remote Service Invocation (FaaS, IaC, API)",
+"bullets": [
+[
+"Structured method to create stable development environments",
+0
+],
+[
+"Minimizes local configuration differences",
+0
+],
+[
+"Virtualization and structured provisioning",
+0
+],
+[
+"Makes it easy to create cloned environments",
+1
+]
+],
+"images": []
+},
+{
+"v5": 480,
+"title": "Insecure Application Programming Interface (API)",
+"kicker": "Insecure Application Programming Interface (API)",
+"bullets": [
+[
+"Poorly written APIs may have vulnerabilities",
+0
+]
+],
+"images": []
+},
+{
+"v5": 481,
+"title": "OWASP API Security Project top ten vulnerabilities",
+"kicker": "Insecure Application Programming Interface (API)",
+"bullets": [
+[
+"Broken object level authorization",
+0
+],
+[
+"Mass assignment",
+0
+],
+[
+"Broken user authentication",
+0
+],
+[
+"Excessive data exposure",
+0
+],
+[
+"Lack of resources and rate limiting",
+0
+],
+[
+"Broken function level authorization",
+0
+],
+[
+"Security misconfiguration",
+0
+],
+[
+"Injection",
+0
+],
+[
+"Improper asset management",
+0
+],
+[
+"Insufficient logging and monitoring",
+0
+]
+],
+"images": []
+},
+{
+"v5": 483,
+"title": "Improper Key Management",
+"kicker": "Cloud Vulnerabilities",
+"bullets": [
+[
+"Encryption can protect",
+0
+],
+[
+"Confidentiality",
+1
+],
+[
+"Integrity",
+1
+],
+[
+"Non-repudiation",
+1
+],
+[
+"Security depends on the encryption key",
+0
+],
+[
+"Key management is difficult (to do right)",
+0
+],
+[
+"Generation",
+1
+],
+[
+"Distribution",
+1
+],
+[
+"Replacement",
+1
+]
+],
+"images": []
+},
+{
+"v5": 484,
+"title": "Unprotected Storage",
+"kicker": "Cloud Vulnerabilities",
+"bullets": [
+[
+"Cloud storage is located on someone else\u2019s computing systems",
+0
+],
+[
+"Be sure to secure the storage",
+1
+],
+[
+"Vulnerabilities can leave storage open to hackers",
+1
+],
+[
+"Admins must configure security settings properly",
+0
+],
+[
+"Common loophole is mass access",
+0
+],
+[
+"Often granted for convenience",
+1
+],
+[
+"May expose sensitive data",
+1
+]
+],
+"images": []
+},
+{
+"v5": 485,
+"title": "Logging and Monitoring",
+"kicker": "Cloud Vulnerabilities",
+"bullets": [
+[
+"Responsibility changes based on cloud service models",
+0
+],
+[
+"If service provider is taking on most of the responsibility, user has little control over what gets logged",
+0
+],
+[
+"Monitor and log all important events",
+0
+],
+[
+"More services means less granular control",
+0
+],
+[
+"SLAs spell out roles and responsibilities",
+0
+]
+],
+"images": []
+},
+{
+"v5": 488,
+"title": "Platforms",
+"kicker": "Platforms",
+"bullets": [
+[
+"Software architecture",
+0
+],
+[
+"What happens and where it happens",
+1
+],
+[
+"Processing",
+1
+],
+[
+"Presentation logic",
+2
+],
+[
+"Business logic",
+2
+],
+[
+"Storage",
+1
+],
+[
+"Communication",
+1
+]
+],
+"images": []
+},
+{
+"v5": 489,
+"title": "Common Architecture Types",
+"kicker": "Platforms",
+"bullets": [
+[
+"Host-based",
+0
+],
+[
+"Client-based",
+0
+],
+[
+"Client/server",
+0
+],
+[
+"Distributed (n-tier)",
+0
+]
+],
+"images": []
+},
+{
+"v5": 490,
+"title": "Software Considerations",
+"kicker": "Platforms",
+"bullets": [
+[
+"Client/server",
+0
+],
+[
+"Thick client",
+1
+],
+[
+"Web application",
+0
+],
+[
+"Distributed, browser-based",
+1
+],
+[
+"Mobile",
+0
+],
+[
+"Thin client",
+1
+]
+],
+"images": []
+},
+{
+"v5": 491,
+"title": "Software Considerations",
+"kicker": "Platforms",
+"bullets": [
+[
+"Embedded",
+0
+],
+[
+"Self-contained",
+1
+],
+[
+"System-on-chip (SoC)",
+0
+],
+[
+"More compact embedded",
+1
+],
+[
+"Firmware",
+0
+],
+[
+"Just the stable code",
+1
+]
+],
+"images": []
+},
+{
+"v5": 493,
+"title": "Service-Oriented Architecture (SOA)",
+"kicker": "SOA and DevSecOps",
+"bullets": [
+[
+"SOA clients consume services via APIs",
+0
+],
+[
+"Usually based on web approach",
+0
+],
+[
+"Loosely-coupled connection between client and server",
+1
+],
+[
+"Two types of connections",
+0
+],
+[
+"Persistent",
+1
+],
+[
+"Non-persistent",
+1
+],
+[
+"SOAs can be open or closed",
+0
+],
+[
+"Cloud computing makes SOA far easier to scale",
+0
+]
+],
+"images": []
+},
+{
+"v5": 494,
+"title": "Service-Oriented Architecture (SOA)",
+"kicker": "SOA and DevSecOps",
+"bullets": [
+[
+"Security Assertions Markup Language (SAML)",
+0
+],
+[
+"Common standard for SOA authentication and authorization",
+1
+],
+[
+"SOA implies separate trust zones",
+1
+],
+[
+"Applications need a standard way to communicate identity and state",
+1
+]
+],
+"images": []
+},
+{
+"v5": 495,
+"title": "Service-Oriented Architecture (SOA)",
+"kicker": "SOA and DevSecOps",
+"bullets": [
+[
+"Simple Object Access Protocol (SOAP)",
+0
+],
+[
+"Early method to invoke services",
+1
+],
+[
+"XML over HTTP",
+1
+],
+[
+"Data in envelope approach",
+1
+],
+[
+"Can be complex",
+1
+]
+],
+"images": []
+},
+{
+"v5": 496,
+"title": "Service-Oriented Architecture (SOA)",
+"kicker": "SOA and DevSecOps",
+"bullets": [
+[
+"Representational State Transfer (REST)",
+0
+],
+[
+"Lightweight and flexible",
+1
+],
+[
+"Preferred for clients with minimal processing capability",
+1
+],
+[
+"Based on HTTP methods",
+1
+],
+[
+"Microservices",
+0
+],
+[
+"Limited scope, loosely coupled services (often REST)",
+1
+]
+],
+"images": []
+},
+{
+"v5": 497,
+"title": "DevOps",
+"kicker": "SOA and DevSecOps",
+"bullets": [
+[
+"Integrates operations with software development",
+0
+],
+[
+"Gives operations direct input into software functionality and quality",
+0
+],
+[
+"Developers benefit from timely, relevant perspective",
+0
+]
+],
+"images": []
+},
+{
+"v5": 498,
+"title": "DevSecOps",
+"kicker": "SOA and DevSecOps",
+"bullets": [
+[
+"Integrates security with DevOps",
+0
+],
+[
+"Increases the priority of security",
+0
+],
+[
+"No longer an afterthought",
+1
+],
+[
+"Easier (and cheaper) to design security into software",
+0
+],
+[
+"No adding it in later",
+1
+]
+],
+"images": []
+},
+{
+"v5": 500,
+"title": "Coding Requirements",
+"kicker": "Secure Software Development",
+"bullets": [
+[
+"Functional requirements",
+0
+],
+[
+"Inputs, processes, & outputs",
+1
+],
+[
+"Non-functional requirements",
+0
+],
+[
+"Character inputs, input constraints, & system limitations",
+1
+],
+[
+"Security requirements",
+0
+],
+[
+"Behaviors and characteristic to meet security levels",
+1
+],
+[
+"Interaction with other systems",
+1
+],
+[
+"Class includes functional & non-functional aspects",
+1
+]
+],
+"images": []
+},
+{
+"v5": 501,
+"title": "Development Phase",
+"kicker": "Secure Software Development",
+"bullets": [
+[
+"Design",
+0
+],
+[
+"Engineering",
+0
+],
+[
+"Construction",
+0
+]
+],
+"images": []
+},
+{
+"v5": 502,
+"title": "Development Phase",
+"kicker": "Secure Software Development",
+"bullets": [
+[
+"Static analysis",
+0
+],
+[
+"Before code has been executed",
+1
+],
+[
+"Automated tools assist analyst and developers",
+1
+],
+[
+"Code review",
+0
+],
+[
+"Manual inspection by human developers and security staff",
+1
+]
+],
+"images": []
+},
+{
+"v5": 503,
+"title": "Implementation Phase",
+"kicker": "Secure Software Development",
+"bullets": [
+[
+"Testing",
+0
+],
+[
+"Functional",
+1
+],
+[
+"Software performs as expected",
+2
+],
+[
+"Non-functional",
+1
+],
+[
+"Quality test of infrastructure",
+2
+],
+[
+"User acceptance",
+1
+],
+[
+"Software acts as user expects",
+2
+]
+],
+"images": []
+},
+{
+"v5": 504,
+"title": "Implementation Phase",
+"kicker": "Secure Software Development",
+"bullets": [
+[
+"Testing for the security professional",
+0
+],
+[
+"Fuzzing",
+1
+],
+[
+"Give software various input",
+2
+],
+[
+"Define crashes & exceptions",
+2
+],
+[
+"Stress",
+1
+],
+[
+"Push limits of software",
+2
+],
+[
+"Give input the software is expecting",
+2
+],
+[
+"Regression",
+1
+],
+[
+"Test security through updates & patches",
+2
+]
+],
+"images": []
+},
+{
+"v5": 505,
+"title": "Operations & Maintenance Phase",
+"kicker": "Secure Software Development",
+"bullets": [
+[
+"Maintenance responsibility",
+0
+],
+[
+"Outline software security requirements for developers & implementers",
+1
+],
+[
+"Patches \u2013 how often, under what conditions, who is responsible",
+1
+],
+[
+"Maintenance phase length",
+0
+],
+[
+"All software eventually gets retired",
+1
+],
+[
+"Define end-of-life",
+1
+]
+],
+"images": []
+},
+{
+"v5": 506,
+"title": "Waterfall Model",
+"kicker": "Secure Software Development",
+"bullets": [],
+"images": [
+"img_d809b409a6.png"
+]
+},
+{
+"v5": 507,
+"title": "Agile Model",
+"kicker": "Secure Software Development",
+"bullets": [],
+"images": [
+"img_33bf1bcabd.png"
+]
+},
+{
+"v5": 509,
+"title": "SEI",
+"kicker": "Best Coding Practices",
+"bullets": [
+[
+"Top ten practices - https://www.securecoding.cert.org/confluence/display/seccode/Top+10+Secure+Coding+Practices",
+0
+]
+],
+"images": []
+},
+{
+"v5": 510,
+"title": "OWASP",
+"kicker": "Best Coding Practices",
+"bullets": [
+[
+"https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf",
+0
+],
+[
+"TOC",
+0
+],
+[
+"Input validation section",
+0
+]
+],
+"images": []
+},
+{
+"v5": 300,
+"title": "Trusted Platform Module (TPM)",
+"kicker": "Trusted Hardware",
+"bullets": [
+[
+"TPM chip",
+0
+],
+[
+"System-on-chip (SoC)",
+1
+],
+[
+"Stores cryptographic keys and the functionality to deal with them",
+1
+],
+[
+"Persistent memory",
+0
+],
+[
+"Endorsement key (EK)",
+1
+],
+[
+"Storage root key (SRK)",
+1
+],
+[
+"Versatile memory",
+0
+],
+[
+"Platform Configuration Registers (PCRs)",
+1
+],
+[
+"Attestation Identity Keys (AIKs)",
+1
+],
+[
+"Storage keys",
+1
+]
+],
+"images": []
+},
+{
+"v5": 301,
+"title": "Hardware Security Module (HSM)",
+"kicker": "Trusted Hardware",
+"bullets": [
+[
+"Not bound to a motherboard",
+0
+],
+[
+"Removable card or device",
+0
+]
+],
+"images": []
+},
+{
+"v5": 302,
+"title": "eFuse",
+"kicker": "Trusted Hardware",
+"bullets": [
+[
+"Nonvolatile bit",
+0
+],
+[
+"Once set to 1, cannot be changed",
+1
+],
+[
+"Useful to permanently disable functionality",
+0
+],
+[
+"Manufacturing tests",
+1
+],
+[
+"Useful to permanently store data",
+0
+],
+[
+"Cryptographic keys",
+1
+]
+],
+"images": []
+},
+{
+"v5": 303,
+"title": "Firmware",
+"kicker": "Trusted Hardware",
+"bullets": [
+[
+"Software that\u2019s burned into hardware (chip)",
+0
+],
+[
+"Difficult to change",
+0
+]
+],
+"images": []
+},
+{
+"v5": 304,
+"title": "Firmware",
+"kicker": "Trusted Hardware",
+"bullets": [
+[
+"Unified Extensible Firmware Interface (UEFI)",
+0
+],
+[
+"Security Phase (SEC)",
+1
+],
+[
+"Pre-EFI Initialization (PEI)",
+1
+],
+[
+"Driver Execution Environment (DXE)",
+1
+],
+[
+"Boot Device Select (BDS)",
+1
+],
+[
+"Transient System Load (TSL)",
+1
+],
+[
+"Runtime (RT)",
+1
+]
+],
+"images": []
+},
+{
+"v5": 305,
+"title": "Firmware Security",
+"kicker": "Trusted Hardware",
+"bullets": [
+[
+"Measured boot and attestation",
+0
+],
+[
+"Instead of verifying digital signatures of code",
+1
+],
+[
+"Calculates code hashes",
+2
+],
+[
+"Stores hashes of programs that have been run",
+2
+],
+[
+"Securely sends hashes to management station",
+2
+]
+],
+"images": []
+},
+{
+"v5": 306,
+"title": "Firmware Security",
+"kicker": "Trusted Hardware",
+"bullets": [
+[
+"Trusted firmware updates",
+0
+],
+[
+"Built-in capability to download, verify, and swap firmware images",
+1
+],
+[
+"Avoids overwrite failures that result in unbootable devices",
+1
+]
+],
+"images": []
+},
+{
+"v5": 308,
+"title": "Storage Encryption",
+"kicker": "Hardware Encryption",
+"bullets": [
+[
+"Full-disk encryption (FDE)",
+0
+],
+[
+"Software",
+1
+],
+[
+"Hardware",
+1
+]
+],
+"images": []
+},
+{
+"v5": 309,
+"title": "Hardware Encryption",
+"kicker": "Hardware Encryption",
+"bullets": [
+[
+"Self-encrypting drive (SED)",
+0
+],
+[
+"User provides password",
+1
+],
+[
+"Password gets used to encrypt key",
+1
+],
+[
+"Encrypted key is stored in nonvolatile memory of the disk controller",
+1
+]
+],
+"images": []
+},
+{
+"v5": 310,
+"title": "Bus Encryption",
+"kicker": "Hardware Encryption",
+"bullets": [
+[
+"SED still exposes plaintext once data gets read from the disk",
+0
+],
+[
+"Moving crypto module from the disk controller to the CPU",
+0
+],
+[
+"Keeps data on the bus as ciphertext",
+1
+],
+[
+"Requires a dedicated chip (cryptoprocessor)",
+1
+]
+],
+"images": []
+},
+{
+"v5": 311,
+"title": "Bus Encryption",
+"kicker": "Hardware Encryption",
+"bullets": [
+[
+"Bus encryption is not suitable for general purpose computers",
+0
+],
+[
+"Expensive",
+1
+],
+[
+"Complex",
+1
+],
+[
+"Functional limitations",
+1
+]
+],
+"images": []
+},
+{
+"v5": 313,
+"title": "Secure Processing",
+"kicker": "Hardware Security",
+"bullets": [
+[
+"Trusted execution environment (TEE)",
+0
+],
+[
+"Rigorous assessment prior to certification",
+1
+],
+[
+"Secure enclave",
+1
+],
+[
+"Runtime environment that limits how programs interact with one another and the outside world",
+2
+]
+],
+"images": []
+},
+{
+"v5": 314,
+"title": "TEE and REE",
+"kicker": "Hardware Security",
+"bullets": [
+[
+"Processor security extensions",
+0
+],
+[
+"CPU instructions that support TEE functionality",
+1
+]
+],
+"images": [
+"img_b6f5bea0b9.png"
+]
+},
+{
+"v5": 315,
+"title": "Trusted Foundry",
+"kicker": "Hardware Security",
+"bullets": [
+[
+"US DoD program",
+0
+],
+[
+"Ensures that the supply chain for all DoD mission-critical systems is hardened",
+0
+],
+[
+"Fewer than 100 companies have passed the rigorous certification process to be designated as trusted foundries",
+0
+]
+],
+"images": []
+},
+{
+"v5": 316,
+"title": "Anti-Tamper Techniques",
+"kicker": "Hardware Security",
+"bullets": [
+[
+"Chip attacks",
+0
+],
+[
+"Microprobing",
+1
+],
+[
+"Apply voltage to various conductors and recording the results",
+2
+],
+[
+"Visual analysis",
+0
+],
+[
+"Carefully removing the chip\u2019s covering, layer by layer",
+1
+]
+],
+"images": []
+},
+{
+"v5": 317,
+"title": "Anti-Tamper Techniques",
+"kicker": "Hardware Security",
+"bullets": [
+[
+"Chip manufacturers employ techniques to thwart tampering",
+0
+],
+[
+"Random signals to confuse microprobing",
+1
+],
+[
+"Chip casing compromise detection",
+1
+],
+[
+"If compromised, place zeros in nonvolatile memory",
+2
+]
+],
+"images": []
+}
+],
+"3": [
+{
+"v5": 277,
+"title": "Attack Frameworks",
+"kicker": "Attack Frameworks",
+"bullets": [
+[
+"Help define tactics, techniques, and procedures (TTPs)",
+0
+],
+[
+"MITRE Corporation",
+0
+],
+[
+"MITRE ATT&CK (Adversarial Tactics, Techniques, and Common Knowledge)",
+0
+],
+[
+"Used to track adversarial behavior",
+0
+]
+],
+"images": []
+},
+{
+"v5": 278,
+"title": "Attack Frameworks",
+"kicker": "Attack Frameworks",
+"bullets": [
+[
+"Activities are organized into 12 activities",
+0
+],
+[
+"Discovery",
+0
+],
+[
+"Lateral movement",
+0
+],
+[
+"Defense evasion",
+0
+],
+[
+"Credential access",
+0
+],
+[
+"Collection",
+0
+],
+[
+"Command and control",
+0
+],
+[
+"Exfiltration",
+0
+],
+[
+"Impact",
+0
+],
+[
+"Initial access",
+0
+],
+[
+"Execution",
+0
+]
+],
+"images": []
+},
+{
+"v5": 279,
+"title": "Attack Frameworks",
+"kicker": "Attack Frameworks",
+"bullets": [
+[
+"Activities are organized into 12 activities",
+0
+],
+[
+"Persistence",
+0
+],
+[
+"Privilege escalation",
+0
+]
+],
+"images": []
+},
+{
+"v5": 280,
+"title": "Attack Frameworks",
+"kicker": "Attack Frameworks",
+"bullets": [
+[
+"The Diamond Model of Intrusion Analysis",
+0
+],
+[
+"Shows relationships between 4 core components",
+1
+]
+],
+"images": []
+},
+{
+"v5": 281,
+"title": "Attack Frameworks",
+"kicker": "Attack Frameworks",
+"bullets": [
+[
+"The Diamond Model of Intrusion Analysis",
+0
+],
+[
+"Shows relationships between 4 core components",
+1
+]
+],
+"images": [
+"img_d227738513.png"
+]
+},
+{
+"v5": 282,
+"title": "Attack Frameworks",
+"kicker": "Attack Frameworks",
+"bullets": [
+[
+"The Diamond Model of Intrusion Analysis",
+0
+],
+[
+"Shows relationships between 4 core components",
+1
+]
+],
+"images": [
+"img_2788bbd06d.png"
+]
+},
+{
+"v5": 283,
+"title": "Attack Frameworks",
+"kicker": "Attack Frameworks",
+"bullets": [
+[
+"The Diamond Model of Intrusion Analysis",
+0
+],
+[
+"Shows relationships between 4 core components",
+1
+]
+],
+"images": [
+"img_103019eb99.png"
+]
+},
+{
+"v5": 284,
+"title": "Diamond Model Axioms",
+"kicker": "Attack Frameworks",
+"bullets": [],
+"images": [
+"img_0605d5ac69.png"
+]
+},
+{
+"v5": 285,
+"title": "Attack Frameworks",
+"kicker": "Attack Frameworks",
+"bullets": [
+[
+"Kill chain",
+0
+],
+[
+"Based on military F2T2EA",
+1
+],
+[
+"Find",
+2
+],
+[
+"Fix",
+2
+],
+[
+"Track",
+2
+],
+[
+"Target",
+2
+],
+[
+"Engage",
+2
+],
+[
+"Assess",
+2
+]
+],
+"images": []
+},
+{
+"v5": 286,
+"title": "Lockheed Martin Cyber Kill Chain",
+"kicker": "Attack Frameworks",
+"bullets": [],
+"images": [
+"img_34df8d5619.png"
+]
+},
+{
+"v5": 532,
+"title": "IR Process Key Roles",
+"kicker": "IR Roles and Responsibilities",
+"bullets": [
+[
+"Senior leaders",
+0
+],
+[
+"Include in decision-making process",
+1
+],
+[
+"Visibility & support",
+1
+],
+[
+"Address regulatory issues",
+1
+],
+[
+"Buffer between IR team & personnel/leaders",
+1
+]
+],
+"images": []
+},
+{
+"v5": 533,
+"title": "IR Process Key Roles",
+"kicker": "IR Roles and Responsibilities",
+"bullets": [
+[
+"Team composition",
+0
+],
+[
+"Response based on scope of incident management",
+1
+],
+[
+"Bring in the right knowledge & experience to meet the problem",
+1
+],
+[
+"Outside resources need coordination & pre-set parameters",
+1
+],
+[
+"Escalated IR",
+0
+],
+[
+"Need strict guidelines, policies, & notification requirements",
+1
+],
+[
+"May be subject to penalties or legal ramifications",
+1
+]
+],
+"images": []
+},
+{
+"v5": 534,
+"title": "IR Process Key Roles",
+"kicker": "IR Roles and Responsibilities",
+"bullets": [],
+"images": [
+"img_dc65adb904.png"
+]
+},
+{
+"v5": 535,
+"title": "Team Structure",
+"kicker": "IR Roles and Responsibilities",
+"bullets": [
+[
+"Central response team",
+0
+],
+[
+"Organic",
+1
+],
+[
+"Address incidents as they come up",
+1
+],
+[
+"Distributed response team",
+0
+],
+[
+"Larger organizations",
+1
+],
+[
+"Geographically separate teams that address incidents",
+1
+],
+[
+"Outsourced response team",
+0
+],
+[
+"Outside the organization",
+1
+],
+[
+"Responds to incidents as a service",
+1
+]
+],
+"images": []
+},
+{
+"v5": 536,
+"title": "Communications Process",
+"kicker": "IR Roles and Responsibilities",
+"bullets": [
+[
+"Circle of trust",
+0
+],
+[
+"Key staff, internal & external partners",
+1
+],
+[
+"Disclosure",
+0
+],
+[
+"Based on regulatory or legislative requirements",
+1
+],
+[
+"Need-to-know",
+1
+],
+[
+"Damage control",
+0
+],
+[
+"Let employees know about incident",
+1
+],
+[
+"Policy of talking about the incident",
+1
+],
+[
+"Secure communications",
+0
+],
+[
+"Avoid leaks",
+1
+]
+],
+"images": []
+},
+{
+"v5": 537,
+"title": "Responsibilities & Coordination",
+"kicker": "IR Roles and Responsibilities",
+"bullets": [
+[
+"Clearly defined",
+0
+],
+[
+"Understandable",
+0
+],
+[
+"Portable",
+0
+]
+],
+"images": []
+},
+{
+"v5": 539,
+"title": "Preparation",
+"kicker": "IR Active Preparation",
+"bullets": [
+[
+"Prevent incidences to begin with",
+0
+],
+[
+"People",
+1
+],
+[
+"Process",
+1
+],
+[
+"Technology",
+1
+],
+[
+"Network & host hardening",
+0
+],
+[
+"Patches & updates",
+0
+]
+],
+"images": []
+},
+{
+"v5": 540,
+"title": "Active Security Measures",
+"kicker": "IR Active Preparation",
+"bullets": [
+[
+"Know Your Attack Surface",
+0
+],
+[
+"Attack surface analysis",
+1
+],
+[
+"Main point: identify key parts of system to test for vulnerabilities",
+2
+],
+[
+"Help security team prepare for attacks & protect assets",
+2
+],
+[
+"Help developers make better products",
+2
+]
+],
+"images": []
+},
+{
+"v5": 541,
+"title": "Attack Surface Analysis",
+"kicker": "IR Active Preparation",
+"bullets": [
+[
+"Conducted by security architects & pen testers",
+0
+],
+[
+"Helps to identify:",
+0
+],
+[
+"Parts of a system to review & test for vulnerabilities",
+1
+],
+[
+"High risk areas that need to be defended",
+1
+],
+[
+"When attack surface changes",
+1
+]
+],
+"images": []
+},
+{
+"v5": 542,
+"title": "Detection & Analysis \u2013 Know the Signs",
+"kicker": "IR Active Preparation",
+"bullets": [
+[
+"Indicators of compromise",
+0
+],
+[
+"Unusual outbound traffic",
+1
+],
+[
+"Anomalous admin account activity",
+1
+],
+[
+"Geographic irregularities",
+1
+],
+[
+"Login irregularities",
+1
+],
+[
+"High database read volume",
+1
+],
+[
+"HTML response size",
+1
+],
+[
+"High requests on the same file",
+1
+],
+[
+"Mismatched port application traffic",
+1
+],
+[
+"Suspicious registry and system file changes",
+1
+],
+[
+"DNS request anomalies",
+1
+]
+],
+"images": []
+},
+{
+"v5": 543,
+"title": "Detection & Analysis",
+"kicker": "IR Active Preparation",
+"bullets": [
+[
+"Prepare your sources",
+0
+],
+[
+"SIEM",
+1
+],
+[
+"IDS/IPS",
+1
+],
+[
+"Alerts & logs",
+1
+]
+],
+"images": []
+},
+{
+"v5": 544,
+"title": "Determining Severity",
+"kicker": "IR Active Preparation",
+"bullets": [
+[
+"Scope of impact",
+0
+],
+[
+"Downtime",
+1
+],
+[
+"What is the maximum tolerable downtime?",
+2
+],
+[
+"Recovery time",
+1
+],
+[
+"Time is money",
+2
+],
+[
+"Data integrity",
+1
+],
+[
+"Tampering or deleting",
+2
+],
+[
+"Economic",
+1
+],
+[
+"Value & cost",
+2
+],
+[
+"Business process criticality",
+1
+]
+],
+"images": []
+},
+{
+"v5": 545,
+"title": "Types of Data",
+"kicker": "IR Active Preparation",
+"bullets": [
+[
+"PHI (Protected Health Information)",
+0
+],
+[
+"PII (Personally Identifiable Information)",
+0
+],
+[
+"Corporate secrets & intellectual property",
+0
+],
+[
+"Patents",
+1
+],
+[
+"Trademarks & copyright",
+1
+],
+[
+"Mergers & acquisitions",
+1
+],
+[
+"Accounting",
+1
+],
+[
+"Trade secrets",
+1
+],
+[
+"Payment card information",
+0
+]
+],
+"images": []
+},
+{
+"v5": 546,
+"title": "Know Your Threat",
+"kicker": "IR Active Preparation",
+"bullets": [
+[
+"Know vulnerabilities & landscape",
+0
+],
+[
+"What type of data?",
+1
+],
+[
+"What do systems look like?",
+1
+],
+[
+"What are the threat actors?",
+1
+]
+],
+"images": []
+},
+{
+"v5": 549,
+"title": "Incident Response (IR) Process",
+"kicker": "Incident Response Process",
+"bullets": [
+[
+"NIST Special Publication 800-61",
+0
+],
+[
+"National Institute of Standards and Technology (NIST)",
+1
+],
+[
+"Provides publications & guidelines on technology standards",
+1
+]
+],
+"images": []
+},
+{
+"v5": 550,
+"title": "Incident Response (IR) Process Phases",
+"kicker": "Incident Response Process",
+"bullets": [
+[
+"Phase I: Preparation",
+0
+],
+[
+"Proactive measures (i.e., network segmentation & host hardening)",
+1
+],
+[
+"Formal risk assessment process",
+1
+],
+[
+"Vulnerabilities",
+2
+],
+[
+"Action steps",
+2
+],
+[
+"Communication",
+2
+],
+[
+"Activity & reporting",
+2
+]
+],
+"images": []
+},
+{
+"v5": 551,
+"title": "IR Process Phases",
+"kicker": "Incident Response Process",
+"bullets": [
+[
+"Phase 1: Preparation",
+0
+],
+[
+"Phase 2: Containment",
+0
+],
+[
+"Stop all damage",
+1
+],
+[
+"Prevent or reduce spread of infection",
+1
+],
+[
+"Quarantine hosts",
+1
+]
+],
+"images": []
+},
+{
+"v5": 552,
+"title": "IR Process Phases",
+"kicker": "Incident Response Process",
+"bullets": [
+[
+"Phase 1: Preparation",
+0
+],
+[
+"Phase 2: Containment",
+0
+],
+[
+"Phase 3: Eradication",
+0
+],
+[
+"Return to known good state",
+1
+],
+[
+"Document carefully!",
+1
+]
+],
+"images": []
+},
+{
+"v5": 553,
+"title": "IR Process Phases",
+"kicker": "Incident Response Process",
+"bullets": [
+[
+"Phase 1: Preparation",
+0
+],
+[
+"Phase 2: Containment",
+0
+],
+[
+"Phase 3: Eradication",
+0
+],
+[
+"Phase 4: Validation",
+0
+],
+[
+"Identify threat & attack vector",
+1
+],
+[
+"Identify preventive measures",
+1
+],
+[
+"Change controls",
+2
+],
+[
+"Update software/patches",
+2
+]
+],
+"images": []
+},
+{
+"v5": 554,
+"title": "IR Process Phases",
+"kicker": "Incident Response Process",
+"bullets": [
+[
+"Phase 1: Preparation",
+0
+],
+[
+"Phase 2: Containment",
+0
+],
+[
+"Phase 3: Eradication",
+0
+],
+[
+"Phase 4: Validation",
+0
+],
+[
+"Phase 5: Corrective actions",
+0
+],
+[
+"Implement patches",
+1
+],
+[
+"Update PPPs",
+1
+],
+[
+"Organizational policies & procedures",
+1
+],
+[
+"Network systems access",
+2
+],
+[
+"Authentication",
+2
+]
+],
+"images": []
+},
+{
+"v5": 555,
+"title": "IR Process Phases",
+"kicker": "Incident Response Process",
+"bullets": [
+[
+"Phase 1: Preparation",
+0
+],
+[
+"Phase 2: Containment",
+0
+],
+[
+"Phase 3: Eradication",
+0
+],
+[
+"Phase 4: Validation",
+0
+],
+[
+"Phase 5: Corrective actions",
+0
+],
+[
+"Phase 6: Reporting",
+0
+],
+[
+"Take notes throughout",
+1
+],
+[
+"Compare to best practices",
+1
+],
+[
+"Ways to improve",
+1
+],
+[
+"Report to senior management",
+1
+]
+],
+"images": []
+},
+{
+"v5": 556,
+"title": "IR Process Elements",
+"kicker": "Incident Response Process",
+"bullets": [
+[
+"Communication",
+0
+],
+[
+"Important throughout IR process",
+1
+],
+[
+"Get everyone involved",
+1
+],
+[
+"Analysis",
+0
+],
+[
+"Technical techniques",
+1
+],
+[
+"Reporting",
+0
+],
+[
+"Document everything",
+1
+]
+],
+"images": []
+},
+{
+"v5": 557,
+"title": "Who\u2019s Involved?",
+"kicker": "Incident Response Process",
+"bullets": [
+[
+"Key roles",
+0
+],
+[
+"Stakeholders",
+0
+],
+[
+"Reporting policy",
+0
+]
+],
+"images": []
+},
+{
+"v5": 560,
+"title": "Digital Forensics",
+"kicker": "Digital Forensics",
+"bullets": [
+[
+"Collecting & analyzing digital clues to figure out the 5 W\u2019s:",
+0
+],
+[
+"Who",
+1
+],
+[
+"What",
+1
+],
+[
+"Where",
+1
+],
+[
+"When",
+1
+],
+[
+"Why",
+1
+]
+],
+"images": []
+},
+{
+"v5": 561,
+"title": "Digital Forensics",
+"kicker": "Digital Forensics",
+"bullets": [
+[
+"Network forensics",
+0
+],
+[
+"Mobile forensics",
+0
+],
+[
+"Computer forensics",
+0
+],
+[
+"Code analysis",
+0
+]
+],
+"images": []
+},
+{
+"v5": 562,
+"title": "Principles of Forensics",
+"kicker": "Digital Forensics",
+"bullets": [
+[
+"Do no harm",
+0
+],
+[
+"Don\u2019t affect data integrity",
+1
+],
+[
+"Train, train, train",
+0
+],
+[
+"Forensic examiners & professionals",
+1
+],
+[
+"Requirements & regulations",
+1
+],
+[
+"Provide evidence",
+1
+],
+[
+"Keep good notes",
+0
+],
+[
+"Collection, inspection, storage of evidence",
+1
+],
+[
+"Audit trail for 3rd party inspection",
+1
+]
+],
+"images": []
+},
+{
+"v5": 563,
+"title": "Phases of a Forensic Investigation",
+"kicker": "Digital Forensics",
+"bullets": [
+[
+"Seizure",
+0
+],
+[
+"Ensure data isn\u2019t tampered with",
+1
+],
+[
+"Acquisitions",
+0
+],
+[
+"Extracting data from the scene",
+1
+],
+[
+"Work from forensic image",
+1
+],
+[
+"Analysis",
+0
+],
+[
+"Make sense of the data",
+1
+],
+[
+"Reporting",
+0
+],
+[
+"Know your audience",
+1
+]
+],
+"images": []
+},
+{
+"v5": 564,
+"title": "Your Forensic Tool Kit",
+"kicker": "Digital Forensics",
+"bullets": [
+[
+"Jump bag",
+0
+],
+[
+"Laptop with pre-installed forensic software",
+1
+],
+[
+"Hard drives for storage",
+1
+],
+[
+"USB hub",
+1
+],
+[
+"Cables & adapters",
+1
+],
+[
+"Hard drive enclosure",
+1
+],
+[
+"Toolkit",
+1
+],
+[
+"Camera",
+1
+],
+[
+"Wireless spectrum analyzer",
+1
+]
+],
+"images": []
+},
+{
+"v5": 565,
+"title": "Your Forensic Tool Kit",
+"kicker": "Digital Forensics",
+"bullets": [
+[
+"Crime scene tape & seals",
+0
+],
+[
+"Documentation",
+0
+],
+[
+"IR plan & log",
+1
+],
+[
+"Chain of custody forms",
+1
+],
+[
+"Contact list",
+1
+]
+],
+"images": []
+},
+{
+"v5": 567,
+"title": "Control the Crime Scene",
+"kicker": "Seizure & Acquisitions",
+"bullets": [
+[
+"Control access",
+0
+],
+[
+"Create access list",
+1
+],
+[
+"Who, where, when",
+1
+],
+[
+"Trained & certified personnel",
+0
+],
+[
+"Document",
+0
+],
+[
+"Visitors",
+1
+],
+[
+"Access to systems",
+1
+],
+[
+"Contamination",
+1
+],
+[
+"Maintain chain-of-custody",
+0
+]
+],
+"images": []
+},
+{
+"v5": 568,
+"title": "Control the Crime Scene",
+"kicker": "Seizure & Acquisitions",
+"bullets": [
+[
+"Leave the power on",
+0
+],
+[
+"Unless malware is destroying evidence",
+1
+],
+[
+"Running memory can give clues",
+1
+],
+[
+"Advanced malware might not write to disk",
+1
+]
+],
+"images": []
+},
+{
+"v5": 569,
+"title": "Acquisition Process",
+"kicker": "Seizure & Acquisitions",
+"bullets": [
+[
+"Prepare destination media",
+0
+],
+[
+"Securely store data",
+1
+],
+[
+"Removable hard drive or network-based option",
+1
+],
+[
+"Make sure destination media is clean",
+1
+]
+],
+"images": [
+"img_c9d66737d4.png"
+]
+},
+{
+"v5": 570,
+"title": "Acquisition Process",
+"kicker": "Seizure & Acquisitions",
+"bullets": [
+[
+"Prepare destination media",
+0
+],
+[
+"Prevent changes",
+0
+],
+[
+"Forensic station",
+1
+],
+[
+"Special set-ups",
+2
+],
+[
+"Securely copy from source to destination",
+2
+],
+[
+"Write blocker",
+2
+],
+[
+"Prevents changes when copying",
+3
+],
+[
+"Mouse jigglers",
+2
+],
+[
+"Prevents computer from falling asleep",
+3
+]
+],
+"images": []
+},
+{
+"v5": 571,
+"title": "Forensics Station",
+"kicker": "Seizure & Acquisitions",
+"bullets": [
+[
+"https://www.cru-inc.com/product_image_galleries/Forensic_Field_Kit_D/5-Ditto_Field_Kit.jpg",
+0
+]
+],
+"images": [
+"img_9d80e6f052.png"
+]
+},
+{
+"v5": 572,
+"title": "Write Blocker",
+"kicker": "Seizure & Acquisitions",
+"bullets": [
+[
+"https://www.cru-inc.com/wp-content/uploads/2016/05/DittoDX_angle1-3.png",
+0
+]
+],
+"images": [
+"img_fff1869550.png"
+]
+},
+{
+"v5": 574,
+"title": "Acquisition Process",
+"kicker": "Forensics Acquisition Tools",
+"bullets": [
+[
+"Prepare destination media",
+0
+],
+[
+"Prevent changes",
+0
+],
+[
+"Hash the source",
+0
+],
+[
+"Fixed snapshot of evidence",
+1
+],
+[
+"Image the source",
+0
+],
+[
+"Commercial",
+1
+],
+[
+"FTK Imager",
+2
+],
+[
+"Open source",
+1
+],
+[
+"dd",
+2
+],
+[
+"Verify the acquisition",
+0
+],
+[
+"MD5 or SHA hash",
+1
+],
+[
+"Protect the acquisition",
+0
+]
+],
+"images": []
+},
+{
+"v5": 575,
+"title": "Hash Demo",
+"kicker": "Forensics Acquisition Tools",
+"bullets": [],
+"images": [
+"img_e8186f7ac6.png"
+]
+},
+{
+"v5": 576,
+"title": "Hash Collisions",
+"kicker": "Forensics Acquisition Tools",
+"bullets": [],
+"images": [
+"img_da3cc4c7c3.png"
+]
+},
+{
+"v5": 577,
+"title": "dd Demo",
+"kicker": "Forensics Acquisition Tools",
+"bullets": [],
+"images": [
+"img_a056dc1946.png"
+]
+},
+{
+"v5": 578,
+"title": "Special Topic: Password Cracking",
+"kicker": "Forensics Acquisition Tools",
+"bullets": [
+[
+"Open source",
+0
+],
+[
+"hashcat",
+1
+],
+[
+"Over 200 hash types",
+2
+],
+[
+"oclhashcat- GPU acceleration",
+2
+],
+[
+"Commercial",
+0
+],
+[
+"ElcomSoft",
+1
+],
+[
+"Passware",
+1
+],
+[
+"Passware Kit Forensic",
+2
+],
+[
+"Individually or with EnCase suite",
+2
+],
+[
+"Over 200 hash types",
+2
+],
+[
+"GPU acceleration",
+2
+]
+],
+"images": []
+},
+{
+"v5": 580,
+"title": "Mobile Device Forensics",
+"kicker": "Mobile, Virtualization, and Cloud",
+"bullets": [
+[
+"Can be difficult",
+0
+],
+[
+"OS is closed",
+1
+],
+[
+"Communicate with outside world",
+1
+],
+[
+"Remote access can alter evidence",
+0
+],
+[
+"Faraday device",
+0
+],
+[
+"Blocks RF signaling",
+1
+],
+[
+"Difficult to directly access a device\u2019s data",
+0
+],
+[
+"Need special mobile forensics software and hardware",
+1
+]
+],
+"images": []
+},
+{
+"v5": 581,
+"title": "Virtualization and the Cloud",
+"kicker": "Mobile, Virtualization, and Cloud",
+"bullets": [
+[
+"SLAs may limit forensic activities",
+0
+],
+[
+"Snapshots",
+0
+],
+[
+"Forensically-sound evidence preservation",
+1
+]
+],
+"images": []
+},
+{
+"v5": 582,
+"title": "Legal Hold",
+"kicker": "Mobile, Virtualization, and Cloud",
+"bullets": [
+[
+"In a court of law, admissible evidence must be in original state",
+0
+],
+[
+"Legal hold is required by the court to retain evidence",
+0
+],
+[
+"Evidence can\u2019t be returned to owner until after the trial",
+1
+],
+[
+"Verified images can suffice as forensically-sound",
+0
+]
+],
+"images": []
+},
+{
+"v5": 584,
+"title": "Forensics Analysis, I",
+"kicker": "Forensics Analysis: Part 1",
+"bullets": [
+[
+"Manually",
+0
+],
+[
+"Operating system and processes",
+1
+],
+[
+"Log viewers",
+1
+],
+[
+"Windows",
+1
+],
+[
+"Event Viewer",
+2
+],
+[
+"Registry",
+2
+],
+[
+"Linux directories",
+1
+],
+[
+"/etc/",
+2
+],
+[
+"/var/log/",
+2
+],
+[
+"/home/",
+2
+]
+],
+"images": []
+},
+{
+"v5": 585,
+"title": "Windows Utilities Demo",
+"kicker": "Forensics Analysis: Part 1",
+"bullets": [],
+"images": [
+"img_5e96aa3087.png"
+]
+},
+{
+"v5": 587,
+"title": "Linux Forensics Demo",
+"kicker": "Forensics Analysis: Part 2",
+"bullets": [],
+"images": [
+"img_6438df1292.png"
+]
+},
+{
+"v5": 588,
+"title": "Forensics Analysis",
+"kicker": "Forensics Analysis: Part 2",
+"bullets": [
+[
+"Commercial solutions",
+0
+],
+[
+"FTK",
+1
+],
+[
+"EnCase",
+1
+],
+[
+"The Sleuth Kit",
+1
+],
+[
+"Timeline analysis",
+1
+]
+],
+"images": []
+},
+{
+"v5": 589,
+"title": "Timeline Analysis",
+"kicker": "Forensics Analysis: Part 2",
+"bullets": [
+[
+"Searches log files, artifacts to create single correlated timeline",
+0
+],
+[
+"Easily analyzed by investigators",
+0
+],
+[
+"Plaso",
+0
+],
+[
+"One popular utility used to create a \u201csuper timeline\u201d",
+1
+],
+[
+"Exact time of incident unknown",
+1
+],
+[
+"Targeted timeline",
+0
+],
+[
+"Time of incident is known",
+1
+],
+[
+"Take snips pre- & post-incident to see how the incident effected system",
+1
+]
+],
+"images": []
+},
+{
+"v5": 590,
+"title": "Forensic Analysis",
+"kicker": "Forensics Analysis: Part 2",
+"bullets": [
+[
+"Timeline analysis",
+0
+],
+[
+"Search through log files to create single timeline",
+1
+],
+[
+"Timeline analysis utilities",
+0
+],
+[
+"Plaso",
+1
+],
+[
+"\u201cSuper\u201d timeline \u2013 not sure when the event occurred",
+2
+],
+[
+"Targeted timeline \u2013 might know when event occurred",
+2
+]
+],
+"images": []
+},
+{
+"v5": 592,
+"title": "Packet Capture Tools",
+"kicker": "Packet Capture",
+"bullets": [
+[
+"tshark (onion)",
+0
+],
+[
+"Wireshark (onion)",
+0
+],
+[
+"Network general",
+0
+],
+[
+"Aircrack-ng",
+0
+],
+[
+"Airmon-ng",
+0
+],
+[
+"Airodump-ng",
+0
+]
+],
+"images": []
+}
+],
+"4": [
+{
+"v5": 155,
+"title": "Data Privacy and Security",
+"kicker": "Data Privacy and Security",
+"bullets": [
+[
+"Privacy vs. security",
+0
+],
+[
+"Privacy is about the individual",
+1
+],
+[
+"Security is about the data",
+1
+],
+[
+"Privacy vs. confidentiality",
+0
+],
+[
+"Confidentiality is about the data",
+1
+],
+[
+"Privacy is about keeping an individual\u2019s identity secure",
+1
+],
+[
+"Data security is protected through controls",
+0
+],
+[
+"Privacy has to do with data usage",
+0
+]
+],
+"images": []
+},
+{
+"v5": 156,
+"title": "Data Privacy and Security",
+"kicker": "Data Privacy and Security",
+"bullets": [
+[
+"Types of data",
+0
+],
+[
+"Personal",
+1
+],
+[
+"Personal health",
+1
+],
+[
+"Financial",
+1
+],
+[
+"Copyrighted",
+1
+],
+[
+"Legal requirements for data",
+0
+],
+[
+"GDPR",
+1
+],
+[
+"HIPAA",
+1
+],
+[
+"US copyright law",
+1
+],
+[
+"PCI DSS",
+1
+]
+],
+"images": []
+},
+{
+"v5": 158,
+"title": "Nontechnical Controls",
+"kicker": "Nontechnical Controls",
+"bullets": [
+[
+"Data ownership",
+0
+],
+[
+"Data classification",
+0
+],
+[
+"Data confidentiality",
+0
+],
+[
+"Nondisclosure agreement (NDA)",
+1
+],
+[
+"Data sovereignty",
+0
+],
+[
+"Principle behind GDPR",
+1
+],
+[
+"Data minimization",
+0
+],
+[
+"Data purpose limitation",
+0
+]
+],
+"images": []
+},
+{
+"v5": 159,
+"title": "Data Retention",
+"kicker": "Nontechnical Controls",
+"bullets": [
+[
+"Standards",
+0
+],
+[
+"What data do we keep?",
+1
+],
+[
+"How long do we keep this data?",
+1
+],
+[
+"Where do we keep this data?",
+1
+],
+[
+"How do we delete data?",
+1
+]
+],
+"images": []
+},
+{
+"v5": 160,
+"title": "Data Retention",
+"kicker": "Nontechnical Controls",
+"bullets": [
+[
+"Taxonomy",
+0
+],
+[
+"How data is stored and organized for future recall",
+1
+],
+[
+"Normalization",
+0
+],
+[
+"Makes it possible to relate data and extract meaningful reports",
+1
+],
+[
+"Indexing",
+0
+],
+[
+"Way of organizing data for searchability and rapid recall",
+1
+]
+],
+"images": []
+},
+{
+"v5": 162,
+"title": "Technical Controls",
+"kicker": "Technical Controls",
+"bullets": [
+[
+"Access controls",
+0
+],
+[
+"Limit access to certain resources",
+1
+],
+[
+"Identification, authentication, authorization",
+1
+],
+[
+"Encryption",
+0
+],
+[
+"Protects confidentiality",
+1
+],
+[
+"Sharing data while preserving privacy",
+0
+],
+[
+"Data masking",
+1
+],
+[
+"Deidentification",
+1
+],
+[
+"Tokenization",
+1
+]
+],
+"images": []
+},
+{
+"v5": 163,
+"title": "Technical Controls",
+"kicker": "Technical Controls",
+"bullets": [
+[
+"Digital rights management (DRM)",
+0
+],
+[
+"Watermarking",
+1
+],
+[
+"Geographic access requirements",
+1
+],
+[
+"Geoblocking",
+1
+]
+],
+"images": []
+},
+{
+"v5": 164,
+"title": "Technical Controls",
+"kicker": "Technical Controls",
+"bullets": [
+[
+"Data loss prevention (DLP)",
+0
+],
+[
+"Process:",
+1
+],
+[
+"Create data inventories",
+2
+],
+[
+"Monitor data flows",
+2
+],
+[
+"Implement, test, tune",
+2
+],
+[
+"DLP solution placement",
+0
+],
+[
+"Network DLP (NDLP)",
+1
+],
+[
+"Endpoint DLP",
+1
+],
+[
+"Hybrid DLP",
+1
+]
+],
+"images": []
+},
+{
+"v5": 167,
+"title": "Business Impact Analysis",
+"kicker": "Business Impact Analysis",
+"bullets": [
+[
+"Study of what\u2019s important to a business and what critical functions must be sustained",
+0
+],
+[
+"Considerations",
+0
+],
+[
+"Maximum tolerable downtime and disruption for activities",
+1
+],
+[
+"Operational disruption and productivity",
+1
+],
+[
+"Financial considerations",
+1
+],
+[
+"Regulatory responsibilities",
+1
+],
+[
+"Reputation",
+1
+]
+],
+"images": []
+},
+{
+"v5": 168,
+"title": "Business Impact Analysis Steps",
+"kicker": "Business Impact Analysis",
+"bullets": [
+[
+"Select individuals to interview for data gathering",
+0
+],
+[
+"People from all levels",
+1
+],
+[
+"Create data-gathering techniques",
+0
+],
+[
+"Surveys, questionnaires, and qualitative and quantitative approaches",
+1
+],
+[
+"Identify the company\u2019s critical business functions",
+0
+],
+[
+"Identify resources these functions depend on",
+0
+],
+[
+"Calculate how long critical functions can survive without these resources",
+0
+]
+],
+"images": []
+},
+{
+"v5": 169,
+"title": "Business Impact Analysis Steps",
+"kicker": "Business Impact Analysis",
+"bullets": [
+[
+"Identify vulnerabilities and threats to critical business functions",
+0
+],
+[
+"Calculate the risk for each critical business function",
+0
+],
+[
+"Document findings, report them to management, make recommendations",
+0
+]
+],
+"images": []
+},
+{
+"v5": 171,
+"title": "Risk Identification",
+"kicker": "Risk Identification",
+"bullets": [
+[
+"Main goals",
+0
+],
+[
+"Identify vulnerabilities",
+1
+],
+[
+"Determine probability that a threat will exploit a vulnerability",
+1
+],
+[
+"Determine potential business impact of each threat",
+1
+],
+[
+"Provide economic balance between impact of the threat and cost of the countermeasure",
+1
+]
+],
+"images": []
+},
+{
+"v5": 172,
+"title": "Risk Identification",
+"kicker": "Risk Identification",
+"bullets": [
+[
+"Ask the right questions",
+0
+],
+[
+"What event could occur (threat event)?",
+1
+],
+[
+"What could be the potential impact (magnitude)?",
+1
+],
+[
+"How likely is it to happen (probability)?",
+1
+],
+[
+"What level of confidence do we have in the answers to the first three questions (certainty)?",
+1
+]
+],
+"images": []
+},
+{
+"v5": 173,
+"title": "Risk Identification Process",
+"kicker": "Risk Identification",
+"bullets": [
+[
+"Evaluate cyber threat intelligence",
+0
+],
+[
+"Conduct vulnerability assessment",
+0
+],
+[
+"Observe cybersecurity operations",
+0
+],
+[
+"Organize brainstorming sessions",
+0
+]
+],
+"images": []
+},
+{
+"v5": 174,
+"title": "Risk Identification Process",
+"kicker": "Risk Identification",
+"bullets": [
+[
+"Risk register",
+0
+],
+[
+"Unique identifier",
+1
+],
+[
+"Short name",
+1
+],
+[
+"Description",
+1
+],
+[
+"Owner",
+1
+],
+[
+"Probability",
+1
+],
+[
+"Magnitude",
+1
+],
+[
+"Risk value (or rating)",
+1
+],
+[
+"Disposition",
+1
+]
+],
+"images": []
+},
+{
+"v5": 176,
+"title": "Risk Calculation",
+"kicker": "Risk Calculation and Communication",
+"bullets": [
+[
+"Qualitative",
+0
+],
+[
+"Quantitative",
+0
+],
+[
+"Risks that must be mitigated first have:",
+0
+],
+[
+"Highest probability",
+1
+],
+[
+"Highest magnitude",
+1
+]
+],
+"images": []
+},
+{
+"v5": 177,
+"title": "Risk Calculation",
+"kicker": "Risk Calculation and Communication",
+"bullets": [
+[
+"Delphi technique",
+0
+],
+[
+"Each person anonymously lists risks",
+1
+],
+[
+"Each person anonymously comments",
+1
+]
+],
+"images": []
+},
+{
+"v5": 178,
+"title": "Qualitative Risk Matrix",
+"kicker": "Risk Calculation and Communication",
+"bullets": [],
+"images": [
+"img_a686f317b4.png"
+]
+},
+{
+"v5": 179,
+"title": "Sample Impact Interpretation",
+"kicker": "Risk Calculation and Communication",
+"bullets": [],
+"images": [
+"img_decc5b2dc2.png"
+]
+},
+{
+"v5": 180,
+"title": "Example Qualitative Risk Calculation",
+"kicker": "Risk Calculation and Communication",
+"bullets": [],
+"images": [
+"img_59c2efb21a.png"
+]
+},
+{
+"v5": 181,
+"title": "Communication of Risk Factors",
+"kicker": "Risk Calculation and Communication",
+"bullets": [
+[
+"Presentation to multiple audiences",
+0
+],
+[
+"Must be tailored for each audience",
+0
+]
+],
+"images": []
+},
+{
+"v5": 183,
+"title": "Teaming",
+"kicker": "Training",
+"bullets": [
+[
+"Red Team",
+0
+],
+[
+"Simulates threat actors (OPFOR); validates blue team assumptions",
+1
+],
+[
+"Blue Team",
+0
+],
+[
+"The defenders; fixes red team discoveries",
+1
+],
+[
+"White Team",
+0
+],
+[
+"Planners and moderators",
+1
+],
+[
+"Purple Team",
+0
+],
+[
+"Dynamic hybrid of red and blue",
+1
+],
+[
+"Test blue team\u2019s processes, people, & technologies in a collaborative way",
+1
+]
+],
+"images": [
+"img_505119eeb6.png"
+]
+},
+{
+"v5": 184,
+"title": "Training Programs & Resources",
+"kicker": "Training",
+"bullets": [
+[
+"Technical training",
+0
+],
+[
+"Real life experience",
+0
+],
+[
+"Active member of the community",
+0
+],
+[
+"Ex: presentations at security conferences",
+1
+],
+[
+"Tabletop exercises (TTXs)",
+0
+],
+[
+"Live-fire exercises",
+0
+],
+[
+"Cyber range",
+1
+],
+[
+"Separate training teams",
+0
+]
+],
+"images": []
+},
+{
+"v5": 186,
+"title": "Vendor Due Diligence",
+"kicker": "Supply Chain Assessment",
+"bullets": [
+[
+"Review references and communicate with former and existing customers",
+0
+],
+[
+"Review Better Business Bureau (BBB) reports",
+0
+],
+[
+"Ensure that contracts/ agreements include requirements for adequate security controls",
+0
+],
+[
+"Ensure that service level agreements (SLAs) are in place",
+0
+]
+],
+"images": []
+},
+{
+"v5": 187,
+"title": "Vendor Due Diligence",
+"kicker": "Supply Chain Assessment",
+"bullets": [
+[
+"Review vendor\u2019s security program",
+0
+],
+[
+"Review internal and external audit reports and third-party reviews",
+0
+],
+[
+"Conduct onsite inspection and interviews after signing the agreement",
+0
+],
+[
+"Ensure the vendor has a business continuity plan (BCP)",
+0
+],
+[
+"Implement a nondisclosure agreement (NDA)",
+0
+]
+],
+"images": []
+},
+{
+"v5": 188,
+"title": "Supply Chain Risk Assessment",
+"kicker": "Supply Chain Assessment",
+"bullets": [
+[
+"Hardware source authenticity",
+0
+],
+[
+"Trusted Foundry (DoD)",
+1
+]
+],
+"images": []
+},
+{
+"v5": 191,
+"title": "NIST",
+"kicker": "Frameworks",
+"bullets": [
+[
+"NIST Special Publication 800-53 (Recommended Security Controls for Federal Information Systems)",
+0
+],
+[
+"Cyber Security Framework (CSF)",
+0
+]
+],
+"images": []
+},
+{
+"v5": 192,
+"title": "Security Guidelines",
+"kicker": "Frameworks",
+"bullets": [
+[
+"NIST Special Publication 800-53",
+0
+],
+[
+"AKA - Recommended Security Controls for Federal Information Systems",
+1
+],
+[
+"Controls to be compliant with Federal Information Processing Standards (FIPS)",
+1
+],
+[
+"FIPS is used in government or military data processing",
+1
+]
+],
+"images": [
+"img_493cfefc01.png"
+]
+},
+{
+"v5": 193,
+"title": "NIST Special Publication 800-53",
+"kicker": "Frameworks",
+"bullets": [],
+"images": [
+"img_c5007cf100.png",
+"img_b4fa496969.png"
+]
+},
+{
+"v5": 194,
+"title": "FIPS Controls",
+"kicker": "Frameworks",
+"bullets": [
+[
+"Security Control Catalog (NIST 800-53, Appendix F)",
+0
+],
+[
+"Management",
+1
+],
+[
+"Operational",
+1
+],
+[
+"Technical Safeguards",
+1
+],
+[
+"Countermeasures to protect",
+1
+],
+[
+"Confidentiality",
+2
+],
+[
+"Integrity",
+2
+],
+[
+"Availability",
+2
+]
+],
+"images": []
+},
+{
+"v5": 195,
+"title": "Cybersecurity Framework (CSF)",
+"kicker": "Frameworks",
+"bullets": [
+[
+"Goals",
+0
+],
+[
+"Flexible",
+1
+],
+[
+"Scalable",
+1
+],
+[
+"Repeatable",
+1
+],
+[
+"Cost-effective",
+1
+],
+[
+"Prioritization",
+1
+]
+],
+"images": []
+},
+{
+"v5": 196,
+"title": "Cybersecurity Framework (CSF)",
+"kicker": "Frameworks",
+"bullets": [
+[
+"Framework core",
+0
+],
+[
+"Common activities, outcomes, & references",
+1
+],
+[
+"5 functions, 22 categories, 98 subcategories",
+1
+],
+[
+"Implementation tiers",
+0
+],
+[
+"Categorize rigor and sophistication of cyber security practices",
+1
+],
+[
+"Tiers 1-4",
+1
+],
+[
+"1 \u2013Partial",
+2
+],
+[
+"2 \u2013Risk Informed",
+2
+],
+[
+"3 \u2013Repeatable",
+2
+],
+[
+"4 \u2013Adaptive",
+2
+]
+],
+"images": []
+},
+{
+"v5": 197,
+"title": "Cyber Security Framework (CSF)",
+"kicker": "Frameworks",
+"bullets": [
+[
+"Framework Profile",
+0
+],
+[
+"State of an organization concerning CSF categories",
+1
+],
+[
+"See where they are vs. where they can be",
+1
+]
+],
+"images": []
+},
+{
+"v5": 198,
+"title": "Framework Core",
+"kicker": "Frameworks",
+"bullets": [],
+"images": [
+"img_a191ae7ab9.png"
+]
+},
+{
+"v5": 199,
+"title": "Standardize Security Standards",
+"kicker": "Frameworks",
+"bullets": [
+[
+"International Organization for Standardization (ISO)",
+0
+],
+[
+"Largest developer of international standards",
+1
+],
+[
+"Standards range from scientific, food technology, agriculture, space engineering, mining, etc",
+1
+],
+[
+"International Electrotechnical Commission (IEC)",
+0
+],
+[
+"Standards for any electrical & electronic technologies",
+1
+]
+],
+"images": []
+},
+{
+"v5": 200,
+"title": "Standardize Security Standards",
+"kicker": "Frameworks",
+"bullets": [
+[
+"ISO & IEC create global ISMS (Information Security Management System) standards",
+0
+],
+[
+"ISO/IEC 27000-series",
+1
+]
+],
+"images": []
+},
+{
+"v5": 201,
+"title": "International Organization for Standardization (ISO)",
+"kicker": "Frameworks",
+"bullets": [],
+"images": [
+"img_be0717a8c1.png"
+]
+},
+{
+"v5": 202,
+"title": "COBIT",
+"kicker": "Frameworks",
+"bullets": [
+[
+"Control Objectives for Information and Related Technology (COBIT)",
+0
+],
+[
+"Framework and controls",
+1
+],
+[
+"Developed by ISACA (formerly Information Systems Audit and Control Association, now only known by its acronym)",
+1
+],
+[
+"In collaboration with IT Governance Institute (ITGI)",
+1
+],
+[
+"Defines control goals for IT & IS system management",
+1
+]
+],
+"images": []
+},
+{
+"v5": 203,
+"title": "Control Objectives for Information and Related Technology (COBIT)",
+"kicker": "Frameworks",
+"bullets": [],
+"images": [
+"img_2a3caa6fc8.png"
+]
+},
+{
+"v5": 204,
+"title": "SABSA",
+"kicker": "Frameworks",
+"bullets": [],
+"images": [
+"img_c8345eb04e.png"
+]
+},
+{
+"v5": 205,
+"title": "SABSA",
+"kicker": "Frameworks",
+"bullets": [],
+"images": [
+"img_d01acd10f3.png"
+]
+},
+{
+"v5": 206,
+"title": "The Open Group Architecture Framework (TOGAF)",
+"kicker": "Frameworks",
+"bullets": [
+[
+"Originated in Department of Defense",
+0
+],
+[
+"Now run by The Open Group",
+0
+],
+[
+"Standard for enterprise architecture",
+0
+],
+[
+"Used by most Fortune 500 companies worldwide",
+0
+]
+],
+"images": []
+},
+{
+"v5": 207,
+"title": "Architecture Development",
+"kicker": "Frameworks",
+"bullets": [],
+"images": [
+"img_3907a1d7d3.png"
+]
+},
+{
+"v5": 208,
+"title": "ITIL",
+"kicker": "Frameworks",
+"bullets": [
+[
+"Aligns IT services to reach business goals",
+0
+],
+[
+"5 core elements:",
+0
+],
+[
+"ITIL Service Strategy",
+0
+],
+[
+"ITIL Service Design",
+0
+],
+[
+"ITIL Service Transition",
+0
+],
+[
+"ITIL Service Operation",
+0
+],
+[
+"ITIL Continual Process",
+0
+],
+[
+"Improvement",
+0
+]
+],
+"images": [
+"img_91e84d9b22.png"
+]
+},
+{
+"v5": 210,
+"title": "Policies and Procedures",
+"kicker": "Policies and Procedures",
+"bullets": [
+[
+"Ethics and code of conduct",
+0
+],
+[
+"Acceptable use policy (AUP)",
+0
+],
+[
+"Password policy",
+0
+],
+[
+"Data ownership",
+0
+],
+[
+"Data retention",
+0
+],
+[
+"Work product retention",
+0
+]
+],
+"images": []
+},
+{
+"v5": 212,
+"title": "Controls Overview",
+"kicker": "Controls and Procedures",
+"bullets": [
+[
+"Administrative",
+0
+],
+[
+"Logical/technical",
+0
+],
+[
+"Physical",
+0
+],
+[
+"3 types in each",
+0
+],
+[
+"Preventative",
+1
+],
+[
+"Detective",
+1
+],
+[
+"Corrective",
+1
+]
+],
+"images": []
+},
+{
+"v5": 213,
+"title": "Controls",
+"kicker": "Controls and Procedures",
+"bullets": [
+[
+"Administrative",
+0
+],
+[
+"Administered by management via policies or procedures",
+1
+],
+[
+"Ex: requirements for accessing information system",
+1
+],
+[
+"Logical/technical",
+0
+],
+[
+"Software/hardware tools to restrict network or system access",
+1
+],
+[
+"Ex: firewalls, ACLs, etc",
+1
+],
+[
+"Goal: maintain resources\u2019 availability, integrity, & confidentiality",
+1
+]
+],
+"images": []
+},
+{
+"v5": 214,
+"title": "Controls",
+"kicker": "Controls and Procedures",
+"bullets": [
+[
+"Physical",
+0
+],
+[
+"Deter or delay an attacker",
+1
+],
+[
+"Ex: safes, locks, walls, etc",
+1
+]
+],
+"images": []
+},
+{
+"v5": 215,
+"title": "Control Types",
+"kicker": "Controls and Procedures",
+"bullets": [
+[
+"Preventative",
+0
+],
+[
+"Prevent incident from happening",
+1
+],
+[
+"Detective",
+0
+],
+[
+"Detect suspicious activity on the network",
+1
+],
+[
+"Corrective",
+0
+],
+[
+"Correct an identified vulnerability",
+1
+]
+],
+"images": []
+},
+{
+"v5": 216,
+"title": "Control Selection",
+"kicker": "Controls and Procedures",
+"bullets": [
+[
+"Organizationally Defined Parameters",
+0
+],
+[
+"Internal",
+1
+],
+[
+"External",
+1
+],
+[
+"Governed by law or governmental regulations",
+1
+],
+[
+"Selection Criteria",
+0
+],
+[
+"Driven by risk assessment",
+1
+],
+[
+"Confidentiality",
+2
+],
+[
+"Integrity",
+2
+],
+[
+"Availability of information resources",
+2
+],
+[
+"Organization\u2019s risk appetite",
+2
+]
+],
+"images": []
+},
+{
+"v5": 217,
+"title": "Procedures Overview",
+"kicker": "Controls and Procedures",
+"bullets": [
+[
+"Continuous monitoring",
+0
+],
+[
+"Awareness of information security, vulnerability, threats, network trends",
+1
+],
+[
+"Purpose: inform organizational risk decisions",
+1
+]
+],
+"images": []
+},
+{
+"v5": 218,
+"title": "Procedures Overview",
+"kicker": "Controls and Procedures",
+"bullets": [
+[
+"Evidence production",
+0
+],
+[
+"Legal request for documents",
+1
+],
+[
+"EDRM (Electronic Discovery Reference Model)",
+1
+],
+[
+"Identification",
+2
+],
+[
+"Preservation",
+2
+],
+[
+"Collection",
+2
+],
+[
+"Processing",
+2
+],
+[
+"Review",
+2
+],
+[
+"Analysis",
+2
+],
+[
+"Production",
+2
+],
+[
+"Presentation",
+2
+]
+],
+"images": []
+},
+{
+"v5": 219,
+"title": "EDRM Model (Electronic Discovery Reference Model)",
+"kicker": "Controls and Procedures",
+"bullets": [
+[
+"Identification \u2013 Locating potential sources of ESI & determining its scope, breadth & depth.",
+0
+],
+[
+"Preservation \u2013 Ensuring that ESI is protected against inappropriate alteration or destruction.",
+0
+],
+[
+"Collection \u2013 Gathering ESI for further use in the e-discovery process (processing, review, etc.).",
+0
+],
+[
+"Processing \u2013 Reducing the volume of ESI and converting it, if necessary, to forms more suitable for review & analysis.",
+0
+]
+],
+"images": []
+},
+{
+"v5": 220,
+"title": "EDRM Model (Electronic Discovery Reference Model)",
+"kicker": "Controls and Procedures",
+"bullets": [
+[
+"Review \u2013 Evaluating ESI for relevance & privilege.",
+0
+],
+[
+"Analysis \u2013 Evaluating ESI for content & context, including key patterns, topics, people & discussion.",
+0
+],
+[
+"Production\u2013 Delivering ESI to others in appropriate forms & using appropriate delivery mechanisms.",
+0
+]
+],
+"images": []
+},
+{
+"v5": 221,
+"title": "EDRM Model (Electronic Discovery Reference Model)",
+"kicker": "Controls and Procedures",
+"bullets": [
+[
+"Presentation\u2013 Displaying ESI before audiences (at depositions, hearings, trials, etc.), especially in native & near-native forms, to elicit further information, validate existing facts or positions, or persuade an audience.",
+0
+]
+],
+"images": []
+},
+{
+"v5": 222,
+"title": "Procedures Overview",
+"kicker": "Controls and Procedures",
+"bullets": [
+[
+"Continuous monitoring",
+0
+],
+[
+"Evidence production",
+0
+],
+[
+"Patching",
+0
+],
+[
+"Identify and fix vulnerabilities",
+1
+],
+[
+"Tasks:",
+1
+],
+[
+"Identification",
+2
+],
+[
+"Testing",
+2
+],
+[
+"Application",
+2
+],
+[
+"Validation",
+2
+],
+[
+"Documentation",
+2
+]
+],
+"images": []
+},
+{
+"v5": 223,
+"title": "Procedures Overview",
+"kicker": "Controls and Procedures",
+"bullets": [
+[
+"Continuous monitoring",
+0
+],
+[
+"Evidence production",
+0
+],
+[
+"Patching",
+0
+],
+[
+"Compensating control development",
+0
+],
+[
+"Alternative control to substitute for control that\u2019s too costly",
+1
+],
+[
+"Control testing procedure",
+0
+],
+[
+"Ensure the control won\u2019t break the system",
+1
+]
+],
+"images": []
+},
+{
+"v5": 224,
+"title": "Procedures Overview",
+"kicker": "Controls and Procedures",
+"bullets": [
+[
+"Continuous monitoring",
+0
+],
+[
+"Evidence production",
+0
+],
+[
+"Patching",
+0
+],
+[
+"Compensating control development",
+0
+],
+[
+"Control testing procedures",
+0
+],
+[
+"Exception management",
+0
+],
+[
+"How to decide on compensating or technical controls",
+1
+],
+[
+"Who granted the exception? Trace back for audit.",
+1
+],
+[
+"Process for exception determination",
+1
+]
+],
+"images": []
+},
+{
+"v5": 225,
+"title": "Procedures Overview",
+"kicker": "Controls and Procedures",
+"bullets": [
+[
+"Continuous monitoring",
+0
+],
+[
+"Evidence production",
+0
+],
+[
+"Patching",
+0
+],
+[
+"Compensating control development",
+0
+],
+[
+"Control testing procedures",
+0
+],
+[
+"Exception management",
+0
+],
+[
+"Remediation plans",
+0
+],
+[
+"Plan B",
+1
+]
+],
+"images": []
+},
+{
+"v5": 227,
+"title": "Procedures Overview",
+"kicker": "Verification",
+"bullets": [
+[
+"Audits",
+0
+],
+[
+"Assessments & evaluations",
+0
+],
+[
+"Maturity models",
+0
+],
+[
+"Certification",
+0
+]
+],
+"images": []
+},
+{
+"v5": 228,
+"title": "Audits",
+"kicker": "Verification",
+"bullets": [
+[
+"Inspection of a system\u2019s compliance to a policy",
+0
+],
+[
+"External audit",
+0
+],
+[
+"Conducted by independent 3rd party",
+1
+],
+[
+"Guided by regulatory compliance requirements",
+1
+],
+[
+"Internal audit",
+0
+],
+[
+"Internal auditors should also be guided by regulatory compliance requirements",
+1
+]
+],
+"images": []
+},
+{
+"v5": 229,
+"title": "Audits",
+"kicker": "Verification",
+"bullets": [],
+"images": [
+"img_bf3e57cf98.png"
+]
+},
+{
+"v5": 230,
+"title": "Evaluations & Assessments",
+"kicker": "Verification",
+"bullets": [
+[
+"Vulnerability assessment",
+0
+],
+[
+"Penetration test",
+0
+],
+[
+"Red team assessment",
+0
+],
+[
+"Risk assessment",
+0
+],
+[
+"Threat modeling",
+0
+],
+[
+"Tabletop exercises",
+0
+]
+],
+"images": []
+},
+{
+"v5": 231,
+"title": "Evaluations & Assessments",
+"kicker": "Verification",
+"bullets": [
+[
+"Vulnerability assessment",
+0
+],
+[
+"Gather exhaustive info on vulnerabilities",
+1
+],
+[
+"Open vulnerabilities",
+1
+],
+[
+"Remediated vulnerabilities",
+1
+],
+[
+"Vulnerability trends on the network",
+1
+],
+[
+"Penetration test",
+0
+],
+[
+"Achieves a specific goal \u2013 get into the system, steal, or exfiltrate data",
+1
+]
+],
+"images": []
+},
+{
+"v5": 232,
+"title": "Evaluations & Assessments",
+"kicker": "Verification",
+"bullets": [
+[
+"Red team assessment",
+0
+],
+[
+"Pen testing is a discreet part",
+1
+],
+[
+"Red teaming is ongoing",
+1
+],
+[
+"Actively probing & testing to reveal vulnerabilities",
+1
+]
+],
+"images": []
+},
+{
+"v5": 233,
+"title": "Evaluations & Assessments",
+"kicker": "Verification",
+"bullets": [
+[
+"Vulnerability assessment",
+0
+],
+[
+"Penetration test",
+0
+],
+[
+"Red team assessment",
+0
+],
+[
+"Risk assessment",
+0
+],
+[
+"Acceptable risk level",
+1
+],
+[
+"How to bring risk level down",
+1
+],
+[
+"Threat modeling",
+0
+],
+[
+"Determine attacker trends",
+1
+],
+[
+"Make security changes accordingly",
+1
+],
+[
+"Accurately informs about threats & how to place countermeasures",
+1
+]
+],
+"images": []
+},
+{
+"v5": 234,
+"title": "Evaluations & Assessments",
+"kicker": "Verification",
+"bullets": [
+[
+"Tabletop exercises",
+0
+],
+[
+"Get senior & technical leaders involved",
+1
+],
+[
+"Everyone knows their role in an emergency",
+1
+]
+],
+"images": []
+},
+{
+"v5": 235,
+"title": "Maturity Models",
+"kicker": "Verification",
+"bullets": [
+[
+"Capability Maturity Model Integration (CMMI)",
+0
+],
+[
+"Developed by Carnegie Mellon University to improve processes across organization",
+0
+]
+],
+"images": [
+"img_e0da1ae05e.png"
+]
+},
+{
+"v5": 236,
+"title": "Certification & Accreditation",
+"kicker": "Verification",
+"bullets": [
+[
+"Certification",
+0
+],
+[
+"Technical assessment of a component to assure it\u2019s ready for a system",
+1
+],
+[
+"Checked against internal standard, or outside regulatory requirement",
+1
+],
+[
+"Accreditation",
+0
+],
+[
+"Managerial assessment & acceptance of a component",
+1
+],
+[
+"Verified against business model",
+1
+]
+],
+"images": []
+}
+]
+}

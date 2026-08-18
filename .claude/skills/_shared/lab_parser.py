@@ -87,6 +87,21 @@ def parse_lab(path):
                 i += 1
             cur_blocks.append(('numbered', items))
             continue
+        # markdown table: a header row `| a | b |` followed by a `|---|---|` separator
+        if ln.lstrip().startswith('|') and i + 1 < len(lines) and re.match(r'^\s*\|?[\s:*-]*\|[\s:|*-]*$', lines[i+1]):
+            flush_para()
+            def _cells(row):
+                row = row.strip()
+                if row.startswith('|'): row = row[1:]
+                if row.endswith('|'): row = row[:-1]
+                return [md_inline(c.strip()) for c in row.split('|')]
+            header = _cells(ln)
+            i += 2  # skip header + separator
+            trows = []
+            while i < len(lines) and lines[i].lstrip().startswith('|'):
+                trows.append(_cells(lines[i])); i += 1
+            cur_blocks.append(('table', header, trows))
+            continue
         # table row -> keep as text-ish (rare)
         if ln.strip():
             buf_para.append(ln)

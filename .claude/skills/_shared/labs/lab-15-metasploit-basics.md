@@ -135,3 +135,14 @@ msf6 > exit
 - Configure a module, set RHOST/LHOST/PAYLOAD, and run a non-destructive `check`.
 - Use auxiliary scanners to validate scanner findings at scale.
 - Persist findings via the MSF database and export them.
+
+---
+
+## Browser-Based Tools (Tertiary Infotech)
+
+These free browser tools complement this lab — no install required:
+
+- **[Ethical Hacking Playground](https://alfredang.github.io/ethnicalhacking/)** — a browser playground of common ethical-hacking techniques.
+  - *In this lab:* Use the Ethical Hacking Playground to review the exploitation techniques safely in the browser before running the equivalent modules in Metasploit.
+- **[PenTest FauxBank](https://pentest-fauxbank.vercel.app/)** — a deliberately-vulnerable demo banking web app for safe web-attack practice.
+  - *In this lab:* Practise the attack workflow against PenTest FauxBank, a safe deliberately-vulnerable demo bank, so you understand the target behaviour before exploiting the lab host.

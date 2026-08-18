@@ -100,3 +100,12 @@ You now have every packet, every protocol, every timestamp touching that IP — 
 - How to extract DNS, HTTP, and TLS SNI fields with `tshark`.
 - How to rank top talkers and pivot on a specific IOC.
 - The CySA+ 1.3 muscle memory for any packet-capture exam question.
+
+---
+
+## Browser-Based Tools (Tertiary Infotech)
+
+These free browser tools complement this lab — no install required:
+
+- **[PCAP Analyzer](https://alfredang.github.io/pcapanalyzer/)** — a browser tool that parses .pcap/.pcapng files and shows protocols, top talkers and packet detail.
+  - *In this lab:* Load your threat-hunting capture into the PCAP Analyzer to triage protocols and top talkers visually before you drill into individual packets with tshark.

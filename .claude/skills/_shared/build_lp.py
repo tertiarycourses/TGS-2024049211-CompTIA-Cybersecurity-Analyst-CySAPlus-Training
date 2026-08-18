@@ -17,10 +17,26 @@ TOTAL = man['total_slides']
 lab_slide = {int(k): v['slide'] for k, v in man['labs'].items()}
 anchors = sorted(list(lab_slide.values()) + [d['section_slide'] for d in man['domains']])
 
+first_lab_slide = {d['topic']: min(lab_slide[l] for l in d['labs']) for d in man['domains']}
+section_slide = {d['topic']: d['section_slide'] for d in man['domains']}
+
+_PRACTICE = man.get('practice_section')
 def lab_range(ln):
     s = lab_slide[ln]
     nxt = [a for a in anchors if a > s]
-    e = (min(nxt) - 1) if nxt else TOTAL - 8
+    if nxt:
+        e = min(nxt) - 1
+    elif _PRACTICE:
+        # last lab is followed by its topic recap, then the practice-exam section
+        e = _PRACTICE - 2
+    else:
+        e = TOTAL - 8
+    return s, e
+
+def theory_range(dom):
+    """Slides between a topic's Overview (section+1) and its first lab = the theory block."""
+    s = dom['section_slide'] + 2  # section divider + 2-slide overview
+    e = first_lab_slide[dom['topic']] - 1
     return s, e
 
 def rng(a, b): return str(a) if a == b else f"{a}–{b}"
@@ -59,8 +75,21 @@ B.blue_table(doc, ["Version", "Effective Date", "Summary of Changes", "Author"],
     ["1.0", "6 July 2026",
      "First edition — 5-day lesson plan aligned to the 30 hands-on CySA+ labs, with slide-number references to the Learner Guide Slides deck.",
      "Tertiary Infotech Academy Pte Ltd"],
+    ["2.0", "18 Aug 2026",
+     "Second edition — courseware updated to v7 Slides: full theory content from the legacy deck reordered to the four CS0-003 exam domains, exam domains shown up front, practice exam and CompTIA CySA+ exam registration added at the end.",
+     "Tertiary Infotech Academy Pte Ltd"],
+    ["2.1", "18 Aug 2026",
+     "House-format fixes — daily schedule corrected to 9:30am-6:30pm with a 1-hour lunch (8 instructional hours/day), theory-delivery rows added per day, slide-reference summary corrected, Table of Contents and 11pt body applied.",
+     "Tertiary Infotech Academy Pte Ltd"],
 ], widths=[Inches(0.8), Inches(1.2), Inches(3.6), Inches(1.4)])
 doc.add_page_break()
+
+# ---- Table of Contents ----
+B.add_toc(doc, entries=[
+    (1, "Course Details"), (1, "Course Overview"), (1, "Learning Outcomes"),
+    (1, "Day 1"), (1, "Day 2"), (1, "Day 3"), (1, "Day 4"), (1, "Day 5"),
+    (1, "Slide Reference Summary"),
+])
 
 # ---- Course details ----
 B.heading(doc, "Course Details", 1)
@@ -69,8 +98,8 @@ B.blue_table(doc, ["Field", "Detail"], [
     ["Course Code", C.COURSE_CODE],
     ["WSQ TSC", f"{C.TSC_TITLE} ({C.TSC_CODE})"],
     ["Duration", "5 Days (40 hours)"],
-    ["Daily Schedule", "9:00 AM – 6:00 PM (8 training hours/day, excluding lunch)"],
-    ["Lunch Break", "12:30 PM – 1:15 PM (45 minutes)"],
+    ["Daily Schedule", "9:30 AM – 6:30 PM (8 instructional hours/day)"],
+    ["Lunch Break", "1:00 PM – 2:00 PM (1 hour)"],
     ["Breaks", "Short tea breaks are scheduled within each day's training hours"],
     ["Delivery Mode", "Instructor-led presentation, live demonstration and hands-on labs (Killercoda / free tools)"],
     ["Assessment", "Written Assessment (SAQ) 1 hr + Case Study (CS) 1 hr — Open Book (Day 5)"],
@@ -130,37 +159,39 @@ def day(dayno, subtitle, labnums, admin=False):
     B.heading(doc, f"Day {dayno}", 1)
     B.para(doc, subtitle, italic=True, color=B.GREY, space=6)
     dom = next(d for d in man['domains'] if d['labs'] == labnums) if labnums else None
-    # Morning
-    B.para(doc, "Morning Session  ·  9:00 AM – 12:30 PM", bold=True, color=B.BLUE, space=3)
+    th = theory_range(dom) if dom else None
+    # ---- Morning 9:30–1:00 (3.5h instruction incl. 15-min tea) ----
+    B.para(doc, "Morning Session  ·  9:30 AM – 1:00 PM", bold=True, color=B.BLUE, space=3)
     rows = []
     if admin:
-        rows += [('normal', "9:00 – 9:20", "Digital Attendance (AM); Trainer & Learner Introduction; Ground Rules", "20 min", "1–5"),
-                 ('normal', "9:20 – 9:55", "Lesson Plan; Learning Outcomes; Skills Framework; Course Outline", "35 min", "6–19"),
-                 ('normal', "9:55 – 10:15", "Final Assessment Briefing; Criteria for Funding; LMS/TMS", "20 min", "20–22"),
-                 ('break', "10:15 – 10:30", "Tea Break", "15 min", "—")]
-        am_blocks = [("10:30 – 12:30", "120 min")]
+        rows += [('normal', "9:30 – 9:50", "Digital Attendance (AM); Trainer & Learner Introduction; Ground Rules", "20 min", "2–7"),
+                 ('normal', "9:50 – 10:30", "Lesson Plan; Skills Framework; Learning Outcomes; CS0-003 Exam Domains; Course Outline", "40 min", "9–19"),
+                 ('normal', "10:30 – 10:45", "Briefing for Assessment; Assessment; Criteria for Funding", "15 min", "20–23"),
+                 ('break', "10:45 – 11:00", "Tea Break", "15 min", "—")]
+        if dom:
+            rows.append(('topic', "", f"{dom['topic']}: {dom['name']} — Topic Overview", "—", rng(dom['section_slide'], dom['section_slide']+1)))
+            rows.append(('normal', "11:00 – 1:00", f"Theory: {dom['name']} concepts", "120 min", rng(*th)))
     else:
-        rows += [('normal', "9:00 – 9:10", "Digital Attendance (AM); Recap of previous day", "10 min", "—")]
-        am_blocks = [("9:10 – 10:30", "80 min"), ("10:45 – 12:30", "105 min")]
-    if dom:
-        rows.append(('topic', "", f"{dom['topic']}: {dom['name']} — Topic Overview", "—", rng(dom['section_slide'], dom['section_slide']+1)))
-    half = (len(labnums) + 1) // 2
-    am_rows = labs_rows(labnums[:half], am_blocks)
-    if not admin and len(am_blocks) > 1:
-        # insert tea break between the two am blocks
-        am_rows = [am_rows[0]] + [('break', "10:30 – 10:45", "Tea Break", "15 min", "—")] + am_rows[1:]
-    rows += am_rows
-    rows.append(('break', "12:30 – 1:15", "Lunch Break", "45 min", "—"))
+        rows += [('normal', "9:30 – 9:40", "Digital Attendance (AM); Recap of previous day", "10 min", "—")]
+        if dom:
+            rows.append(('topic', "", f"{dom['topic']}: {dom['name']} — Topic Overview", "—", rng(dom['section_slide'], dom['section_slide']+1)))
+            rows.append(('normal', "9:40 – 10:45", f"Theory: {dom['name']} concepts (part 1)", "65 min", rng(th[0], (th[0]+th[1])//2)))
+        rows.append(('break', "10:45 – 11:00", "Tea Break", "15 min", "—"))
+        if dom:
+            rows.append(('normal', "11:00 – 1:00", f"Theory: {dom['name']} concepts (part 2)", "120 min", rng((th[0]+th[1])//2 + 1, th[1])))
+    rows.append(('break', "1:00 – 2:00", "Lunch Break", "60 min", "—"))
     sched_table(rows)
-    # Afternoon
-    B.para(doc, "Afternoon Session  ·  1:15 PM – 6:00 PM", bold=True, color=B.BLUE, space=3)
-    rows2 = [('normal', "1:15 – 1:20", "Digital Attendance (PM)", "5 min", "—")]
-    pm_blocks = [("1:20 – 3:30", "130 min"), ("3:45 – 6:00", "135 min")]
-    pm_rows = labs_rows(labnums[half:], pm_blocks)
+    # ---- Afternoon 2:00–6:30 (4.5h instruction incl. 15-min tea) ----
+    B.para(doc, "Afternoon Session  ·  2:00 PM – 6:30 PM", bold=True, color=B.BLUE, space=3)
+    rows2 = [('normal', "2:00 – 2:05", "Digital Attendance (PM)", "5 min", "—")]
+    pm_blocks = [("2:05 – 4:00", "115 min"), ("4:15 – 6:25", "130 min")]
+    pm_rows = labs_rows(labnums, pm_blocks)
     if pm_rows:
-        rows2.append(pm_rows[0]); rows2.append(('break', "3:30 – 3:45", "Tea Break", "15 min", "—"))
+        rows2.append(('topic', "", f"Hands-On Labs {labnums[0]}–{labnums[-1]}", "—", span(labnums)))
+        rows2.append(pm_rows[0]); rows2.append(('break', "4:00 – 4:15", "Tea Break", "15 min", "—"))
         rows2 += pm_rows[1:]
-    rows2.append(('normal', "6:00", f"End of Day {dayno}", "—", "—"))
+    rows2.append(('normal', "6:25 – 6:30", f"Day {dayno} Recap; Q&A", "5 min", rng(*lab_range(labnums[-1]))))
+    rows2.append(('normal', "6:30", f"End of Day {dayno}", "—", "—"))
     sched_table(rows2)
     doc.add_page_break()
 
@@ -171,39 +202,53 @@ DOMS = [(1, "Topic 1: Security Operations", list(range(1,11)), True),
 for dn, sub, labs, adm in DOMS:
     day(dn, sub, labs, admin=adm)
 
-# Day 5
+# Day 5 — Revision, Practice Exam and Final Assessment
+# Locate the practice-exam and exam-registration section dividers in the deck.
+practice_sec = man.get('practice_section')
+examreg_sec = man.get('examreg_section')
+wrap_sec = man.get('wrap_section')
+last_lab_end = lab_range(30)[1]
+prac_start = practice_sec or (last_lab_end + 2)
+examreg = examreg_sec or (prac_start + 17)
+back = wrap_sec or (examreg + 3)
+
 B.heading(doc, "Day 5", 1)
-B.para(doc, "Revision and Final Assessment", italic=True, color=B.GREY, space=6)
-B.para(doc, "Morning Session  ·  9:00 AM – 12:30 PM", bold=True, color=B.BLUE, space=3)
-back = TOTAL - 8 + 1
+B.para(doc, "Revision, Practice Exam and Final Assessment", italic=True, color=B.GREY, space=6)
+B.para(doc, "Morning Session  ·  9:30 AM – 1:00 PM", bold=True, color=B.BLUE, space=3)
 sched_table([
-    ('normal', "9:00 – 9:10", "Digital Attendance (AM)", "10 min", "—"),
-    ('normal', "9:10 – 10:30", "Revision: Topic 1 Security Operations & Topic 2 Vulnerability Management", "80 min",
-        f"{span(list(range(1,11)))}, {span(list(range(11,20)))}"),
-    ('break', "10:30 – 10:45", "Tea Break", "15 min", "—"),
-    ('normal', "10:45 – 12:30", "Revision: Topic 3 Incident Response & Topic 4 Reporting; Practice Exams", "105 min",
-        f"{span(list(range(20,26)))}, {span(list(range(26,31)))}, {rng(back,back)}"),
-    ('break', "12:30 – 1:15", "Lunch Break", "45 min", "—"),
+    ('normal', "9:30 – 9:40", "Digital Attendance (AM)", "10 min", "—"),
+    ('normal', "9:40 – 10:45", "Revision: Topic 1 Security Operations & Topic 2 Vulnerability Management", "65 min",
+        f"{rng(section_slide['Topic 1'], lab_range(10)[1])}, {rng(section_slide['Topic 2'], lab_range(19)[1])}"),
+    ('break', "10:45 – 11:00", "Tea Break", "15 min", "—"),
+    ('normal', "11:00 – 1:00", "Revision: Topic 3 Incident Response & Topic 4 Reporting", "120 min",
+        f"{rng(section_slide['Topic 3'], lab_range(25)[1])}, {rng(section_slide['Topic 4'], last_lab_end)}"),
+    ('break', "1:00 – 2:00", "Lunch Break", "60 min", "—"),
 ])
-B.para(doc, "Afternoon Session  ·  1:15 PM – 6:00 PM", bold=True, color=B.BLUE, space=3)
+B.para(doc, "Afternoon Session  ·  2:00 PM – 6:30 PM", bold=True, color=B.BLUE, space=3)
 sched_table([
-    ('normal', "1:15 – 1:20", "Digital Attendance (PM)", "5 min", "—"),
-    ('normal', "1:20 – 3:30", "Q&A; Summary; exam techniques; Course Feedback & TRAQOM Survey", "130 min", rng(back+1, back+3)),
-    ('break', "3:30 – 3:45", "Tea Break", "15 min", "—"),
-    ('normal', "3:45 – 4:00", "Assessment Briefing; Digital Attendance (Assessment)", "15 min", rng(back+4, back+4)),
-    ('normal', "4:00 – 6:00", "Final Assessment: Written (SAQ) 1 hr + Case Study (CS) 1 hr", "120 min", "—"),
-    ('normal', "6:00", "End of Class; Recommended Courses; Support", "—", rng(back+5, TOTAL)),
+    ('normal', "2:00 – 2:05", "Digital Attendance (PM)", "5 min", "—"),
+    ('normal', "2:05 – 3:15", "Practice Exam (warm-up quiz) and review", "70 min", rng(prac_start, examreg-1)),
+    ('normal', "3:15 – 3:45", "CompTIA CySA+ exam registration walkthrough (Pearson VUE)", "30 min", rng(examreg, back-1)),
+    ('break', "3:45 – 4:00", "Tea Break", "15 min", "—"),
+    ('normal', "4:00 – 4:15", "Course Feedback & TRAQOM Survey; Assessment Briefing; Digital Attendance (Assessment)", "15 min", rng(back, TOTAL)),
+    ('normal', "4:15 – 6:15", "Final Assessment: Written (SAQ) 1 hr + Case Study (CS) 1 hr", "120 min", "—"),
+    ('normal', "6:15 – 6:30", "Assessment wrap-up; Recommended Courses; Support", "15 min", "—"),
+    ('normal', "6:30", "End of Class", "—", "—"),
 ])
 
 # ---- Slide reference summary ----
 doc.add_page_break()
 B.heading(doc, "Slide Reference Summary", 1)
-rows = [["Front Admin", "Title, Attendance, Ground Rules, Lesson Plan, Skills Framework, Learning Outcomes, Course Outline, Assessment, Funding, LMS", "1–22"]]
+rows = [["Front Admin", "Title, Attendance, Trainer, Ground Rules, Download Material, Lesson Plan, Skills Framework, Learning Outcomes, CS0-003 Exam Domains, Course Outline, Briefing, Assessment, Funding", "1–23"]]
 for d in man['domains']:
-    rows.append([f"{d['topic']}: {d['name']}", f"Section + Overview + Labs {d['labs'][0]}–{d['labs'][-1]}", span(d['labs'])])
+    rows.append([f"{d['topic']}: {d['name']}",
+                 f"Section + Overview + Theory + Labs {d['labs'][0]}–{d['labs'][-1]} + Recap",
+                 rng(d['section_slide'], lab_range(d['labs'][-1])[1] + 1)])
 for ln in range(1,31):
     s,e = lab_range(ln); rows.append([f"Lab {ln}", short(ln), rng(s,e)])
-rows.append(["Back Admin", "Practice Exams, Summary/Q&A, TRAQOM, Attendance, Final Assessment, Recommended Courses, Support, Thank You", rng(back, TOTAL)])
+rows.append(["Practice Exam", "Practice section, warm-up quiz and answer key", rng(prac_start, examreg-1)])
+rows.append(["Exam Registration", "CompTIA CySA+ exam facts and Pearson VUE registration steps", rng(examreg, back-1)])
+rows.append(["Back Admin (Wrap-Up)", "Summary, TRAQOM, Attendance, Assessment, Assessment Flow, Recommended Courses, Support, Thank You", rng(back, TOTAL)])
 B.blue_table(doc, ["Section", "Content", "Slides"], rows, widths=[Inches(1.9), Inches(3.9), Inches(0.9)])
 
 B.add_footer(doc)

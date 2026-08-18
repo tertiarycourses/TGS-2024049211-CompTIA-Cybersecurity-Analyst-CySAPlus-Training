@@ -127,3 +127,12 @@ Scan at 02:00 — outside business hours to respect **operations** and **perform
 - The difference between active (Nmap) and passive (p0f) fingerprinting.
 - Internal vs external scan scope.
 - How to output Nmap data for pipeline consumption and schedule it.
+
+---
+
+## Browser-Based Tools (Tertiary Infotech)
+
+These free browser tools complement this lab — no install required:
+
+- **[IP Subnet Calculator](https://alfredang.github.io/ipcalculator/)** — a browser IP/subnet calculator for network and CIDR planning.
+  - *In this lab:* Use the IP Subnet Calculator to work out the exact host range for your Nmap sweep so you scan the whole subnet and nothing outside it.

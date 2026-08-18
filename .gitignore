@@ -1,0 +1,11 @@
+.DS_Store
+.env
+.playwright-mcp/
+# Confidential — assessments never go to GitHub
+assessment/
+# Third-party reference materials (copyright) — not for publication
+reference/
+lms_screenshot.png
+
+# Local archive of superseded versions — not published to GitHub
+courseware/archive/

@@ -108,3 +108,12 @@ Any IP printed is on **both** sides — failed AND succeeded. That is a brute-fo
 - Build a brute-force-then-success detection by hand — the algorithm under every SIEM "use case".
 - Work with both unstructured syslog and structured JSON events.
 - Move from raw log to actionable alert without leaving the shell.
+
+---
+
+## Browser-Based Tools (Tertiary Infotech)
+
+These free browser tools complement this lab — no install required:
+
+- **[Regex Generator](https://alfredang.github.io/regexgenerator/)** — a browser tool that builds and tests regular expressions for log parsing.
+  - *In this lab:* Use the Regex Generator to build and test the patterns you feed to grep/awk when correlating events across log sources.

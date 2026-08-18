@@ -4,8 +4,9 @@ COURSE_TITLE = "CompTIA Cybersecurity Analyst (CySA+) Training"
 COURSE_CODE = "TGS-2024049211"
 TSC_TITLE = "Cyber Risk Management"
 TSC_CODE = "ICT-SNA-4007-1.1"
-VERSION_PPT = "6.0"
-VERSION_DOC = "1.0"
+VERSION_PPT = "8.0"
+VERSION_DOC = "2.1"
+VERSION_DATE = "18 Aug 2026"
 
 KILLERCODA = "https://killercoda.com/playgrounds/scenario/ubuntu"
 
@@ -86,3 +87,44 @@ CONTACT = {
     "email": "enquiry@tertiaryinfotech.com",
     "tel": "+65 6100 0613",
 }
+
+
+# ---- Practice exam warm-up quiz (original questions, CS0-003 style) ----
+PRACTICE_QUESTIONS = [
+ {"domain": "Security Operations", "q": "A SOC analyst notices outbound DNS requests from a workstation to a domain with a very high entropy name, occurring every 60 seconds. What does this MOST likely indicate?",
+  "opts": ["Normal DNS prefetching by the browser", "Beaconing to a command-and-control server via DGA", "A misconfigured DNS forwarder", "IPv6 neighbour discovery traffic"],
+  "ans": "B", "why": "Regular-interval requests to algorithmically generated domains are classic C2 beaconing behaviour."},
+ {"domain": "Security Operations", "q": "Which log source is MOST useful for determining whether a phishing email was delivered, opened, and which URL the user clicked?",
+  "opts": ["DHCP lease logs", "Email gateway and web proxy logs", "Kernel audit logs", "Print server logs"],
+  "ans": "B", "why": "The email gateway shows delivery; the web proxy shows the click and destination URL."},
+ {"domain": "Security Operations", "q": "An analyst wants to hunt for adversary techniques rather than specific IoCs. Which resource maps adversary tactics and techniques for this purpose?",
+  "opts": ["CVSS", "MITRE ATT&CK", "CVE", "OWASP Top 10"],
+  "ans": "B", "why": "MITRE ATT&CK catalogues adversary tactics, techniques and procedures used for behaviour-based hunting."},
+ {"domain": "Vulnerability Management", "q": "A vulnerability has CVSS vector AV:N/AC:L/PR:N/UI:N and a public exploit. The asset is an internet-facing payment server. What is the BEST prioritisation decision?",
+  "opts": ["Defer to the next quarterly patch cycle", "Remediate immediately as highest priority", "Accept the risk since compensating controls exist", "Reclassify as informational"],
+  "ans": "B", "why": "Network-exploitable, no privileges/interaction needed, weaponised, on a critical exposed asset — top priority."},
+ {"domain": "Vulnerability Management", "q": "Which scan type provides the MOST accurate view of missing patches on a Linux server with minimal network noise?",
+  "opts": ["Unauthenticated SYN scan", "Credentialed (authenticated) scan", "Banner grabbing", "Passive OS fingerprinting"],
+  "ans": "B", "why": "Credentialed scans read package data directly from the host, reducing false positives and probe traffic."},
+ {"domain": "Vulnerability Management", "q": "A web app returns database errors when a single quote is submitted in a form field. Which vulnerability should the analyst suspect FIRST?",
+  "opts": ["Cross-site request forgery", "SQL injection", "Directory traversal", "Buffer overflow"],
+  "ans": "B", "why": "Unhandled quote characters breaking SQL syntax is the classic first indicator of SQL injection."},
+ {"domain": "Incident Response", "q": "During containment of a ransomware outbreak, what should the analyst do FIRST to an infected but powered-on server that holds volatile evidence?",
+  "opts": ["Power it off immediately", "Capture a memory image, then isolate it from the network", "Re-image the server", "Delete the suspicious binaries"],
+  "ans": "B", "why": "Memory is lost on power-off; capture volatile evidence first, then isolate to stop spread."},
+ {"domain": "Incident Response", "q": "In the Cyber Kill Chain, an attacker emailing a malicious PDF to a target is at which stage?",
+  "opts": ["Reconnaissance", "Delivery", "Installation", "Actions on objectives"],
+  "ans": "B", "why": "Transmitting the weaponised payload to the victim is the Delivery stage."},
+ {"domain": "Incident Response", "q": "Which document preserves the integrity of digital evidence by recording who handled it, when, and why?",
+  "opts": ["Chain of custody form", "Business impact analysis", "Service level agreement", "Risk register"],
+  "ans": "A", "why": "The chain of custody documents every transfer and handler, keeping evidence admissible."},
+ {"domain": "Reporting & Communication", "q": "Which metric pair BEST demonstrates SOC detection and response improvement to executives over time?",
+  "opts": ["CPU utilisation and disk IOPS", "Mean time to detect (MTTD) and mean time to respond (MTTR)", "Number of firewall rules and VLANs", "Patch count per server"],
+  "ans": "B", "why": "MTTD/MTTR trend lines directly show how fast the SOC finds and resolves incidents."},
+ {"domain": "Reporting & Communication", "q": "After an incident is closed, which activity captures what worked, what failed, and the improvement actions?",
+  "opts": ["Tabletop exercise", "Lessons-learned review", "Penetration test", "Vulnerability rescan"],
+  "ans": "B", "why": "The post-incident lessons-learned review feeds corrective actions back into the IR plan."},
+ {"domain": "Reporting & Communication", "q": "A vulnerability report for the board should lead with which content?",
+  "opts": ["Raw scanner output for every host", "Risk-ranked summary of exposures and remediation status", "Full packet captures", "A list of all CVE identifiers"],
+  "ans": "B", "why": "Executives need a prioritised, risk-based summary — not raw technical detail."},
+]

@@ -123,3 +123,14 @@ docker stop dvwa && docker rm dvwa
 - Use `curl` and `sqlmap` to validate scanner findings end-to-end.
 - The correct primary mitigation for each class (encoding, validation, parameterisation).
 - The link between the OWASP/DVWA exercises and CySA+ 2.4 secure-coding bullets.
+
+---
+
+## Browser-Based Tools (Tertiary Infotech)
+
+These free browser tools complement this lab — no install required:
+
+- **[PenTest FauxBank](https://pentest-fauxbank.vercel.app/)** — a deliberately-vulnerable demo banking web app for safe web-attack practice.
+  - *In this lab:* Practise reflected/stored XSS and SQL injection against PenTest FauxBank in the browser, then reproduce the same class of attack on DVWA in the lab.
+- **[Cybersecurity Simulator](https://alfredang.github.io/cybersecuritysimulator/)** — an interactive browser simulator for practising security-analyst decisions.
+  - *In this lab:* Use the Cybersecurity Simulator to connect each web weakness you exploit to the analyst response and mitigation.

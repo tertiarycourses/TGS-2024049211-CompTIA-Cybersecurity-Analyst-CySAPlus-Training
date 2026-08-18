@@ -115,3 +115,12 @@ These artefacts feed into the incident report deliverable (Lab 27).
 - Build an ATT&CK Navigator layer by mapping each scenario step to a technique ID.
 - Apply the Diamond Model to enumerate pivot opportunities.
 - Choose the right framework for the analytic question at hand.
+
+---
+
+## Browser-Based Tools (Tertiary Infotech)
+
+These free browser tools complement this lab — no install required:
+
+- **[Cybersecurity Simulator](https://alfredang.github.io/cybersecuritysimulator/)** — an interactive browser simulator for practising security-analyst decisions.
+  - *In this lab:* Use the Cybersecurity Simulator to walk through the kill-chain / ATT&CK decision points as you map the intrusion.

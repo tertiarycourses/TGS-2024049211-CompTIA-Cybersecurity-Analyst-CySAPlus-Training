@@ -139,3 +139,14 @@ This is the deliverable a SOC analyst hands to the vulnerability-management team
 - Drive Recon-ng's workspace/module model and export reports.
 - Combine DNS, certificate transparency, and Shodan-style services into a single external inventory.
 - Map enumeration techniques to CySA+ attack-surface-management vocabulary.
+
+---
+
+## Browser-Based Tools (Tertiary Infotech)
+
+These free browser tools complement this lab — no install required:
+
+- **[Ethical Hacking Playground](https://alfredang.github.io/ethnicalhacking/)** — a browser playground of common ethical-hacking techniques.
+  - *In this lab:* Use the Ethical Hacking Playground and PenTest FauxBank to explore the reconnaissance and enumeration techniques in the browser before running theHarvester/recon-ng.
+- **[PenTest FauxBank](https://pentest-fauxbank.vercel.app/)** — a deliberately-vulnerable demo banking web app for safe web-attack practice.
+  - *In this lab:* Map the attack surface of the PenTest FauxBank demo app as a browser-based warm-up for the recon workflow.

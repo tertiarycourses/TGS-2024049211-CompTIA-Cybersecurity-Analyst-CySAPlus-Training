@@ -1,0 +1,3778 @@
+[
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Network Architecture",
+"kw": [
+"Physical",
+"Star",
+"Bus",
+"Mesh",
+"Software-defined",
+"Control layer (routing)",
+"Data layer (moving packets)",
+"Virtual private cloud (VPC)",
+"Private resources in a public cloud environment",
+"Uses encryption for security",
+"Virtual Private Network (VPN)",
+"Secure tunnel between two endpoints",
+"Almost always encrypted",
+"Serverless",
+"Deploy software network components without a server",
+"FaaS",
+"Use other people's services instead of hosting your own"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Asset Management",
+"kw": [
+"IT Asset Management (ITAM)",
+"Asset lifecycle",
+"Acquisition",
+"Deployment",
+"Maintenance",
+"Retirement",
+"Disposal",
+"Maintaining inventory and configuration",
+"Asset tagging"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Network Segmentation",
+"kw": [
+"What is network segmentation?",
+"The process of breaking down large networks into smaller networks/zones",
+"What does it do?",
+"Improves management of network",
+"Improves traffic across network",
+"Prevents attacker from moving across networks",
+"Achievable across all OSI & TCP/IP layers",
+"Physical layer segmentation",
+"Separate networks & devices connected to separate interconnecting devices",
+"Link layer segmentation",
+"VLANs allows multiple devices across multiple networks to be connected to the same physical device",
+"Manage traffic",
+"Ensure segmentation",
+"Verify hard isolation across networks"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Jump Box/Server",
+"kw": [
+"Channelizing",
+"Monitoring"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Identity and Access Management (IAM)",
+"kw": [
+"Determining a user\u2019s identity",
+"Identification",
+"Authentication",
+"Managing identities",
+"Process",
+"Register as new user",
+"Provide credentials",
+"Password, PIN, token, biometrics, etc.",
+"Privilege management",
+"Authorization",
+"Providing resource access",
+"The key is authentication",
+"Multi Factor authentication (MFA)",
+"Single sign-on (SSO)",
+"Using a single identity across several applications or organizations",
+"Security Assertion Markup Language (SAML)",
+"Manages and transports SSO credentials",
+"Federated identification",
+"Using a single identity across several organizations",
+"User identifies/ authenticates with a central identity manager",
+"Example: OpenID"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "IAM Methods",
+"kw": [
+"Role-based access control (RBAC)",
+"Users (subjects) belong to one or more roles (groups)",
+"Object permissions are granted based on role",
+"Attribute-based access control (ABAC)",
+"Users (subjects) possess descriptive attributes",
+"Object permissions are granted based on attributes",
+"Mandatory access control (MAC)",
+"Subjects have clearances",
+"Objects have classifications"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "IAM Auditing",
+"kw": [
+"Manual review",
+"Necessary to identify malicious behavior"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Cloud Access Security Broker (CASB)",
+"kw": [
+"CASB runs between users and cloud services",
+"Four CASB pillars",
+"Visibility \u2013 subject/object access transparency",
+"Threat protection \u2013 detects and blocks malicious activity",
+"Compliance \u2013 controls to adhere to regulatory requirements",
+"Data security \u2013 controls to protect sensitive data"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Encryption",
+"kw": [
+"Mathematical technique to scramble text",
+"Converts plaintext into ciphertext",
+"Reversible (converts ciphertext into plaintext)",
+"Types of encryption",
+"Symmetric (private key)",
+"Asymmetric (public key)",
+"Public-key cryptography (asymmetric encryption)",
+"Uses two keys",
+"Public and private key pair",
+"If you encrypt with one key, you can decrypt with the other"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Digital Signature",
+"kw": [
+"Uses encryption",
+"Uses hashing",
+"Mathematical function that take input and creates a unique fixed-length output",
+"Verifies the message sender"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Certificate Management",
+"kw": [
+"Digital certificate",
+"Public key of a known identity",
+"Stored by a trusted entity",
+"Certificate authority",
+"Trusted entity that stores public keys of known identities",
+"Trust is the foundation",
+"X.509",
+"IEEE certificate standard",
+"Defines certificate contents",
+"Certificate management includes",
+"Creation",
+"Authenticating",
+"Storage (trusted)",
+"Distribution",
+"Revocation"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Active Defense",
+"kw": [
+"Avoid being a sitting target",
+"Moving Target Defense (MTD)",
+"Change attack surface frequently to confuse attackers",
+"Honeypots and honeynets",
+"Use obfuscation and agility",
+"Reduces value of reconnaissance"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Aggregation",
+"kw": [
+"Sources",
+"Log managers"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Analytics",
+"kw": [
+"Trend analysis",
+"Baseline required",
+"Looking for deviations from baselines",
+"Historical analysis",
+"Past behavior used to gain perspective",
+"Make informed decisions for defense"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Manual Review",
+"kw": [
+"Firewall logs",
+"Authentication logs",
+"Event logs",
+"Syslogs"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Syslog",
+"kw": []
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Syslogd",
+"kw": [
+"Daemon (service) in Linux",
+"Collects & records messages from the machine",
+"Also found in embedded systems",
+"Routers, switches, access points, firewalls",
+"Windows has other options",
+"Collect logs in one place, can also point to central server for aggregation & analysis"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Endpoint Security",
+"kw": [
+"Malware",
+"Fingerprinting/hashing",
+"Decompose (reverse engineering)",
+"Protect against it by detecting and blocking",
+"Fileless (in-memory) malware",
+"Loads into memory but not stored in the file system",
+"Example: rootkits (in part)",
+"Test via sandbox",
+"User and entity behavior analytics (UEBA)",
+"Create baseline of normal behavior",
+"Known-good behavior",
+"Makes anomalous/ abnormal behavior easier to detect"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Sources of Data",
+"kw": [
+"No shortage of sources",
+"IDS (Intrusion detection system) logs",
+"IPS (Intrusion prevention system) logs",
+"Router & switch logs",
+"Firewall logs",
+"Packet captures",
+"Endpoint logs",
+"Best for single events",
+"Tools",
+"Packet capture",
+"Protocol analysis",
+"Network analysis",
+"Wireless analysis"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Correlation Analysis",
+"kw": [
+"Larger volumes of data",
+"Looks at trends across a network"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Wireshark",
+"kw": [
+"Point-in-time analysis",
+"Packet & protocol analysis tool",
+"Connection-oriented",
+"Cross-platform",
+"TCP/IP packet sniffer",
+"Captures & analyzes packets",
+"Reconstructs network traffic",
+"Reports statistics"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Protocol Analysis",
+"kw": [
+"Know what to expect",
+"Know what looks \u2018off\u2019"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Traffic Analysis",
+"kw": [
+"Netflow",
+"Cisco developed system",
+"Track source & destination events",
+"Groups packets into \u201cflows\u201d",
+"ntop",
+"Utility to view the flows",
+"The challenge with \u2018real-time\u2019",
+"Metadata",
+"Computation & storage",
+"Sensing",
+"False positives",
+"Not always user-friendly interface",
+"The solution: SIEMs (security information and event management)"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Wireless Analysis",
+"kw": [
+"Wireless modes",
+"Managed",
+"Ad-hoc",
+"Promiscuous",
+"Monitor",
+"Airmon-ng & Airodump demos"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Heuristic Analysis",
+"kw": [
+"Uses experience over fixed models",
+"Imperfect craft",
+"Constantly evolving field",
+"Best for malware detection",
+"Detects suspicious traffic",
+"Detects suspicious file changes"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Analyzing the Data",
+"kw": [
+"Security Information and Event Management (SIEM)",
+"ELK",
+"Splunk",
+"Analyses",
+"Anomaly",
+"Behavioral",
+"Trend",
+"Availability",
+"Heuristic"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Anomalies",
+"kw": [
+"Visual indicators for traffic",
+"Baselines",
+"Spikes and valleys"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Impact Analysis",
+"kw": [
+"Pre-emptive",
+"Estimates possible impact of any future successful attack",
+"Post-mortem",
+"Determines immediate and ongoing impact of a threat that has already been realized",
+"Immediate (localized) impact",
+"Long-term impact",
+"What\u2019s the total impact to the organization?",
+"Availability",
+"Tends to have immediate impact",
+"Secure systems guarantee confidentiality, integrity, and availability",
+"Use resource monitoring tools to analyze",
+"Early indicator of an attack"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "SIEMs",
+"kw": [
+"Security information & event management systems",
+"Collect, store, analyze, & report data",
+"Normalize data from various logs & compare",
+"Examples:",
+"ArcSight",
+"QRadar",
+"Splunk",
+"Alienvault",
+"OSSIMKiwi Syslog",
+"ELK"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Query Writing",
+"kw": [
+"SQL (Structured Query Language)",
+"Most common",
+"Splunk Search Processing Language (SPL)",
+"Kibana Query Language (KQL)",
+"Apache Lucene",
+"Simple queries",
+"grep",
+"Stands for get regular expression",
+"Search text files (string search), fetch data, pipe out data however you want",
+"Write scripts",
+"Useful for avoiding excessive typing"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "E-mail Analysis",
+"kw": [
+"Malicious payload",
+"DomainKeys Identified Mail (DKIM)",
+"Sender Policy Framework (SPF)",
+"Domain-Based Message Authentication, Reporting, and Conformance (DMARC)",
+"Header",
+"Phishing",
+"Forwarding",
+"Digital signatures and encryption",
+"Embedded links",
+"Impersonation",
+"E-mail signature block",
+"It\u2019s critical for your users to understand that a digital signature is not the same as the signature block routinely used in outgoing messages.",
+"Signature block content is simply additional text that is automatically or manually inserted with messages to enable users to share contact information.",
+"It offers no security advantage, whereas a digital signature provides verification of the sender\u2019s authenticity and message integrity."
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Permissions",
+"kw": [
+"Identify:",
+"Users",
+"Groups",
+"Set permissions for:",
+"Files",
+"Resources",
+"Blacklist",
+"Deny specific traffic or applications",
+"Whitelist",
+"Can use Windows Group Policy Editor",
+"Disable everything except those explicitly listed"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Firewalls",
+"kw": [
+"Operating systems come with firewall built in",
+"Includes default rules",
+"Simple firewalls",
+"Look at protocol, port, source, destination",
+"Decide if a rule is allowed",
+"Web proxies",
+"Sit between Web servers and Web clients",
+"Web application firewalls",
+"Used for Web traffic",
+"Operating system firewalls",
+"OS level, runs on individual machine",
+"Device-oriented firewall",
+"Example: Cisco firewall"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Firewall Rules",
+"kw": [
+"Define higher level rules",
+"Then exception comes after",
+"Defines:",
+"Source, destination, port, protocol, action (accept/reject)"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "IDS/IPS",
+"kw": [
+"Intrusion detection system (IDS)",
+"Intrusion prevention system (IPS)",
+"Like firewalls that take an action against threats",
+"Filters traffic, compares to rules, then acts",
+"Example: Snort"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Snort Rule Building",
+"kw": [
+"Syntax",
+"Snort action",
+"Protocol",
+"Source IP address",
+"Source port",
+"Direction",
+"Example 1",
+"alert tcp any any-> any 80 (msg:\"A web connection was made!\";flow: stateless; rev:1;)",
+"Example 2",
+"alert udp $HOME_NET any -> any 53 (msg:\"Suspicious DNS requests for a .buzz domain\"; flow:to_server; byte_test:1,!&,0xF8,2; content:\"|02|buzz|00|\"; reference:url,www.spamhaus.org/statistics/tlds; sid:12345; rev:1;)"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "IPS Rules",
+"kw": [
+"Zeek logs",
+"Logs events based on rules",
+"Runs scripts to analyze events",
+"Looks for anomalies and correlates data",
+"Suricata",
+"Free, open-source threat detection engine",
+"IDS, IPS, and network monitoring tool"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Data Loss Prevention",
+"kw": [
+"Similar to IDS",
+"Inspects traffic of data movement",
+"Goal is to limit data leakage",
+"Some SaaS solutions provide DLP options",
+"Microsoft 365",
+"Google G Suite"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Endpoint Detection and Response (EDR)",
+"kw": [
+"Part of full-scale security solution",
+"Endpoints can be laptops, workstations, smart phones, etc. that connect to your network",
+"If endpoints get compromised, it can lead to internal compromise",
+"Structured extension to traditional malware detection",
+"Primary capabilities",
+"Monitor",
+"Detect",
+"Respond",
+"Main difference from standard antimalware approach"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Workflow Orchestration",
+"kw": [
+"Security orchestration, automation, and response (SOAR) platforms",
+"Automate common tasks",
+"Standardize incident response",
+"Organize flow to help catch mistakes and repeat processes easily",
+"Example: Splunk Phantom (formerly Phantom Cyber)",
+"Playbooks",
+"Visualization"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Data Enrichment",
+"kw": [
+"Transform raw data into actionable information",
+"Enrichments lead to additional insights",
+"Process is to correlate known data with additional details",
+"Example",
+"Detected newly opened RDP ports on monitored computers",
+"Vulnerability feed queries of RDP ports being opened result in hits for Sarwent malware",
+"Alert created for potential Sarwent malware infection"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Scripting",
+"kw": [
+"Automate the repetitive stuff",
+"Administrators have known about the power of scripting for decades",
+"Great for standardizing any mundane tasks",
+"Common scripting environments:",
+"Python",
+"Check out Violent Python book",
+"PowerShell (not just for Microsoft Windows)"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Application Programming Interface (API)",
+"kw": [
+"Gives the ability to reach out and consume services created by others",
+"Link your code and scripts to someone else\u2019s software with minimal overhead"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Application Programming Interface (API) Integration",
+"kw": [
+"Representational State Transfer (REST) method",
+"Quick and easy way to consume remote services",
+"Create HTTP request, send to Web server; Web server translates request into a function call",
+"Entire architecture is client/server",
+"Stateless",
+"Cacheable",
+"Uniform interface",
+"Manipulation of resources through representations",
+"Self-descriptive messages",
+"Hypermedia as the engine of application state",
+"Layered system",
+"Code on demand (optional)",
+"Embed in any language",
+"Call from command line",
+"curl (character-based URL)",
+"curl --request GET \\--url https://www.virustotal.com/api/v3/domains/{domain} \\-header 'x-apikey: <your API key>'"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Automated Malware Signature Creation",
+"kw": [
+"Useful to keep up with rapidly changing malware threat",
+"YARA",
+"Identify and classify malware samples",
+"virustotal.github.io/yara/"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Threat Feed Combination",
+"kw": [
+"Aggregating disparate data streams is always difficult",
+"Threat feeds may provide data in different formats",
+"Scripting can help automate transforming data into a single format",
+"Easier to read, understand, and respond"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Machine Learning",
+"kw": [
+"Field of computer science",
+"Algorithms examine datasets to reveal trends and indicators that can predict future behavior",
+"An algorithm \u201clearns\u201d by using historical data to make predictions",
+"Similar fields",
+"Machine learning",
+"Data mining",
+"Data science",
+"Involves process, business side, machine learning, analysis",
+"Looking at large data sets to extract previously unidentified valuable data",
+"Looking for trends",
+"Useful in security analysis",
+"Past attack behavior can predict what\u2019s next",
+"Based on the natural tendency to stabilize",
+"Supervised vs. unsupervised learning",
+"Examples: neural networks, decision trees, SVM, regression, etc."
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Automation Protocols and Standards",
+"kw": [
+"Security Content Automation Protocol (SCAP)",
+"Great place to start to automate cybersecurity analysis tasks",
+"Languages",
+"Reporting formats",
+"Identification schemes",
+"Measurement and scoring systems",
+"Integrity",
+"Example: OpenSCAP"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Software Engineering",
+"kw": [
+"Continuous integration",
+"Continuous delivery",
+"Continuous deployment"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Diagnose Symptoms",
+"kw": []
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Network-Related Symptoms",
+"kw": [
+"Bandwidth consumption",
+"Traffic spikes",
+"Traffic irregularities",
+"Beaconing",
+"Peer-to-peer communications",
+"Rogue devices",
+"Scan sweeps"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Bandwidth Consumption",
+"kw": []
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Scan Sweep",
+"kw": []
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Host-Related Symptoms",
+"kw": [
+"Memory consumption",
+"Disk consumption",
+"Processor consumption",
+"Unauthorized applications or processes",
+"Unauthorized privileges",
+"Data exfiltration"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Windows Task Manager",
+"kw": []
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "macOS Activity Monitor",
+"kw": []
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Application-Related Symptoms",
+"kw": [
+"Anomalous activity",
+"Unexpected error messages",
+"Out of memory alerts",
+"Unexpected outbound transmissions"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Little Snitch",
+"kw": []
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Windows Firewall",
+"kw": []
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Intelligence Sources",
+"kw": [
+"Open-source intelligence (OSINT)",
+"Closed-source/ proprietary intelligence"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "OSINT",
+"kw": [
+"Intelligence anyone can find",
+"Source examples",
+"Google",
+"Job sites",
+"Internet registries",
+"Social media"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Closed-Source Intelligence",
+"kw": [
+"Privileged access",
+"Covertly collected"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Gathering Important Information",
+"kw": [
+"Timeliness",
+"Recent or current data",
+"Relevancy",
+"Does it pertain to your objective?",
+"Accuracy",
+"Is intelligence correct?"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Confidence Levels",
+"kw": [
+"Evaluation metric determined by timeliness, relevancy, and accuracy",
+"Assessment of information from sources",
+"Trust of information\u2019s quality",
+"High",
+"Medium",
+"Low",
+"Impact likelihood of resulting action"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Indicator",
+"kw": [
+"Result of an observable event in a network",
+"Any event used to gain understanding",
+"Organizations needed to create standards for threat documentation and communication"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Indicator Management",
+"kw": [
+"Structured Threat Information eXpression (STIX)",
+"MITRE Corporation",
+"Effort to standardize threat data communication and documentation"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "12 STIX domain objects (SDOs)",
+"kw": [
+"Attack pattern",
+"Campaign",
+"Course of action",
+"Grouping",
+"Identity",
+"Indicator",
+"Intrusion set",
+"Malware",
+"Observed data",
+"Report",
+"Threat actor",
+"Tool"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "2 STIX relationship objects (SROs)",
+"kw": [
+"Sighting \u2013 something has occurred",
+"Relationship \u2013 connection between two SDOs"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Exchanging Threat Data",
+"kw": [
+"Trusted Automated eXchange of Indicator Information (TAXII)",
+"Defines how STIX data is transferred via API",
+"Makes STIX data available to other entities",
+"OpenIOC",
+"Open-source",
+"Created by Mandiant (now part of FireEye)",
+"Framework for collecting and exchanging indicators of compromise data"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Threat Actors",
+"kw": [
+"Nation-state",
+"Sophisticated and well-funded",
+"On behalf of government or government agency",
+"Hacktivist",
+"Individual or groups that pursue social goal through hacking",
+"Organized crime",
+"In it for the money",
+"Often uses ransomware",
+"Insider threat",
+"Intentional",
+"Ex: disgruntled employee",
+"Unintentional",
+"Ex: victim of social engineering"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Threat Classification",
+"kw": [
+"Known vs. unknown threats",
+"Absence of evidence isn\u2019t evidence of absence",
+"Zero-day",
+"Exploits an undiscovered vulnerability"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Advanced Persistent Threat (APT)",
+"kw": [
+"Advanced",
+"Well-funded",
+"Often from a nation state",
+"Coordinated",
+"Persistent",
+"24/7",
+"Security professional may work non-standard hours",
+"Threat",
+"Threat actors are very focused",
+"Geopolitical motivation",
+"Technical methods"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Hacktivism",
+"kw": [
+"Politically or socially motivated",
+"Nuisance",
+"Decentralized",
+"Ad-hoc",
+"Easy to participate"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Intelligence Cycle",
+"kw": [
+"Method to translate raw data into actionable information",
+"Requirements",
+"What you need",
+"Example: domain registrations, contact names, addresses, etc.",
+"Collection",
+"Collect the data",
+"OSINT or proprietary sources",
+"Analysis",
+"Look at what you have",
+"CompTIA CySA+ exam emphasizes this step",
+"Find importance and meaning",
+"Dissemination",
+"Explanation of analysis",
+"Recommendation of action given to customer",
+"Feedback",
+"Response of the customer",
+"If customer requires more information, start cycle again"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Commodity Malware",
+"kw": [
+"Malware for sale",
+"Popular in underground communities",
+"Allows attackers with limited skills to engage",
+"Malware-as-a-service"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Information Sharing",
+"kw": [
+"Communities exist to facilitate information sharing",
+"Information Sharing and Analysis Centers (ISACs)"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Information Sharing and Analysis Centers (ISACs)",
+"kw": [
+"Example industries:",
+"Automotive",
+"Aviation",
+"Communications",
+"Electricity",
+"Elections",
+"Financial",
+"Healthcare",
+"Information technology",
+"MultiState"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Threat Research",
+"kw": [
+"Useful to",
+"Add context to alerts",
+"Uncover novel TTPs",
+"Existing controls may miss these",
+"Reputational",
+"Rating of general perceived risk",
+"Google\u2019s Safe Browsing",
+"Talos Reputation Center",
+"VirusTotal",
+"Behavioral",
+"Create local environment to test (i.e., sandbox)",
+"Protected",
+"Launch virtual machine",
+"Run malicious software safely",
+"Indicator of compromise (IOC)",
+"ISACs",
+"Computer Incident Response Center Luxembourg (CIRCL)",
+"FBI\u2019s InfraGard",
+"CVSS",
+"Common Vulnerability Scoring System (CVSS)"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Threat Modeling Methodologies",
+"kw": [
+"Adversary capability",
+"Total attack surface",
+"Attack vector",
+"Impact",
+"Likelihood"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Microsoft STRIDE Threat Categories",
+"kw": []
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "PASTA Stages",
+"kw": []
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Threat Intelligence Sharing with Supported Functions",
+"kw": [
+"Incident response",
+"Vulnerability management",
+"Risk management",
+"Security engineering",
+"Detection and monitoring"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Threat Hunting",
+"kw": [
+"Proactively searching environment for threats",
+"Funding and support",
+"Initiation",
+"Creation of the hypothesis"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Threat Hunting Process",
+"kw": [
+"What is the purpose of the hunt?",
+"Where will it be conducted?",
+"What resources do I need to conduct the hunt?",
+"Who are the key stakeholders?",
+"What is the desired outcome of the hunt?"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Establishing a Hypothesis",
+"kw": [
+"Statement of expectation",
+"Based on information",
+"Analytics-driven",
+"Based on data",
+"Situational-driven",
+"Situations change, resulting in vulnerabilities",
+"Intelligence-driven",
+"Someone has provided intelligence",
+"Experience-driven",
+"Based on familiarity with your environment"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "MITRE ATT&CK framework",
+"kw": [
+"Initial access",
+"Execution",
+"Persistence",
+"Privilege escalation",
+"Defense evasion",
+"Credential access",
+"Discovery",
+"Lateral movement",
+"Collection",
+"Command and control",
+"Exfiltration",
+"Impact"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Threat Hunting Tactics",
+"kw": [
+"High-impact TTPs",
+"Initial access and discovery",
+"Persistence",
+"Lateral movement and privilege escalation",
+"Command and control",
+"Exfiltration",
+"Searching",
+"Clustering",
+"Grouping",
+"Stacking",
+"Executable process analysis",
+"Reverse engineering"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Delivering Results",
+"kw": [
+"Document the process",
+"Reduce the attack surface area",
+"Bundle critical assets",
+"Explore attack vectors",
+"Use integrated intelligence"
+]
+},
+{
+"domain": 1,
+"domain_name": "Security Operations",
+"title": "Improving Detection Capabilities",
+"kw": [
+"How do you convince stakeholders and financial department?",
+"Threat-hunting output benefits",
+"Updated firewall and intrusion detection/prevention system (IDS/IPS) rules",
+"Updated alert logic for SIEM platforms",
+"Updated alert logic for endpoint detection and response (EDR) platforms",
+"Improvements to sensor placement across the network",
+"Improvements to asset visibility",
+"Other benefits to detection team",
+"Changes in your organization\u2019s development process",
+"Changes to security training across the organization",
+"Changes to quality assurance and quality control processes"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Web Application Scanners",
+"kw": [
+"HTTP/HTTPS protocols",
+"Ports 80 and 443",
+"OWASP Zed Attack Proxy (ZAP)",
+"Proxy inserted between client and server",
+"Burp suite",
+"Also a proxy",
+"More manual",
+"More granular control",
+"Nikto",
+"Web server vulnerability scanner",
+"Arachni",
+"Fast, Ruby-based Web application scanner"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Vulnerability Scanning Considerations, I",
+"kw": [
+"Frequency",
+"Industry regulations help determine frequency",
+"Regulations vary by industry",
+"Resources",
+"People",
+"Computation",
+"Time"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Vulnerability Scanning Considerations, II",
+"kw": [
+"Constraints",
+"Qualified personnel",
+"Technical capacity",
+"Determining frequency",
+"Effects on workflow",
+"Resources used to execute scans, review results, translate for leadership, and assist in decision making"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Vulnerability Scanning Criteria",
+"kw": [
+"Feeds",
+"Sensitivity",
+"Scope",
+"Privilege",
+"Credentialed",
+"Non-credentialed",
+"Server-based",
+"Scans executed from central point of contact",
+"Agent-based",
+"Scanning software on all network nodes"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "SCAP",
+"kw": [
+"Security Content Automation Protocol (SCAP)",
+"Created by NIST",
+"Standardizes assessment & reporting of vulnerabilities"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Preventative Tools",
+"kw": [
+"Intrusion Detection Systems (IDSs)",
+"Intrusion Protection Systems (IPSs)",
+"Antivirus",
+"Antimalware",
+"Firewall"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Sourcefire",
+"kw": [
+"https://www.cisco.com/c/en/us/services/acquisitions/sourcefire.html"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "IDS/IPS",
+"kw": [
+"Sourcefire",
+"Began as commercial product called Snort",
+"Eventually acquired by Cisco",
+"Bro",
+"Open source",
+"Network analysis framework",
+"Snort",
+"Security Onion",
+"Open source Linux distro",
+"Uses Bro & Snort to give comprehensive view of traffic",
+"http://chrissanders.org/SO-CheatSheet.pdf"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Bro",
+"kw": [
+"https://www.bro.org",
+"Bro logs are stored in /nsm/bro/logs",
+"They are consumed by syslog-ng and stored in ELSA",
+"Bro monitors your network traffic and creates logs, such as:",
+"conn.log",
+"TCP/UDP/ICMP connections",
+"dns.log",
+"DNS activity",
+"ftp.log",
+"FTP activity",
+"http.log",
+"HTTP requests and replies",
+"SSL/TLS handshake info"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Snort",
+"kw": [
+"Sourcefire was based off Snort",
+"https://www.snort.org",
+"Rules located in: /etc/nsm/rules",
+"Local rules stored in: /etc/nsm/rules/local.rules",
+"Snort doesn\u2019t record everything, like Bro, so enable what you want to see"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Firewalls",
+"kw": [
+"Hardware or software",
+"Stops based on set of rules",
+"Rules are part of ACL",
+"Enforce company security policy",
+"Cisco",
+"Palo Alto",
+"Check Point",
+"ufw",
+"pfsense"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Cisco",
+"kw": [
+"Well-known, robust",
+"Acquired many startups",
+"Robust & powerful",
+"Including Sourcefire",
+"Next Generation Firewall (NGFW)",
+"Popular term for smart firewalls",
+"Firewall subcategories",
+"Based on purpose, enterprise, size of business",
+"Small-medium businesses up to service providers & data centers",
+"https://www.cisco.com/c/en/us/products/security/firewalls/index.html"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Palo Alto",
+"kw": [
+"Leader in NGFW, both hardware & software",
+"Offers firewalls across the spectrum",
+"Home, small business, enterprise & data centers",
+"Firewalls as VM containers",
+"Since hypervisors are gaining popularity, these can be run in VM",
+"https://www.paloaltonetworks.com/products/secure-the-network/next-generation-firewall"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Check Point",
+"kw": [
+"Firewalls for small business to enterprise",
+"Highlights NGFW",
+"Well-known for superior ICS & SCADA devices",
+"https://www.checkpoint.com/products-solutions/next-generation-firewalls/"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "ufw",
+"kw": [
+"Uncomplicated firewall",
+"Easy interface with IP tables (default allow/deny in Linux)",
+"Free",
+"Great place to learn how to use firewalls",
+"To turn UFW on with the default set of rules: sudo ufw enable",
+"To check the status of UFW: sudo ufw status verbose",
+"Note that by default, deny is being applied to incoming. There are exceptions, which can be found in the output of this command: sudo ufw show raw",
+"You can also read the rules files in /etc/ufw",
+"(the files whose names end with.rules)",
+"To disable ufw use: sudo ufw disable",
+"To see get a list of services: less/etc/services"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "pfsense",
+"kw": [
+"Open source",
+"Firewall/router",
+"Based on FreeBSD (Unix-like OS)",
+"https://www.pfsense.org/products/#requirements"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Preventative",
+"kw": [
+"Antimalware",
+"Antivirus",
+"Web Proxy",
+"Tools",
+"EMET",
+"Web Application Firewalls"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "EMET",
+"kw": [
+"Enhanced Mitigation Experience Toolkit (EMET)",
+"Free Microsoft product",
+"Enhance Windows system protection again variety of threats (esp. zero day exploits)",
+"EMET will reach end-of-life",
+"Features will be included in future OSes",
+"Data Execution Prevention (DEP)",
+"Address Space Layout Randomization (ASLR)",
+"Control Flow Guard (CFG)"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Web Application Firewall",
+"kw": [
+"Targeted to protect services (i.e. applications on a server)",
+"Higher level of OSI/TCP Model",
+"In addition to IP addresses of source/destination & ports, can also look at URLs, host names, layer 7 features",
+"ModSecurity",
+"NAXSI (Nginx Anti XSS & SQL Injection)",
+"Imperva"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Vulnerability Scanning",
+"kw": [
+"Qualys",
+"Nexpose",
+"Nessus",
+"OpenVAS",
+"Microsoft Baseline Security Analyzer",
+"Nikto"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Hardware",
+"kw": [
+"Lower cost of manufacturing processes making counterfeiting a growing concern",
+"High-end devices have been counterfeited",
+"Trusted foundries have been created",
+"Assure the integrity of products",
+"Supply chain integrity",
+"Analysis of the hardware components"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Software",
+"kw": [
+"Detecting suspicious files",
+"Name alone won\u2019t reveal if it\u2019s bad",
+"Hashing function",
+"Lists of known bad files on the Internet",
+"Comparing hashes can uncover these bad files"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Software Creation",
+"kw": [
+"Programming language",
+"Represent abstract concepts",
+"Selection, sequence, iteration"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Reverse Engineering Software",
+"kw": [
+"Static analysis",
+"Read through binary to figure out program structure",
+"Dynamic analysis",
+"Connect binary to debugger to simulate execution",
+"Probe program to find out what it\u2019s trying to do, resources its calling, output",
+"Static + dynamic analysis"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Disassembly, I",
+"kw": [
+"The strings utility displays printable characters",
+"Strings demo"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Disassembly, II",
+"kw": [
+"Visual representation of code",
+"Binary ninja demo"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Enumeration",
+"kw": [
+"Active scanners",
+"Nmap",
+"Very popular tool available for most operating systems",
+"Network mapper",
+"hping",
+"Supercharged ping utility",
+"Craft custom packets",
+"Analyze TCP, UDP, ICMP traffic",
+"Passive scanners",
+"Responder",
+"Remote access attack tool that poisons name services"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Wireless Assessment Tools",
+"kw": [
+"Aircrack-ng",
+"Open-source wireless security suite",
+"Useful to audit WLAN security",
+"Reaver",
+"Utility that exploits WPS weaknesses",
+"oclHashcat",
+"Password cracker that uses GPU and CPU power"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Cloud Infrastructure Assessment Tools",
+"kw": [
+"Scout Suite",
+"Open-source",
+"Uses Python",
+"Supports AWS, MS Azure, Google Cloud, Alibaba, Oracle Cloud Infrastructure (OCI)",
+"Auditing tool for managed services",
+"Prowler",
+"Similar to Scout Suite, but mainly for AWS",
+"Based on Center for Internet Security (CIS) best practices",
+"Pacu",
+"AWS exploitation framework"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Attack Types \u2013 Injection",
+"kw": [
+"Attacker sends input so software does something unintended by designer",
+"Remote code execution",
+"Tells target system to run some unauthorized function",
+"Very dangerous",
+"Extensible markup language (XML) attack",
+"Exchange data among different nodes on a network",
+"Send embedded bad data",
+"Send invalid data that causes XML parser to hang or crash",
+"Structured query language (SQL) attack",
+"Most common language for relational databases",
+"Very flexible language",
+"Hard to secure",
+"Often used along with remote code execution",
+"Cross-site scripting (XSS)",
+"Leverage trust between a client and a server",
+"Persistent attack",
+"Attacker stores malicious code on server",
+"Non-persistent attack (reflected)",
+"Vulnerability on server that attacker takes advantage of",
+"Document Object Model (DOM) attack",
+"Used in XML data transfer",
+"Inject bad data into XML",
+"Directory traversal",
+"Enables an attacker to view, modify, or execute files in a system they normally would not be able to access"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Attack Types \u2013 Overflow",
+"kw": [
+"Happens when attacker provides more input than the programmer allowed for",
+"Input may overflow into the next memory space",
+"Buffer",
+"Attacker may be able to write to unauthorized areas of memory",
+"Integer",
+"Provide integer values that are too large or too small",
+"Heap",
+"Cause a program to call itself multiple times"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Attack Types",
+"kw": [
+"Best way to stop them is to carefully and aggressively parse input",
+"Validate all input",
+"Only process valid input",
+"If it\u2019s not valid input, reject it",
+"Don\u2019t try to cleanse it"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Privilege Escalation",
+"kw": [
+"Attacker tries to do more than they\u2019re authorized to do",
+"Then attempts to gain higher privilege",
+"Ideally, attacker tries to become admin or root user",
+"Ways to escalate privilege:",
+"Login as someone else",
+"Brute force your way in",
+"Exploit various vulnerabilities to allow you to escape to a higher privilege shell"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Authentication Attacks",
+"kw": [
+"Password spraying",
+"Use list of popular passwords across a bunch of machines",
+"Credential stuffing",
+"Attacker obtains list of previously-leaked usernames and passwords and tries to use them on many other sites",
+"Impersonation",
+"Attacker pretends to be someone else",
+"Stealing someone\u2019s login credentials"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Impersonation",
+"kw": []
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Man-in-the-Middle (MITM) Attack",
+"kw": []
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Session Hijack",
+"kw": []
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Cross-site scripting (XSS)",
+"kw": []
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Rootkit",
+"kw": []
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Vulnerabilities",
+"kw": [
+"Improper error handling",
+"Error messages sometimes give away too much information",
+"Error messages should only give enough information to solve the problem",
+"Don\u2019t send error message and then crash the program",
+"Dereferencing",
+"Pointer attempts to access some value in the memory that is no longer there",
+"Following the pointer can cause an operational error",
+"Never follow a pointer until you verify it\u2019s valid",
+"Fail gracefully",
+"Insecure object referencing",
+"Make sure access controls operate at all levels",
+"Direct record ID used to access unauthorized data",
+"Always authenticate every request",
+"Race condition",
+"Time difference between checking the permissions of a subject requesting a resource and allowing accessing to the resource",
+"Called the TOCTOU (time-of-check to time-of-use)",
+"Never allow access after authentication but before use",
+"Never provide access to data without checking identity",
+"Broken authentication",
+"Don\u2019t authenticate, assign a session ID, and assume from then on, it\u2019s always the same user if it\u2019s the same session ID",
+"Sensitive data exposure",
+"Application\u2019s responsibility to protect data and only allow access to authorized users",
+"Insecure components",
+"Insecure parts of applications",
+"All applications are modular",
+"They rely on libraries, external functions, or interactions with other components",
+"Interacting with insecure components causes insecurities",
+"Logging and monitoring",
+"Most common logging is to export to log files",
+"Log files are critical to finding out what happened",
+"Make sure applications have logging enabled",
+"Default configurations",
+"Vendors try to set them appropriately",
+"Common to have to change the settings",
+"Default user IDs are a vulnerability",
+"Change default configurations to most secure settings",
+"Remove unused user IDs",
+"Insecure functions",
+"strcpy",
+"User proper software development standards",
+"Make sure developers understand what not to do",
+"Provide sufficient feedback"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Regulatory Environments",
+"kw": [
+"ISO/IEC 27001",
+"Standard for managing information systems",
+"Payment Card Industry Data Security Standard (PCI-DSS)",
+"Health Insurance Portability and Accountability Act (HIPAA)",
+"General Data Protection Regulation (GDPR)",
+"Corporate policy",
+"Data classification"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Vulnerability Identification",
+"kw": [
+"Asset inventory",
+"All endpoints?",
+"Servers only?",
+"Inventory all assets to determine vulnerability identification considerations",
+"Asset criticality",
+"Necessary to determine mediation priorities",
+"Active vs. passive scanning",
+"Vulnerability scanning",
+"Web application"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Mapping/ Enumeration",
+"kw": [
+"Common techniques",
+"ICMP echo request",
+"TCP SYN to port 443",
+"TCP ACK to port 80",
+"ICMP timestamp request",
+"Nmap is a great tool to use here"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Scanning Parameters and Criteria",
+"kw": [
+"Risks associated with scanning activities",
+"May impact availability",
+"Regulatory requirements",
+"Work within regulatory environments",
+"Technical constraints",
+"Workflow",
+"Work with your available resources (personnel and technical)",
+"Sensitivity levels",
+"Clearance and classified data",
+"Sensitive data (PHI, PII, payment cards, etc.)",
+"Are you authorized to view data?",
+"Segmentation",
+"VLANs in logical architecture",
+"Understand network architecture for appropriate scans",
+"Vulnerability feed",
+"Up-to-date known vulnerability information",
+"Scope",
+"How many devices/ endpoints?",
+"Credentialed vs. non-credentialed scan",
+"Server-based vs. agent-based scan",
+"Internal vs. external scan",
+"Does scan execute from within corporate network?",
+"Or execute from outside the network via external node?",
+"Results vary",
+"Report results based on internal/external scan"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Special Scanning Considerations",
+"kw": [
+"Types of data",
+"Scan for everything or just certain types of data?",
+"Understand the organization and regulations driving the scans",
+"Tools",
+"Updates and plug-ins help automate scans",
+"Nessus",
+"Nessus Attack Scripting Language (NASL)",
+"Automate aspects of scanning process",
+"Consistency in scans",
+"Recreate scans",
+"Security Control Automation Protocol (SCAP)",
+"Created by NIST",
+"Defines modules that dictate compliance requirements/settings",
+"Intrusion detection system (IDS)/intrusion prevention system (IPS)",
+"Firewall may reject scans",
+"Generating reports",
+"Templates/format",
+"Automated vs. manual distribution",
+"Possible executive presentation to client"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Validation",
+"kw": [
+"Determining whether data is true or not",
+"Four response types:",
+"True, false, negative, positive",
+"Four categories:",
+"True positive",
+"False positive",
+"True negative",
+"False negative"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Remediation/ Mitigation",
+"kw": [
+"Configuration baseline",
+"Collection of all property settings of a device, OS, application, etc.",
+"Compare to current settings and determine changes",
+"Often implemented in audit process",
+"Find baselines from standards organizations",
+"Identify vulnerabilities",
+"Due to configuration or old software",
+"Recommend patching software",
+"Especially security patches",
+"Prioritizing",
+"Most crucial vulnerabilities first",
+"Highest probability of occurring",
+"Highest impact",
+"Hardening",
+"Process of remediating",
+"Make a device less susceptible to attack",
+"Compensating controls",
+"Helps mitigate vulnerability without directly addressing the cause",
+"Example: firewall with closed ports",
+"Ideally implement layers of compensating controls",
+"Risk acceptance",
+"Document",
+"Have long-term solution to mitigate eventually",
+"Verification of mitigation"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Inhibitors to Remediation",
+"kw": [
+"Memorandum of understanding (MOU)",
+"Authorizes/limits scanning activities",
+"Service-level agreement (SLA)",
+"Dictates what each party does",
+"May limit remediation actions",
+"May limit scanning capabilities",
+"Organizational governance",
+"Potential limits on remediation due to collateral impact",
+"Business process interruption",
+"Degrading functionality",
+"Legacy systems",
+"Proprietary systems"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Mobile",
+"kw": [
+"Access points",
+"Any place where a device connects via Wi-Fi, then into the network infrastructure",
+"Common place for vulnerabilities",
+"VPNs",
+"Virtual private network",
+"Establish secure connection using insecure access point",
+"Network vulnerabilities",
+"Mobile device has to connect to IT infrastructure",
+"Wi-Fi or cellular",
+"Older cellular technologies were very insecure",
+"Newer technologies are more secure and use encryption",
+"Device vulnerabilities",
+"Securing mobile devices is challenging",
+"Provisioned for multi-use",
+"Can\u2019t secure one device for many different uses",
+"Operating system vulnerabilities",
+"Operating systems update frequently",
+"Competition between OS manufacturers",
+"Patch bugs and security vulnerabilities",
+"App vulnerabilities",
+"Improper platform usage",
+"Insecure data storage",
+"Insecure authentication",
+"Insecure authorization",
+"Code quality vulnerabilities"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Internet of Things (IoT)",
+"kw": [
+"Smaller devices connecting to the Internet and doing things autonomously",
+"Increased risk of compromise",
+"Botnet",
+"Collection of compromised devices used to launch a DDoS attack",
+"Mirai botnet",
+"Malware that compromised a lot of insecure IoT devices",
+"Successful DDoS attack",
+"IoT devices are ubiquitous",
+"Users often not concerned about security",
+"Many devices are not hardened",
+"Default credentials are easy to find"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Embedded",
+"kw": [
+"Special-purpose software",
+"Low-power processor",
+"Often no external storage",
+"Software can be burned into the firmware",
+"Could just be hardware only",
+"Limited ability to monitor or patch"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Real-time Operating System (RTOS)",
+"kw": [
+"Devices that require low-latency input processing",
+"Vehicles",
+"Manufacturing",
+"Aviation",
+"Medical",
+"Vulnerabilities allow threats to underlying performance guarantees"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "System on a Chip (SoC)",
+"kw": [
+"Software and hardware integrated on a single chip",
+"Used in special-purpose applications",
+"SoC is efficient and cost effective",
+"Vulnerabilities can affect the entire SoC environment (hardware and software)"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Field Programmable Gate Array (FPGA)",
+"kw": [
+"Combination of SoC and embedded system",
+"Programmable chip with the ability to be modified and reprogrammed in the field",
+"Must use special device to overwrite the firmware",
+"Upgradable",
+"Cost effective",
+"Simplicity sometimes leads to vulnerabilities"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Physical Access Control",
+"kw": [
+"Example: RFID",
+"Radiofrequency identification",
+"Chip that uniquely communicates with receiver",
+"Physical readers make reverse engineering and spoofing possible",
+"Vulnerabilities can allow attackers to bypass access control",
+"Replay and cloning are popular attack methods"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Vehicles",
+"kw": [
+"Vehicles of all types are increasingly connected",
+"Internet connectivity",
+"Access to many subsystems",
+"Control of some subsystems",
+"Also opens up vulnerabilities",
+"Controller Area Network (CAN bus)",
+"CAN exploits (to alter vehicle operation) have been demonstrated"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Drones",
+"kw": [
+"Can be malicious",
+"Controlled by an attacker",
+"Can be innocent",
+"Drone operators may have their drones hijacked and used for malicious purposes",
+"Many options for attacks"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Building Automation Systems",
+"kw": [
+"Network of connected cyber-physical devices",
+"Combination of computing device that has impact on physical world",
+"Examples:",
+"Robots",
+"Lighting",
+"Environmental control",
+"Physical access",
+"Smoke detection",
+"Fire suppression",
+"Vulnerabilities can impact a building\u2019s usability, inhabitability, and safety"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Workflow and Process Automation Systems",
+"kw": [
+"Systems that direct and/or control workflow",
+"Project management",
+"Document management",
+"Software Configuration Management (SCM)",
+"Value is in autonomy",
+"Vulnerabilities can include malicious workflow alterations",
+"Important to externally audit desired workflow"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Industrial Control System (ICS)",
+"kw": [
+"Cyber-physical systems",
+"Software to control physical behavior",
+"Common in manufacturing and warehousing/distribution",
+"Other applications include elevators and HVAC systems",
+"Remote Terminal Units (RTU) or Programmable Logic Controllers (PLC)",
+"Connect physical world to computers",
+"PLCs commonly use firmware",
+"Difficult to monitor or upgrade"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Supervisory Control and Data Acquisition (SCADA)",
+"kw": [
+"Special class of ICS",
+"Controls cyber-physical systems",
+"SCADA vulnerabilities",
+"Communications with remote facilities",
+"Autonomous operation of remote facilities",
+"SCADA is not modular",
+"Modbus",
+"SCADA (PLC) communication standard",
+"Security not part of its design"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Software as a Service (SaaS)",
+"kw": []
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Platform as a Service (PaaS)",
+"kw": []
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Infrastructure as a Service (IaaS)",
+"kw": []
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Cloud Deployment Models",
+"kw": [
+"Public",
+"Most popular",
+"Lease connectivity and functionality from service provider",
+"Private",
+"Create collection of servers in your own data center",
+"Only for internal network users",
+"Community",
+"Private cloud owned by a consortium",
+"Shared among many entities",
+"Hybrid",
+"Looks like single cloud but made up of both public and private (and maybe community)",
+"Each model opens up vulnerabilities",
+"Authorization concerns",
+"Authentication concerns"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Function as a Service (FaaS)",
+"kw": [
+"Serverless architecture",
+"No servers need to be set up",
+"Focus is on responding to functionality requests",
+"Example: Amazon Lambda"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Infrastructure as Code (IaC)",
+"kw": [
+"Developers tend to develop based on personal preferences",
+"Development environments diverge",
+"Can introduce vulnerabilities",
+"Structured method to create stable development environments",
+"Minimizes local configuration differences",
+"Virtualization and structured provisioning",
+"Makes it easy to create cloned environments"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Insecure Application Programming Interface (API)",
+"kw": [
+"Poorly written APIs may have vulnerabilities"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "OWASP API Security Project top ten vulnerabilities",
+"kw": [
+"Broken object level authorization",
+"Mass assignment",
+"Broken user authentication",
+"Excessive data exposure",
+"Lack of resources and rate limiting",
+"Broken function level authorization",
+"Security misconfiguration",
+"Injection",
+"Improper asset management",
+"Insufficient logging and monitoring"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Improper Key Management",
+"kw": [
+"Encryption can protect",
+"Confidentiality",
+"Integrity",
+"Non-repudiation",
+"Security depends on the encryption key",
+"Key management is difficult (to do right)",
+"Generation",
+"Distribution",
+"Replacement"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Unprotected Storage",
+"kw": [
+"Cloud storage is located on someone else\u2019s computing systems",
+"Be sure to secure the storage",
+"Vulnerabilities can leave storage open to hackers",
+"Admins must configure security settings properly",
+"Common loophole is mass access",
+"Often granted for convenience",
+"May expose sensitive data"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Logging and Monitoring",
+"kw": [
+"Responsibility changes based on cloud service models",
+"If service provider is taking on most of the responsibility, user has little control over what gets logged",
+"Monitor and log all important events",
+"More services means less granular control",
+"SLAs spell out roles and responsibilities"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Platforms",
+"kw": [
+"Software architecture",
+"What happens and where it happens",
+"Processing",
+"Presentation logic",
+"Business logic",
+"Storage",
+"Communication"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Common Architecture Types",
+"kw": [
+"Host-based",
+"Client-based",
+"Client/server",
+"Distributed (n-tier)"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Software Considerations",
+"kw": [
+"Client/server",
+"Thick client",
+"Web application",
+"Distributed, browser-based",
+"Mobile",
+"Thin client",
+"Embedded",
+"Self-contained",
+"System-on-chip (SoC)",
+"More compact embedded",
+"Firmware",
+"Just the stable code"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Service-Oriented Architecture (SOA)",
+"kw": [
+"SOA clients consume services via APIs",
+"Usually based on web approach",
+"Loosely-coupled connection between client and server",
+"Two types of connections",
+"Persistent",
+"Non-persistent",
+"SOAs can be open or closed",
+"Cloud computing makes SOA far easier to scale",
+"Security Assertions Markup Language (SAML)",
+"Common standard for SOA authentication and authorization",
+"SOA implies separate trust zones",
+"Applications need a standard way to communicate identity and state",
+"Simple Object Access Protocol (SOAP)",
+"Early method to invoke services",
+"XML over HTTP",
+"Data in envelope approach",
+"Can be complex",
+"Representational State Transfer (REST)",
+"Lightweight and flexible",
+"Preferred for clients with minimal processing capability",
+"Based on HTTP methods",
+"Microservices",
+"Limited scope, loosely coupled services (often REST)"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "DevOps",
+"kw": [
+"Integrates operations with software development",
+"Gives operations direct input into software functionality and quality",
+"Developers benefit from timely, relevant perspective"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "DevSecOps",
+"kw": [
+"Integrates security with DevOps",
+"Increases the priority of security",
+"No longer an afterthought",
+"Easier (and cheaper) to design security into software",
+"No adding it in later"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Coding Requirements",
+"kw": [
+"Functional requirements",
+"Inputs, processes, & outputs",
+"Non-functional requirements",
+"Character inputs, input constraints, & system limitations",
+"Security requirements",
+"Behaviors and characteristic to meet security levels",
+"Interaction with other systems",
+"Class includes functional & non-functional aspects"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Development Phase",
+"kw": [
+"Design",
+"Engineering",
+"Construction",
+"Static analysis",
+"Before code has been executed",
+"Automated tools assist analyst and developers",
+"Code review",
+"Manual inspection by human developers and security staff"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Implementation Phase",
+"kw": [
+"Testing",
+"Functional",
+"Software performs as expected",
+"Non-functional",
+"Quality test of infrastructure",
+"User acceptance",
+"Software acts as user expects",
+"Testing for the security professional",
+"Fuzzing",
+"Give software various input",
+"Define crashes & exceptions",
+"Stress",
+"Push limits of software",
+"Give input the software is expecting",
+"Regression",
+"Test security through updates & patches"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Operations & Maintenance Phase",
+"kw": [
+"Maintenance responsibility",
+"Outline software security requirements for developers & implementers",
+"Patches \u2013 how often, under what conditions, who is responsible",
+"Maintenance phase length",
+"All software eventually gets retired",
+"Define end-of-life"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Waterfall Model",
+"kw": []
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Agile Model",
+"kw": []
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "SEI",
+"kw": [
+"Top ten practices - https://www.securecoding.cert.org/confluence/display/seccode/Top+10+Secure+Coding+Practices"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "OWASP",
+"kw": [
+"https://www.owasp.org/images/0/08/OWASP_SCP_Quick_Reference_Guide_v2.pdf",
+"TOC",
+"Input validation section"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Trusted Platform Module (TPM)",
+"kw": [
+"TPM chip",
+"System-on-chip (SoC)",
+"Stores cryptographic keys and the functionality to deal with them",
+"Persistent memory",
+"Endorsement key (EK)",
+"Storage root key (SRK)",
+"Versatile memory",
+"Platform Configuration Registers (PCRs)",
+"Attestation Identity Keys (AIKs)",
+"Storage keys"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Hardware Security Module (HSM)",
+"kw": [
+"Not bound to a motherboard",
+"Removable card or device"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "eFuse",
+"kw": [
+"Nonvolatile bit",
+"Once set to 1, cannot be changed",
+"Useful to permanently disable functionality",
+"Manufacturing tests",
+"Useful to permanently store data",
+"Cryptographic keys"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Firmware",
+"kw": [
+"Software that\u2019s burned into hardware (chip)",
+"Difficult to change",
+"Unified Extensible Firmware Interface (UEFI)",
+"Security Phase (SEC)",
+"Pre-EFI Initialization (PEI)",
+"Driver Execution Environment (DXE)",
+"Boot Device Select (BDS)",
+"Transient System Load (TSL)",
+"Runtime (RT)"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Firmware Security",
+"kw": [
+"Measured boot and attestation",
+"Instead of verifying digital signatures of code",
+"Calculates code hashes",
+"Stores hashes of programs that have been run",
+"Securely sends hashes to management station",
+"Trusted firmware updates",
+"Built-in capability to download, verify, and swap firmware images",
+"Avoids overwrite failures that result in unbootable devices"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Storage Encryption",
+"kw": [
+"Full-disk encryption (FDE)",
+"Software",
+"Hardware"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Hardware Encryption",
+"kw": [
+"Self-encrypting drive (SED)",
+"User provides password",
+"Password gets used to encrypt key",
+"Encrypted key is stored in nonvolatile memory of the disk controller"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Bus Encryption",
+"kw": [
+"SED still exposes plaintext once data gets read from the disk",
+"Moving crypto module from the disk controller to the CPU",
+"Keeps data on the bus as ciphertext",
+"Requires a dedicated chip (cryptoprocessor)",
+"Bus encryption is not suitable for general purpose computers",
+"Expensive",
+"Complex",
+"Functional limitations"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Secure Processing",
+"kw": [
+"Trusted execution environment (TEE)",
+"Rigorous assessment prior to certification",
+"Secure enclave",
+"Runtime environment that limits how programs interact with one another and the outside world"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "TEE and REE",
+"kw": [
+"Processor security extensions",
+"CPU instructions that support TEE functionality"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Trusted Foundry",
+"kw": [
+"US DoD program",
+"Ensures that the supply chain for all DoD mission-critical systems is hardened",
+"Fewer than 100 companies have passed the rigorous certification process to be designated as trusted foundries"
+]
+},
+{
+"domain": 2,
+"domain_name": "Vulnerability Management",
+"title": "Anti-Tamper Techniques",
+"kw": [
+"Chip attacks",
+"Microprobing",
+"Apply voltage to various conductors and recording the results",
+"Visual analysis",
+"Carefully removing the chip\u2019s covering, layer by layer",
+"Chip manufacturers employ techniques to thwart tampering",
+"Random signals to confuse microprobing",
+"Chip casing compromise detection",
+"If compromised, place zeros in nonvolatile memory"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Attack Frameworks",
+"kw": [
+"Help define tactics, techniques, and procedures (TTPs)",
+"MITRE Corporation",
+"MITRE ATT&CK (Adversarial Tactics, Techniques, and Common Knowledge)",
+"Used to track adversarial behavior",
+"Activities are organized into 12 activities",
+"Discovery",
+"Lateral movement",
+"Defense evasion",
+"Credential access",
+"Collection",
+"Command and control",
+"Exfiltration",
+"Impact",
+"Initial access",
+"Execution",
+"Persistence",
+"Privilege escalation",
+"The Diamond Model of Intrusion Analysis",
+"Shows relationships between 4 core components",
+"Kill chain",
+"Based on military F2T2EA",
+"Find",
+"Fix",
+"Track",
+"Target",
+"Engage",
+"Assess"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Diamond Model Axioms",
+"kw": []
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Lockheed Martin Cyber Kill Chain",
+"kw": []
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "IR Process Key Roles",
+"kw": [
+"Senior leaders",
+"Include in decision-making process",
+"Visibility & support",
+"Address regulatory issues",
+"Buffer between IR team & personnel/leaders",
+"Team composition",
+"Response based on scope of incident management",
+"Bring in the right knowledge & experience to meet the problem",
+"Outside resources need coordination & pre-set parameters",
+"Escalated IR",
+"Need strict guidelines, policies, & notification requirements",
+"May be subject to penalties or legal ramifications"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Team Structure",
+"kw": [
+"Central response team",
+"Organic",
+"Address incidents as they come up",
+"Distributed response team",
+"Larger organizations",
+"Geographically separate teams that address incidents",
+"Outsourced response team",
+"Outside the organization",
+"Responds to incidents as a service"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Communications Process",
+"kw": [
+"Circle of trust",
+"Key staff, internal & external partners",
+"Disclosure",
+"Based on regulatory or legislative requirements",
+"Need-to-know",
+"Damage control",
+"Let employees know about incident",
+"Policy of talking about the incident",
+"Secure communications",
+"Avoid leaks"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Responsibilities & Coordination",
+"kw": [
+"Clearly defined",
+"Understandable",
+"Portable"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Preparation",
+"kw": [
+"Prevent incidences to begin with",
+"People",
+"Process",
+"Technology",
+"Network & host hardening",
+"Patches & updates"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Active Security Measures",
+"kw": [
+"Know Your Attack Surface",
+"Attack surface analysis",
+"Main point: identify key parts of system to test for vulnerabilities",
+"Help security team prepare for attacks & protect assets",
+"Help developers make better products"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Attack Surface Analysis",
+"kw": [
+"Conducted by security architects & pen testers",
+"Helps to identify:",
+"Parts of a system to review & test for vulnerabilities",
+"High risk areas that need to be defended",
+"When attack surface changes"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Detection & Analysis \u2013 Know the Signs",
+"kw": [
+"Indicators of compromise",
+"Unusual outbound traffic",
+"Anomalous admin account activity",
+"Geographic irregularities",
+"Login irregularities",
+"High database read volume",
+"HTML response size",
+"High requests on the same file",
+"Mismatched port application traffic",
+"Suspicious registry and system file changes",
+"DNS request anomalies"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Detection & Analysis",
+"kw": [
+"Prepare your sources",
+"SIEM",
+"IDS/IPS",
+"Alerts & logs"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Determining Severity",
+"kw": [
+"Scope of impact",
+"Downtime",
+"What is the maximum tolerable downtime?",
+"Recovery time",
+"Time is money",
+"Data integrity",
+"Tampering or deleting",
+"Economic",
+"Value & cost",
+"Business process criticality"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Types of Data",
+"kw": [
+"PHI (Protected Health Information)",
+"PII (Personally Identifiable Information)",
+"Corporate secrets & intellectual property",
+"Patents",
+"Trademarks & copyright",
+"Mergers & acquisitions",
+"Accounting",
+"Trade secrets",
+"Payment card information"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Know Your Threat",
+"kw": [
+"Know vulnerabilities & landscape",
+"What type of data?",
+"What do systems look like?",
+"What are the threat actors?"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Incident Response (IR) Process",
+"kw": [
+"NIST Special Publication 800-61",
+"National Institute of Standards and Technology (NIST)",
+"Provides publications & guidelines on technology standards"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Incident Response (IR) Process Phases",
+"kw": [
+"Phase I: Preparation",
+"Proactive measures (i.e., network segmentation & host hardening)",
+"Formal risk assessment process",
+"Vulnerabilities",
+"Action steps",
+"Communication",
+"Activity & reporting"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "IR Process Phases",
+"kw": [
+"Phase 1: Preparation",
+"Phase 2: Containment",
+"Stop all damage",
+"Prevent or reduce spread of infection",
+"Quarantine hosts",
+"Phase 3: Eradication",
+"Return to known good state",
+"Document carefully!",
+"Phase 4: Validation",
+"Identify threat & attack vector",
+"Identify preventive measures",
+"Change controls",
+"Update software/patches",
+"Phase 5: Corrective actions",
+"Implement patches",
+"Update PPPs",
+"Organizational policies & procedures",
+"Network systems access",
+"Authentication",
+"Phase 6: Reporting",
+"Take notes throughout",
+"Compare to best practices",
+"Ways to improve",
+"Report to senior management"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "IR Process Elements",
+"kw": [
+"Communication",
+"Important throughout IR process",
+"Get everyone involved",
+"Analysis",
+"Technical techniques",
+"Reporting",
+"Document everything"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Digital Forensics",
+"kw": [
+"Collecting & analyzing digital clues to figure out the 5 W\u2019s:",
+"Who",
+"What",
+"Where",
+"When",
+"Why",
+"Network forensics",
+"Mobile forensics",
+"Computer forensics",
+"Code analysis"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Principles of Forensics",
+"kw": [
+"Do no harm",
+"Don\u2019t affect data integrity",
+"Train, train, train",
+"Forensic examiners & professionals",
+"Requirements & regulations",
+"Provide evidence",
+"Keep good notes",
+"Collection, inspection, storage of evidence",
+"Audit trail for 3rd party inspection"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Phases of a Forensic Investigation",
+"kw": [
+"Seizure",
+"Ensure data isn\u2019t tampered with",
+"Acquisitions",
+"Extracting data from the scene",
+"Work from forensic image",
+"Analysis",
+"Make sense of the data",
+"Reporting",
+"Know your audience"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Your Forensic Tool Kit",
+"kw": [
+"Jump bag",
+"Laptop with pre-installed forensic software",
+"Hard drives for storage",
+"USB hub",
+"Cables & adapters",
+"Hard drive enclosure",
+"Toolkit",
+"Camera",
+"Wireless spectrum analyzer",
+"Crime scene tape & seals",
+"Documentation",
+"IR plan & log",
+"Chain of custody forms",
+"Contact list"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Control the Crime Scene",
+"kw": [
+"Control access",
+"Create access list",
+"Who, where, when",
+"Trained & certified personnel",
+"Document",
+"Visitors",
+"Access to systems",
+"Contamination",
+"Maintain chain-of-custody",
+"Leave the power on",
+"Unless malware is destroying evidence",
+"Running memory can give clues",
+"Advanced malware might not write to disk"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Acquisition Process",
+"kw": [
+"Prepare destination media",
+"Securely store data",
+"Removable hard drive or network-based option",
+"Make sure destination media is clean",
+"Prevent changes",
+"Forensic station",
+"Special set-ups",
+"Securely copy from source to destination",
+"Write blocker",
+"Prevents changes when copying",
+"Mouse jigglers",
+"Prevents computer from falling asleep",
+"Hash the source",
+"Fixed snapshot of evidence",
+"Image the source",
+"Commercial",
+"FTK Imager",
+"Open source",
+"dd",
+"Verify the acquisition",
+"MD5 or SHA hash",
+"Protect the acquisition"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Forensics Station",
+"kw": [
+"https://www.cru-inc.com/product_image_galleries/Forensic_Field_Kit_D/5-Ditto_Field_Kit.jpg"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Write Blocker",
+"kw": [
+"https://www.cru-inc.com/wp-content/uploads/2016/05/DittoDX_angle1-3.png"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Hash Collisions",
+"kw": []
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Special Topic: Password Cracking",
+"kw": [
+"Open source",
+"hashcat",
+"Over 200 hash types",
+"oclhashcat- GPU acceleration",
+"Commercial",
+"ElcomSoft",
+"Passware",
+"Passware Kit Forensic",
+"Individually or with EnCase suite",
+"Over 200 hash types",
+"GPU acceleration"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Mobile Device Forensics",
+"kw": [
+"Can be difficult",
+"OS is closed",
+"Communicate with outside world",
+"Remote access can alter evidence",
+"Faraday device",
+"Blocks RF signaling",
+"Difficult to directly access a device\u2019s data",
+"Need special mobile forensics software and hardware"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Virtualization and the Cloud",
+"kw": [
+"SLAs may limit forensic activities",
+"Snapshots",
+"Forensically-sound evidence preservation"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Legal Hold",
+"kw": [
+"In a court of law, admissible evidence must be in original state",
+"Legal hold is required by the court to retain evidence",
+"Evidence can\u2019t be returned to owner until after the trial",
+"Verified images can suffice as forensically-sound"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Forensics Analysis, I",
+"kw": [
+"Manually",
+"Operating system and processes",
+"Log viewers",
+"Windows",
+"Event Viewer",
+"Registry",
+"Linux directories",
+"/etc/",
+"/var/log/",
+"/home/"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Forensics Analysis",
+"kw": [
+"Commercial solutions",
+"FTK",
+"EnCase",
+"The Sleuth Kit",
+"Timeline analysis"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Timeline Analysis",
+"kw": [
+"Searches log files, artifacts to create single correlated timeline",
+"Easily analyzed by investigators",
+"Plaso",
+"One popular utility used to create a \u201csuper timeline\u201d",
+"Exact time of incident unknown",
+"Targeted timeline",
+"Time of incident is known",
+"Take snips pre- & post-incident to see how the incident effected system"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Forensic Analysis",
+"kw": [
+"Timeline analysis",
+"Search through log files to create single timeline",
+"Timeline analysis utilities",
+"Plaso",
+"\u201cSuper\u201d timeline \u2013 not sure when the event occurred",
+"Targeted timeline \u2013 might know when event occurred"
+]
+},
+{
+"domain": 3,
+"domain_name": "Incident Response and Management",
+"title": "Packet Capture Tools",
+"kw": [
+"tshark (onion)",
+"Wireshark (onion)",
+"Network general",
+"Aircrack-ng",
+"Airmon-ng",
+"Airodump-ng"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Data Privacy and Security",
+"kw": [
+"Privacy vs. security",
+"Privacy is about the individual",
+"Security is about the data",
+"Privacy vs. confidentiality",
+"Confidentiality is about the data",
+"Privacy is about keeping an individual\u2019s identity secure",
+"Data security is protected through controls",
+"Privacy has to do with data usage",
+"Types of data",
+"Personal",
+"Personal health",
+"Financial",
+"Copyrighted",
+"Legal requirements for data",
+"GDPR",
+"HIPAA",
+"US copyright law",
+"PCI DSS"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Nontechnical Controls",
+"kw": [
+"Data ownership",
+"Data classification",
+"Data confidentiality",
+"Nondisclosure agreement (NDA)",
+"Data sovereignty",
+"Principle behind GDPR",
+"Data minimization",
+"Data purpose limitation"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Data Retention",
+"kw": [
+"Standards",
+"What data do we keep?",
+"How long do we keep this data?",
+"Where do we keep this data?",
+"How do we delete data?",
+"Taxonomy",
+"How data is stored and organized for future recall",
+"Normalization",
+"Makes it possible to relate data and extract meaningful reports",
+"Indexing",
+"Way of organizing data for searchability and rapid recall"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Technical Controls",
+"kw": [
+"Access controls",
+"Limit access to certain resources",
+"Identification, authentication, authorization",
+"Encryption",
+"Protects confidentiality",
+"Sharing data while preserving privacy",
+"Data masking",
+"Deidentification",
+"Tokenization",
+"Digital rights management (DRM)",
+"Watermarking",
+"Geographic access requirements",
+"Geoblocking",
+"Data loss prevention (DLP)",
+"Process:",
+"Create data inventories",
+"Monitor data flows",
+"Implement, test, tune",
+"DLP solution placement",
+"Network DLP (NDLP)",
+"Endpoint DLP",
+"Hybrid DLP"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Business Impact Analysis",
+"kw": [
+"Study of what\u2019s important to a business and what critical functions must be sustained",
+"Considerations",
+"Maximum tolerable downtime and disruption for activities",
+"Operational disruption and productivity",
+"Financial considerations",
+"Regulatory responsibilities",
+"Reputation"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Business Impact Analysis Steps",
+"kw": [
+"Select individuals to interview for data gathering",
+"People from all levels",
+"Create data-gathering techniques",
+"Surveys, questionnaires, and qualitative and quantitative approaches",
+"Identify the company\u2019s critical business functions",
+"Identify resources these functions depend on",
+"Calculate how long critical functions can survive without these resources",
+"Identify vulnerabilities and threats to critical business functions",
+"Calculate the risk for each critical business function",
+"Document findings, report them to management, make recommendations"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Risk Identification",
+"kw": [
+"Main goals",
+"Identify vulnerabilities",
+"Determine probability that a threat will exploit a vulnerability",
+"Determine potential business impact of each threat",
+"Provide economic balance between impact of the threat and cost of the countermeasure",
+"Ask the right questions",
+"What event could occur (threat event)?",
+"What could be the potential impact (magnitude)?",
+"How likely is it to happen (probability)?",
+"What level of confidence do we have in the answers to the first three questions (certainty)?"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Risk Identification Process",
+"kw": [
+"Evaluate cyber threat intelligence",
+"Conduct vulnerability assessment",
+"Observe cybersecurity operations",
+"Organize brainstorming sessions",
+"Risk register",
+"Unique identifier",
+"Short name",
+"Description",
+"Owner",
+"Probability",
+"Magnitude",
+"Risk value (or rating)",
+"Disposition"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Risk Calculation",
+"kw": [
+"Qualitative",
+"Quantitative",
+"Risks that must be mitigated first have:",
+"Highest probability",
+"Highest magnitude",
+"Delphi technique",
+"Each person anonymously lists risks",
+"Each person anonymously comments"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Qualitative Risk Matrix",
+"kw": []
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Communication of Risk Factors",
+"kw": [
+"Presentation to multiple audiences",
+"Must be tailored for each audience"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Teaming",
+"kw": [
+"Red Team",
+"Simulates threat actors (OPFOR); validates blue team assumptions",
+"Blue Team",
+"The defenders; fixes red team discoveries",
+"White Team",
+"Planners and moderators",
+"Purple Team",
+"Dynamic hybrid of red and blue",
+"Test blue team\u2019s processes, people, & technologies in a collaborative way"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Training Programs & Resources",
+"kw": [
+"Technical training",
+"Real life experience",
+"Active member of the community",
+"Ex: presentations at security conferences",
+"Tabletop exercises (TTXs)",
+"Live-fire exercises",
+"Cyber range",
+"Separate training teams"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Vendor Due Diligence",
+"kw": [
+"Review references and communicate with former and existing customers",
+"Review Better Business Bureau (BBB) reports",
+"Ensure that contracts/ agreements include requirements for adequate security controls",
+"Ensure that service level agreements (SLAs) are in place",
+"Review vendor\u2019s security program",
+"Review internal and external audit reports and third-party reviews",
+"Conduct onsite inspection and interviews after signing the agreement",
+"Ensure the vendor has a business continuity plan (BCP)",
+"Implement a nondisclosure agreement (NDA)"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Supply Chain Risk Assessment",
+"kw": [
+"Hardware source authenticity",
+"Trusted Foundry (DoD)"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "NIST",
+"kw": [
+"NIST Special Publication 800-53 (Recommended Security Controls for Federal Information Systems)",
+"Cyber Security Framework (CSF)"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Security Guidelines",
+"kw": [
+"NIST Special Publication 800-53",
+"AKA - Recommended Security Controls for Federal Information Systems",
+"Controls to be compliant with Federal Information Processing Standards (FIPS)",
+"FIPS is used in government or military data processing"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "NIST Special Publication 800-53",
+"kw": []
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "FIPS Controls",
+"kw": [
+"Security Control Catalog (NIST 800-53, Appendix F)",
+"Management",
+"Operational",
+"Technical Safeguards",
+"Countermeasures to protect",
+"Confidentiality",
+"Integrity",
+"Availability"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Cybersecurity Framework (CSF)",
+"kw": [
+"Goals",
+"Flexible",
+"Scalable",
+"Repeatable",
+"Cost-effective",
+"Prioritization",
+"Framework core",
+"Common activities, outcomes, & references",
+"5 functions, 22 categories, 98 subcategories",
+"Implementation tiers",
+"Categorize rigor and sophistication of cyber security practices",
+"Tiers 1-4",
+"1 \u2013Partial",
+"2 \u2013Risk Informed",
+"3 \u2013Repeatable",
+"4 \u2013Adaptive"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Cyber Security Framework (CSF)",
+"kw": [
+"Framework Profile",
+"State of an organization concerning CSF categories",
+"See where they are vs. where they can be"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Framework Core",
+"kw": []
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Standardize Security Standards",
+"kw": [
+"International Organization for Standardization (ISO)",
+"Largest developer of international standards",
+"Standards range from scientific, food technology, agriculture, space engineering, mining, etc",
+"International Electrotechnical Commission (IEC)",
+"Standards for any electrical & electronic technologies",
+"ISO & IEC create global ISMS (Information Security Management System) standards",
+"ISO/IEC 27000-series"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "International Organization for Standardization (ISO)",
+"kw": []
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "COBIT",
+"kw": [
+"Control Objectives for Information and Related Technology (COBIT)",
+"Framework and controls",
+"Developed by ISACA (formerly Information Systems Audit and Control Association, now only known by its acronym)",
+"In collaboration with IT Governance Institute (ITGI)",
+"Defines control goals for IT & IS system management"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Control Objectives for Information and Related Technology (COBIT)",
+"kw": []
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "SABSA",
+"kw": []
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "The Open Group Architecture Framework (TOGAF)",
+"kw": [
+"Originated in Department of Defense",
+"Now run by The Open Group",
+"Standard for enterprise architecture",
+"Used by most Fortune 500 companies worldwide"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Architecture Development",
+"kw": []
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "ITIL",
+"kw": [
+"Aligns IT services to reach business goals",
+"5 core elements:",
+"ITIL Service Strategy",
+"ITIL Service Design",
+"ITIL Service Transition",
+"ITIL Service Operation",
+"ITIL Continual Process",
+"Improvement"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Policies and Procedures",
+"kw": [
+"Ethics and code of conduct",
+"Acceptable use policy (AUP)",
+"Password policy",
+"Data ownership",
+"Data retention",
+"Work product retention"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Controls Overview",
+"kw": [
+"Administrative",
+"Logical/technical",
+"Physical",
+"3 types in each",
+"Preventative",
+"Detective",
+"Corrective"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Controls",
+"kw": [
+"Administrative",
+"Administered by management via policies or procedures",
+"Ex: requirements for accessing information system",
+"Logical/technical",
+"Software/hardware tools to restrict network or system access",
+"Ex: firewalls, ACLs, etc",
+"Goal: maintain resources\u2019 availability, integrity, & confidentiality",
+"Physical",
+"Deter or delay an attacker",
+"Ex: safes, locks, walls, etc"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Control Types",
+"kw": [
+"Preventative",
+"Prevent incident from happening",
+"Detective",
+"Detect suspicious activity on the network",
+"Corrective",
+"Correct an identified vulnerability"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Control Selection",
+"kw": [
+"Organizationally Defined Parameters",
+"Internal",
+"External",
+"Governed by law or governmental regulations",
+"Selection Criteria",
+"Driven by risk assessment",
+"Confidentiality",
+"Integrity",
+"Availability of information resources",
+"Organization\u2019s risk appetite"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Procedures Overview",
+"kw": [
+"Continuous monitoring",
+"Awareness of information security, vulnerability, threats, network trends",
+"Purpose: inform organizational risk decisions",
+"Evidence production",
+"Legal request for documents",
+"EDRM (Electronic Discovery Reference Model)",
+"Identification",
+"Preservation",
+"Collection",
+"Processing",
+"Review",
+"Analysis",
+"Production",
+"Presentation",
+"Patching",
+"Identify and fix vulnerabilities",
+"Tasks:",
+"Testing",
+"Application",
+"Validation",
+"Documentation",
+"Compensating control development",
+"Alternative control to substitute for control that\u2019s too costly",
+"Control testing procedure",
+"Ensure the control won\u2019t break the system",
+"Control testing procedures",
+"Exception management",
+"How to decide on compensating or technical controls",
+"Who granted the exception? Trace back for audit.",
+"Process for exception determination",
+"Remediation plans",
+"Plan B",
+"Audits",
+"Assessments & evaluations",
+"Maturity models",
+"Certification"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "EDRM Model (Electronic Discovery Reference Model)",
+"kw": [
+"Identification \u2013 Locating potential sources of ESI & determining its scope, breadth & depth.",
+"Preservation \u2013 Ensuring that ESI is protected against inappropriate alteration or destruction.",
+"Collection \u2013 Gathering ESI for further use in the e-discovery process (processing, review, etc.).",
+"Processing \u2013 Reducing the volume of ESI and converting it, if necessary, to forms more suitable for review & analysis.",
+"Review \u2013 Evaluating ESI for relevance & privilege.",
+"Analysis \u2013 Evaluating ESI for content & context, including key patterns, topics, people & discussion.",
+"Production\u2013 Delivering ESI to others in appropriate forms & using appropriate delivery mechanisms.",
+"Presentation\u2013 Displaying ESI before audiences (at depositions, hearings, trials, etc.), especially in native & near-native forms, to elicit further information, validate existing facts or positions, or persuade an audience."
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Audits",
+"kw": [
+"Inspection of a system\u2019s compliance to a policy",
+"External audit",
+"Conducted by independent 3rd party",
+"Guided by regulatory compliance requirements",
+"Internal audit",
+"Internal auditors should also be guided by regulatory compliance requirements"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Evaluations & Assessments",
+"kw": [
+"Vulnerability assessment",
+"Penetration test",
+"Red team assessment",
+"Risk assessment",
+"Threat modeling",
+"Tabletop exercises",
+"Gather exhaustive info on vulnerabilities",
+"Open vulnerabilities",
+"Remediated vulnerabilities",
+"Vulnerability trends on the network",
+"Achieves a specific goal \u2013 get into the system, steal, or exfiltrate data",
+"Pen testing is a discreet part",
+"Red teaming is ongoing",
+"Actively probing & testing to reveal vulnerabilities",
+"Acceptable risk level",
+"How to bring risk level down",
+"Determine attacker trends",
+"Make security changes accordingly",
+"Accurately informs about threats & how to place countermeasures",
+"Get senior & technical leaders involved",
+"Everyone knows their role in an emergency"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Maturity Models",
+"kw": [
+"Capability Maturity Model Integration (CMMI)",
+"Developed by Carnegie Mellon University to improve processes across organization"
+]
+},
+{
+"domain": 4,
+"domain_name": "Reporting and Communication",
+"title": "Certification & Accreditation",
+"kw": [
+"Certification",
+"Technical assessment of a component to assure it\u2019s ready for a system",
+"Checked against internal standard, or outside regulatory requirement",
+"Accreditation",
+"Managerial assessment & acceptance of a component",
+"Verified against business model"
+]
+}
+]

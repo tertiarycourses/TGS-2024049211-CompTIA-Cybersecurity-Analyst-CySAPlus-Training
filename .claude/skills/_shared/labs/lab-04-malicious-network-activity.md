@@ -116,3 +116,14 @@ kill %1 %2 2>/dev/null; jobs
 - Using `tcpdump -ttt` to spot **beaconing** intervals.
 - Identifying activity on **unexpected ports** with `ss`.
 - Recognising **bandwidth spikes** and ARP-based **rogue device** indicators.
+
+---
+
+## Browser-Based Tools (Tertiary Infotech)
+
+These free browser tools complement this lab — no install required:
+
+- **[PCAP Analyzer](https://alfredang.github.io/pcapanalyzer/)** — a browser tool that parses .pcap/.pcapng files and shows protocols, top talkers and packet detail.
+  - *In this lab:* Save the traffic you capture with tcpdump to a .pcap file, then open it in the PCAP Analyzer to review the protocol breakdown and top talkers in your browser.
+- **[Cybersecurity Simulator](https://alfredang.github.io/cybersecuritysimulator/)** — an interactive browser simulator for practising security-analyst decisions.
+  - *In this lab:* Use the Cybersecurity Simulator to rehearse the analyst decisions (block, monitor, escalate) that follow from the malicious-activity indicators you find.

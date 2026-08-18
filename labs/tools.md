@@ -255,3 +255,17 @@ Killercoda playground (free, no signup): https://killercoda.com/playgrounds/scen
 ---
 
 All tools above are free of charge. The Killercoda VM is also free and disposable, so you can run most labs without spending or installing anything on your own machine — except the optional GUI tools in Section B and the free web services in Section C.
+
+---
+
+## Browser-Based Tools (Tertiary Infotech)
+
+All free and install-free — run in any modern browser:
+
+- [Cybersecurity Simulator](https://alfredang.github.io/cybersecuritysimulator/) — analyst decision simulator (Labs 4, 17, 20)
+- [Ethical Hacking Playground](https://alfredang.github.io/ethnicalhacking/) — ethical-hacking techniques (Labs 15, 19)
+- [PenTest FauxBank](https://pentest-fauxbank.vercel.app/) — safe vulnerable demo bank (Labs 15, 17, 19)
+- [Cryptography Toolkit](https://alfredang.github.io/cryptography-toolkit/) — hashing/encoding/encryption (Lab 9)
+- [IP Subnet Calculator](https://alfredang.github.io/ipcalculator/) — IP/subnet/CIDR planning (Labs 3, 11)
+- [PCAP Analyzer](https://alfredang.github.io/pcapanalyzer/) — parse .pcap files (Labs 4, 6)
+- [Regex Generator](https://alfredang.github.io/regexgenerator/) — build/test log regex (Labs 7, 23)
