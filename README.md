@@ -1,8 +1,14 @@
-# TGS-2024049211 — CompTIA CySA+ (CS0-003) Training
+# CompTIA Cybersecurity Analyst (CySA+) Training
 
-> **Course:** WSQ — CompTIA Cybersecurity Analyst (CySA+) Training
-> **Course Code:** TGS-2024049211
-> **Register here:** https://www.tertiarycourses.com.sg/wsq-comptia-cybersecurity-analyst-cysa-training.html
+WSQ course preparing learners for the CompTIA CySA+ (CS0-003) exam through security operations, vulnerability management, incident response and reporting, with 30 hands-on labs.
+
+| Course detail | Information |
+|---|---|
+| Course code | `TGS-2024049211` |
+| Programme | WSQ |
+| Duration | 40 hours (5 days) |
+| Registration | [View course details and register](https://www.tertiarycourses.com.sg/wsq-comptia-cybersecurity-analyst-cysa-training.html) |
+| Funding | Up to 70% SkillsFuture funding for eligible learners. Eligibility and terms apply. |
 
 Official courseware and hands-on lab exercises for the WSQ CompTIA Cybersecurity Analyst (CySA+) Training course delivered by [**Tertiary Infotech Academy Pte Ltd**](https://www.tertiarycourses.com.sg/).
 
@@ -15,7 +21,7 @@ The course follows the **four CompTIA CySA+ CS0-003 exam domains** in order and 
 | 3 | Incident Response and Management | 20% | 20–25 |
 | 4 | Reporting and Communication | 17% | 26–30 |
 
-The slide deck (v8) opens with the exam domains, carries an in-depth explanation of every CySA+ concept plus the full theory for each domain, followed by its labs, and closes with a **practice exam** and the **CompTIA CySA+ exam registration guide** (Pearson VUE).
+The slide deck (v8, 920 slides) opens with the exam domains, carries an in-depth explanation of every CySA+ concept plus the full theory for each domain, followed by its labs, and closes with a **practice exam** and the **CompTIA CySA+ exam registration guide** (Pearson VUE).
 
 A complete set of **30 step-by-step labs** aligned to the CompTIA CySA+ CS0-003 exam objectives. Most labs run on the free **Killercoda Ubuntu Playground** (https://killercoda.com/playgrounds/scenario/ubuntu) — no local install required. A few use free web tools or free virtual appliances.
 
@@ -74,9 +80,13 @@ A complete set of **30 step-by-step labs** aligned to the CompTIA CySA+ CS0-003 
 
 ## Courseware
 
-- `courseware/CompTIA Cybersecurity Analyst (CySA+) Training-v8.pptx` — Course slides (919 slides, CS0-003 domain-ordered, in-depth concept explanations)
-- `courseware/LG-CompTIA Cybersecurity Analyst (CySA+) Training.docx` — Learner Guide
-- `courseware/LP-CompTIA Cybersecurity Analyst (CySA+) Training.docx` — Lesson Plan (5 days)
+- [Course slides (PPTX)](<courseware/CompTIA Cybersecurity Analyst (CySA+) Training-v8.pptx>) and [PDF](<courseware/CompTIA Cybersecurity Analyst (CySA+) Training-v8.pdf>) — 920 slides, CS0-003 domain-ordered, including the *Login to LMS and Download Course Material* slide
+- [Learner Guide (DOCX)](<courseware/LG-CompTIA Cybersecurity Analyst (CySA+) Training.docx>) and [PDF](<courseware/LG-CompTIA Cybersecurity Analyst (CySA+) Training.pdf>)
+- [Lesson Plan (DOCX)](<courseware/LP-CompTIA Cybersecurity Analyst (CySA+) Training.docx>) and [PDF](<courseware/LP-CompTIA Cybersecurity Analyst (CySA+) Training.pdf>) — 5 days
+
+## Distribution boundary
+
+The slides, Learner Guide, Lesson Plan and labs are published here. Assessment papers and answer keys (`assessment/`) and source references (`reference/`) are private and are never pushed to this repository.
 
 ## Reference
 
@@ -92,3 +102,7 @@ A complete set of **30 step-by-step labs** aligned to the CompTIA CySA+ CS0-003 
 All tooling is **100% free**. The bulk runs inside the disposable Killercoda VM via `apt`. A few labs use free web tools (VirusTotal, AbuseIPDB, MITRE ATT&CK Navigator) or free virtual appliances (DVWA, Metasploitable, OpenVAS / Greenbone CE).
 
 Full tool list: [labs/tools.md](labs/tools.md).
+
+## Provider
+
+Developed and delivered by [Tertiary Infotech Academy Pte Ltd](https://www.tertiarycourses.com.sg/).
